@@ -13,7 +13,7 @@ GO
 INSERT INTO dbo.DimDirection
 (
     DirectionName,
-    SortOrder
+    DirectionSortOrder
 )
 VALUES
     ('Business Line A', 1),
@@ -30,7 +30,7 @@ GO
 SELECT
     DirectionId,
     DirectionName,
-    SortOrder
+    DirectionSortOrder
 FROM dbo.DimDirection
-ORDER BY SortOrder;
+ORDER BY DirectionSortOrder;
 GO    

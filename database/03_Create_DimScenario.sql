@@ -14,7 +14,7 @@ CREATE TABLE DimScenario
 (
     ScenarioId INT IDENTITY(1,1) NOT NULL,
     ScenarioName NVARCHAR(100) NOT NULL,
-    ScenarioOrder INT NOT NULL,
+    ScenarioSortOrder INT NOT NULL,
 
     CONSTRAINT PK_DimScenario
         PRIMARY KEY (ScenarioId),
