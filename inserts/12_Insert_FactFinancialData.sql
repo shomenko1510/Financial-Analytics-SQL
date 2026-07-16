@@ -48,12 +48,12 @@ INSERT INTO dbo.FactFinancialData
     Amount
 )
 SELECT
-    @CompanyId,
-    @PeriodId,
-    @ScenarioId,
-    @DirectionId,
-    IndicatorId,
-    Amount
+    @CompanyId AS CompanyId,
+    @PeriodId AS PeriodId,
+    @ScenarioId AS ScenarioId,
+    @DirectionId AS DirectionId, 
+    i.IndicatorId AS,
+    SourceData.Amount
 FROM
 (
     VALUES
