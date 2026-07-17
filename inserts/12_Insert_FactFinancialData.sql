@@ -52,7 +52,7 @@ SELECT
     @PeriodId AS PeriodId,
     @ScenarioId AS ScenarioId,
     @DirectionId AS DirectionId, 
-    i.IndicatorId AS,
+    i.IndicatorId AS IndicatorId,
     SourceData.Amount
 FROM
 (
