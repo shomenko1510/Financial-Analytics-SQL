@@ -26,6 +26,3 @@ ORDER BY
     p.QuarterNumber,
     i.IndicatorId;
 GO        
-
-
-
