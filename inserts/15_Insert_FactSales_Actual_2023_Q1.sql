@@ -29,9 +29,29 @@ SELECT
     @PeriodId = PeriodId
 FROM dbo.DimPeriod
 WHERE [Year] = 2023
-    AND Quarter = 'Q1'
+    AND Quarter = 'Q1';
 
-; WITH SourceData AS 
+--Check whether the data has already been loaded
+
+IF EXISTS
+(
+    SELECT 1
+    FROM dbo.FactSales
+    WHERE CompanyId = @CompanyId
+        AND PeriodId = @PeriodId
+        AND ScenarioId = @ScenarioId    
+)
+BEGIN 
+    RAISERROR
+    (
+        'FactSales Actual data for Company A, Q1 2023 already exists.',
+        16,
+        1
+    );
+    RETURN;
+END;    
+
+; WITH SourceData AS
 (
     SELECT * 
     FROM
@@ -45,8 +65,8 @@ WHERE [Year] = 2023
             ('Business Line F',   184.8400,    38.1500,    7051.7600),
             ('Business Line G',     1.1900,    25.0000,      29.8000),
             ('Business Line H',     0.0000,     0.0000,       0.0000),
-            ('Other',               1,0000,  4191.0800,    4191.0800) 
-    ) AS Validate
+            ('Other',               1.0000,  4191.0800,    4191.0800) 
+    ) AS V
     (
         DirectionName,
         Volume,
@@ -55,4 +75,26 @@ WHERE [Year] = 2023
     )
 )
 
-SELECT * FROM SourceData;
+INSERT INTO dbo.FactSales
+(
+    CompanyId,
+    PeriodId,
+    ScenarioId,
+    DirectionId,
+    Volume,
+    Price,
+    RevenueAmount
+)
+SELECT 
+    @CompanyId,
+    @PeriodId,
+    @ScenarioId,
+    D.DirectionId,
+    SD.Volume,
+    SD.Price,
+    SD.RevenueAmount
+FROM SourceData AS SD
+INNER JOIN dbo.DimDirection AS D
+    ON SD.DirectionName = D.DirectionName;
+
+PRINT 'FactSales Actual 2023 Q1 loaded successfully.';        

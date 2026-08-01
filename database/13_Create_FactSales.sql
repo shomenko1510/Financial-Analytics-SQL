@@ -2,7 +2,7 @@
 =============================================================================================================
 Priject    : Financial Analytics SQL
 Script     : 13_Create_FactSales.sql
-Purpose    : Creata FactSales table for anonymized sales data
+Purpose    : Create FactSales table for anonymized sales data
 Author     : Sergii Khomenko
 =============================================================================================================
 */

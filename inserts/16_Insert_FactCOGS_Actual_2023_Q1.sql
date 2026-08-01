@@ -50,7 +50,7 @@ BEGIN
     RETURN;
 END;
 
-;WITH SourseDAta AS 
+;WITH SourceData AS 
 (
     SELECT * 
     FROM
@@ -91,6 +91,3 @@ INNER JOIN dbo.DimDirection AS D
 
 PRINT 'FactCOGS Actual 2023 Q1 loaded successfully.';
 GO
-
-
-
