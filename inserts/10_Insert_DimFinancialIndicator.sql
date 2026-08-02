@@ -37,14 +37,22 @@ VALUES
     ('PBT',              'Profit Before Tax',                   'Income Statement',     'ths. UAH',     14),
     ('INCOME_TAX',       'Income Tax',                          'Income Statement',     'ths. UAH',     15),
     ('NP',               'Net Profit',                          'Income Statement',     'ths. UAH',     16),
+    
+    /*Working Capital(Balance Sheet)*/
+    ('INV',              'Total Inventory',                     'Balance Sheet',        'ths. UAN',     33),
+    ('AR',               'Total Trade Receivables',             'Balance Sheet',        'ths. UAN',     34),
+    ('AP',               'Total Payables',                      'Balance Sheet',        'ths. UAN',     35),
+    
     /* Operating cash flow */
     ('CHG_INV',          'Change in Inventory',                 'Cash Flow',            'ths. UAH',     17),
     ('CHG_AR',           'Change in Trade Receivables',         'Cash Flow',            'ths. UAH',     18),
     ('CHG_AP',           'Change in Trade Payables',            'Cash Flow',            'ths. UAH',     19),
     ('OCF',              'Operating Cash Flow',                 'Cash Flow',            'ths. UAH',     20),
+    
     /* Investing activities */
     ('CAPEX',            'Capital Expenditures',                'Cash Flow',            'ths. UAH',     21),
     ('CF_INV',           'Cash Flow from Investing Activities', 'Cash Flow',            'ths. UAH',     22),
+    
     /* Financing activities */
     ('SHARE_CAP',        'Charge in Share Capital',             'Cash Flow',            'ths. UAH',     23),
     ('TARGET_FIN',       'Target Financing',                    'Cash Flow',            'ths. UAH',     24),
@@ -54,6 +62,7 @@ VALUES
     ('BORROWINGS_REPAY', 'Repayment of Borrowings',             'Cash Flow',            'ths. UAH',     28),
     ('FIN_OTHER',        'Other',                               'Cash Flow',            'ths. UAH',     29),
     ('CF_FIN',           'Cash Flow from Financing Activities', 'Cash Flow',            'ths. UAH',     30),
+    
     /* Cash movement and closing balance */
     ('NCF',              'Net Cash Flow',                       'Cash Flow',            'ths. UAH',     31),
     ('CASH_CLOSE',       'Closing Cash Balance',                'Cash Flow',            'ths. UAH',     32);
