@@ -1,9 +1,9 @@
 /*
 ==========================================================================================================
 Project    : Financial Analitics SQL
-Script     : 16_Add_FactCOGS_Constraint.sql
+Script     : 16_Add_FactCOGS_Constraints.sql
 Purpose    : Add constraint to the FactCOGS table
-Author     : Khomenko Sergii
+Author     : Sergii Khomenko
 ==========================================================================================================
 */
 

@@ -2,7 +2,7 @@
 ================================================================================================
 Project   : Financial Analytics SQL
 Script    : Check_FactOPEX_Actual_2023_Q1.sql
-Purpose   : Check Data from the FactOPEX ables
+Purpose   : Check data from the FactOPEX tables
 Author    : Sergii Khomenko
 
 ================================================================================================
