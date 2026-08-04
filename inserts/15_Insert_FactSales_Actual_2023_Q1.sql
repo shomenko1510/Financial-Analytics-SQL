@@ -29,29 +29,9 @@ SELECT
     @PeriodId = PeriodId
 FROM dbo.DimPeriod
 WHERE [Year] = 2023
-    AND Quarter = 'Q1';
+    AND [Quarter] = 'Q1'
 
---Check whether the data has already been loaded
-
-IF EXISTS
-(
-    SELECT 1
-    FROM dbo.FactSales
-    WHERE CompanyId = @CompanyId
-        AND PeriodId = @PeriodId
-        AND ScenarioId = @ScenarioId    
-)
-BEGIN 
-    RAISERROR
-    (
-        'FactSales Actual data for Company A, Q1 2023 already exists.',
-        16,
-        1
-    );
-    RETURN;
-END;    
-
-; WITH SourceData AS
+; WITH SourceData AS 
 (
     SELECT * 
     FROM
@@ -75,6 +55,10 @@ END;
     )
 )
 
+/*
+Check Total Revenue. File 05_Check_Total_Revenue.sql
+*/    
+
 INSERT INTO dbo.FactSales
 (
     CompanyId,
@@ -85,7 +69,7 @@ INSERT INTO dbo.FactSales
     Price,
     RevenueAmount
 )
-SELECT 
+SELECT
     @CompanyId,
     @PeriodId,
     @ScenarioId,
@@ -95,6 +79,6 @@ SELECT
     SD.RevenueAmount
 FROM SourceData AS SD
 INNER JOIN dbo.DimDirection AS D
-    ON SD.DirectionName = D.DirectionName;
+    ON SD.DirectionName = d.DirectionName;
 
-PRINT 'FactSales Actual 2023 Q1 loaded successfully.';        
+

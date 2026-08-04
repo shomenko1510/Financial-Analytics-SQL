@@ -64,7 +64,7 @@ END;
         WorkingCapitalItem,
         WorkingCapitalAmount
     )
-);
+)
 
 -- Validation - Preview Data before INSERT
 /*
