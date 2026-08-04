@@ -64,8 +64,10 @@ END;
         WorkingCapitalItem,
         WorkingCapitalAmount
     )
-)
+);
 
+-- Validation - Preview Data before INSERT
+/*
 SELECT
     @CompanyId,
     @PeriodId,
@@ -78,6 +80,27 @@ INNER JOIN dbo.DimWorkingCapital AS WC
     ON SD.WorkingCapitalCategory = WC.WorkingCapitalCategory
     AND SD.WorkingCapitalItem = WC.WorkingCapitalItem;
 
+*/
+--Insert data into FactWorkingCapital
 
+INSERT INTO dbo.FactWorkingCapital
+(
+    CompanyId,
+    PeriodId,
+    ScenarioId, 
+    WorkingCapitalId,
+    WorkingCapitalAmount
+)
+SELECT
+    @CompanyId,
+    @PeriodId,
+    @ScenarioId,
+    WC.WorkingCapitalId,
+    SD.WorkingCapitalAmount
+FROM Sourcedata AS SD
+INNER JOIN dbo.DimWorkingCapital AS WC
+    ON SD.WorkingCapitalCategory = WC.WorkingCapitalCategory
+    AND SD.WorkingCapitalItem = WC.WorkingCapitalItem;
 
-                
+PRINT 'FactWorkingCapital Actual 2023 Q1 inserted successfully.';
+GO
