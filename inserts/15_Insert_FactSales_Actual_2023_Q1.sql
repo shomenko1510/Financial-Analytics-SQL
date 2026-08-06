@@ -79,6 +79,6 @@ SELECT
     SD.RevenueAmount
 FROM SourceData AS SD
 INNER JOIN dbo.DimDirection AS D
-    ON SD.DirectionName = d.DirectionName;
+    ON SD.DirectionName = D.DirectionName;
 
 

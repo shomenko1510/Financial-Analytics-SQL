@@ -7,7 +7,7 @@ CREATE TABLE dbo.FactSales
     CompanyId INT NOT NULL,
     PeriodId INT NOT NULL,
     ScenarioId INT NOT NULL,
-    DirectionID INT NOT NULL,
+    DirectionId INT NOT NULL,
     Volume DECIMAL(19,4) NULL,
     Price DECIMAL(19,4) NULL,
     RevenueAmount DECIMAL(19,4) NOT NULL
