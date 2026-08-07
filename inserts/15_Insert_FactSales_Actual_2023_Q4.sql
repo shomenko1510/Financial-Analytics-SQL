@@ -114,4 +114,4 @@ FROM SourceData AS SD
 INNER JOIN dbo.DimDirection AS D    
     ON SD.DirectionName = D.DirectionName;
 
-PRINT 'FactSales Actual for Q4 2023 loaded succesfully';
+PRINT 'FactSales Actual for Q4 2023 loaded successfully';

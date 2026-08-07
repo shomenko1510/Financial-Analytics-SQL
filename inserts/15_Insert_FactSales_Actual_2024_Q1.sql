@@ -17,21 +17,22 @@ SELECT @CompanyId = CompanyId
 FROM dbo.DimCompany
 WHERE CompanyName = 'Company A';
 
-SELECT @ScenarioId INT
+SELECT @ScenarioId = ScenarioId
 FROM dbo.DimScenario
 WHERE ScenarioName = 'Actual';
 
-SELECT @PeriodId
+SELECT @PeriodId = PeriodId
 FROM dbo.DimPeriod
 WHERE [Year] = 2024
     AND [Quarter] = 'Q1';
 
--- Check Whethe the data for Company A and 2024 Q1 has already been loaded
+
+-- Check whether the data for Company A and 2024 Q1 has already been loaded
 
 IF EXISTS
 (
     SELECT 1
-    FROM FactSales
+    FROM dbo.FactSales
     WHERE @CompanyId = CompanyId
         AND @ScenarioId = ScenarioId
         AND @PeriodId = PeriodId
@@ -42,7 +43,7 @@ BEGIN
         'FactSales Actual data for Company A, Q1 2024 is alredy exists',
         16,
         1
-    )    
+    );    
     RETURN;
 END;
 
@@ -70,7 +71,51 @@ END;
     )
 )
 
---Check Total Revenue
+--Validation Total Revenue
 
-SELECT SUM(RevenueAmount)
+/*
+SELECT SUM(RevenueAmount) AS TotalRevenue
 FROM SourceData;
+*/
+
+--Validation - Previev data before insert
+
+/*
+SELECT 
+    @CompanyId,
+    @PeriodId,
+    @ScenarioId,
+    D.DirectionId,
+    SD.Volume,
+    SD.Price,
+    SD.RevenueAmount
+FROM SourceData AS SD
+INNER JOIN dbo.DimDirection AS D
+ON SD.DirectionName = D.DirectionName;
+*/
+
+INSERT INTO dbo.FactSales
+(
+    CompanyId,
+    PeriodId,
+    ScenarioId,
+    DirectionId,
+    Volume,
+    Price,
+    RevenueAmount
+)
+
+SELECT 
+    @CompanyId,
+    @PeriodId,
+    @ScenarioId,
+    D.DirectionId,
+    SD.Volume,
+    SD.Price,
+    SD.RevenueAmount
+FROM SourceData AS SD
+INNER JOIN dbo.DimDirection AS D
+    ON SD.DirectionName = D.DirectionName; 
+
+PRINT 'FackSales Actual for Q1 2024 loaded successfully';
+
