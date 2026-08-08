@@ -45,12 +45,6 @@ BEGIN
     RETURN;
 END;
 
-SELECT 
-
-@CompanyId AS CompanyId,
-@ScenarioId AS ScenarioId,
-@PeriodId AS PeriodId;
-
 ; WITH SourceData AS 
 (
     SELECT *
@@ -98,7 +92,7 @@ INNER JOIN dbo.DimDirection AS D
 ON SD.DirectionName = D.DirectionName;
 */
 
-/*
+
 INSERT INTO dbo.FactSales
 (
     CompanyId,
@@ -112,8 +106,8 @@ INSERT INTO dbo.FactSales
 
 SELECT
     @CompanyId,
-    @ScenarioId,
     @PeriodId,
+    @ScenarioId,
     D.DirectionId,
     SD.Price,
     SD.Volume,
@@ -123,4 +117,3 @@ INNER JOIN dbo.DimDirection AS D
 ON SD.DirectionName = D.DirectionName;
 
 PRINT 'Actual FactSales data for Company A, Q2 2024 has beeb loaded successfully';
-*/
