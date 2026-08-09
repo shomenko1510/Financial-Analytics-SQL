@@ -9,6 +9,7 @@ CREATE TABLE dbo.FactSales
     PeriodId INT NOT NULL,
     DirectionId INT NOT NULL,
     Volume DECIMAL(18,4) NOT NULL,
+    Price DECIMAL(18,4) NOT NULL,
     RevenueAmount DECIMAL(18,4) NOT NULL,
 
     CONSTRAINT PK_FactSales

@@ -25,7 +25,7 @@ WHERE ScenarioName = 'Actual';
 SELECT @PeriodId = PeriodId
 FROM dbo.DimPeriod
 WHERE [Year] = 2024
-    AND [Quarter] = 'Q2'
+    AND [Quarter] = 'Q2';
 
 IF EXISTS
 (

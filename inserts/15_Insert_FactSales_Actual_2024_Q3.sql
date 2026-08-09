@@ -27,6 +27,25 @@ FROM dbo.DimPeriod
 WHERE [Year] = 2024
     AND [Quarter] = 'Q3';
 
+IF EXISTS
+(
+    SELECT 1
+    FROM dbo.FactSales
+    WHERE @CompanyId = CompanyId
+        AND @ScenarioId = ScenarioId
+        AND @PeriodId = PeriodId
+)
+BEGIN
+    RAISERROR
+    (
+        'Actual FactSales data for Company A, Q3 2023 is already exists',
+        16,
+        1
+    )
+    RETURN;
+END;    
+
+
 ;WITH SourceData AS
 (
     SELECT * 
@@ -58,3 +77,44 @@ SELECT SUM(RevenueAmount)
 FROM SourceData;
 */
 
+-- Validation - Previev data before insert
+
+/*
+SELECT
+    
+    @CompanyId,
+    @ScenarioId,
+    @PeriodId,
+    D.DirectionId,
+    SD.Volume,
+    SD.Price,
+    SD.RevenueAmount
+FROM SourceData AS SD
+INNER JOIN dbo.DimDirection AS D    
+ON SD.DirectionName = D.DirectionName;
+*/
+
+INSERT INTO dbo.FactSales 
+(
+    CompanyId,
+    ScenarioId,
+    PeriodId,
+    DirectionId,
+    Volume,
+    Price,
+    RevenueAmount
+)
+
+SELECT 
+    @CompanyId,
+    @ScenarioId,
+    @PeriodId,
+    D.DirectionId,
+    SD.Volume,
+    SD.Price,
+    SD.RevenueAmount
+FROM SourceData AS SD
+INNER JOIN dbo.DimDirection AS D
+ON SD.DirectionName = D.DirectionName;
+
+PRINT 'Actual FactSales data for Company A, Q3 2024 fas been loaded successfully'
