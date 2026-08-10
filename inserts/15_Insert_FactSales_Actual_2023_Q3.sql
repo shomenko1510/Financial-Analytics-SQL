@@ -1,6 +1,6 @@
 /*
 =====================================================================================================================
-Project     : Financing Analitics SQL
+Project     : Financing Analytics SQL
 Script      : 15_Insert_FactSales_Actual_2023_Q3.sql
 Purpose     : Insert Actual FactSales data for Q2 2023
 Authot      : Sergii Khomenko

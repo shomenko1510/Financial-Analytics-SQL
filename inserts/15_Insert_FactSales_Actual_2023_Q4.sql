@@ -1,6 +1,6 @@
 /*
 ======================================================================================================================
-Project    : Finncial Analitics SQL
+Project    : Finncial Analytics SQL
 Script     : 15_Insert_FactSales_Actual_2023_Q4.sql
 Purpose    : Insert Actual FactSales data for 2023 Q1  
 Author     : Sergii Khomenko

@@ -1,6 +1,6 @@
 /*
 =================================================================================================================
-Project   : Financial Analitics SQL
+Project   : Financial Analytics SQL
 Script    : 15_Insert_FactSales_Actual_2023_Q1.sql
 Purpose   : Populate the FactSales table 
 Author    : Sergii Khomenko

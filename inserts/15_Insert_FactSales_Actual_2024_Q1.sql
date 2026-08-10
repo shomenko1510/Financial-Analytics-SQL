@@ -1,6 +1,6 @@
 /*
 ===================================================================================================
-Project    : Financial Analitics SQL
+Project    : Financial Analiyics SQL
 Script     : 15_Insert_FactSales_Actual_2024_Q1.sql
 Purpose    : Insert Actual FactSales data for Q1 2024
 Author     : Sergii Khomenko
