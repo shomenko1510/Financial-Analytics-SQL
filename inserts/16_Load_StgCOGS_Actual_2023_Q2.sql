@@ -31,3 +31,20 @@ VALUES
     ('Company A', 2023, 'Q2', 'Actual', 'Other',             3588.7000);
 GO    
 
+--Validation: Verify inserted data
+
+/*
+SELECT *
+FROM dbo.StgCOGS
+WHERE [Year] = 2023
+    AND [Quarter] = 'Q2'
+    AND ScenarioName = 'Actual';
+*/
+
+SELECT
+    COUNT(*) AS TotalRows,
+    SUM(COGSAmount) AS TotalCOGS
+FROM dbo.StgCOGS
+WHERE [Year] = 2023
+    AND [Quarter] = 'Q2'
+    AND ScenarioName = 'Actual';    
