@@ -24,5 +24,3 @@ CREATE TABLE dbo.StgCOGS
         PRIMARY KEY (StgCOGSId)
 );
 GO
-
-
