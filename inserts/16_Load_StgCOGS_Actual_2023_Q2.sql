@@ -2,7 +2,7 @@
 ============================================================================================
 Project   : Financial Analitics SQL
 Script    : 16_Load_StgCOGS_Actual_2023_Q2.sql
-Purpose   :
+Purpose   : Load Q2 2023 Actual COGS data into StgCOGS
 Author    : Sergii Khomenko
 ============================================================================================
 */
