@@ -38,6 +38,8 @@ LEFT JOIN dbo.DimScenario AS S
 LEFT JOIN dbo.DimDirection AS D 
     ON ST.DirectionName = D.DirectionName;
 
+-- Validation: Verify staging data against dimantion tables
+
 IF EXISTS
 (
     SELECT 1
@@ -121,6 +123,7 @@ SELECT
     S.ScenarioId,
     D.DirectionId,
     ST.COGSAmount
+    
 FROM dbo.StgCOGS AS ST
 
 INNER JOIN dbo.DimCompany AS C
