@@ -1,10 +1,10 @@
 /*
-=======================================================================================================================
-Progect     : Financial Analitics SQL
-Script      : 25_ETL_StgCOGS_to_FactCOGS_2023_Q3.sql
-Purpose     : Validate StgCOGS data before loading into FactCOGS
-Author      : Sergii Khomenko
-=======================================================================================================================
+==============================================================================================
+Project   : Financial Analytics SQL
+Script    : 25_ETLCOGS_to_FactCOGS_2023_Q4.sql
+Purpose   : Load StgCOGS data into FactCOGS table
+Autor     : Sergii Khomenko
+==============================================================================================
 */
 
 USE FinanceAnalyticsPortfolioDB;
@@ -19,8 +19,8 @@ SELECT
     ST.COGSAmount,
 
     C.CompanyId,
-    P.PeriodId,
     S.ScenarioId,
+    P.PeriodId,
     D.DirectionId
 
 FROM dbo.StgCOGS AS ST
@@ -38,44 +38,44 @@ LEFT JOIN dbo.DimScenario AS S
 LEFT JOIN dbo.DimDirection AS D
     ON ST.DirectionName = D.DirectionName;
 
--- Validation: Verify staging data against dimention table
+--Validation: Verify staging data against dimention table
 
-IF EXISTS
+IF EXISTS 
 (
     SELECT 1
     FROM dbo.StgCOGS AS ST
 
-    LEFT JOIN dbo.DimCompany AS C 
+    LEFT JOIN dbo.DimCompany AS C
         ON ST.CompanyName = C.CompanyName
+    
+    LEFT JOIN dbo.DimScenario As S
+        ON ST.ScenarioName = S.ScenarioName
 
-    LEFT JOIN dbo.DimPeriod AS P
+    LEFT JOIN dbo.DimPeriod As P
         ON ST.[Year] = P.[Year]
         AND ST.[Quarter] = P.[Quarter]
 
-    LEFT JOIN dbo.DimScenario AS S       
-       ON ST.ScenarioName = S.ScenarioName
-
     LEFT JOIN dbo.DimDirection AS D
         ON ST.DirectionName = D.DirectionName
-
+     
     WHERE C.CompanyId IS NULL
-        OR P.PeriodId IS NULL
-        OR S.ScenarioId IS NULL
-        OR D.DirectionId IS NULL     
+        AND S.ScenarioId IS NULL
+        AND P.PeriodId IS NULL
+        AND D.DirectionId IS NULL
 )
 BEGIN
     RAISERROR
-        (
-            'ETL Validation failed: one or more staging values do not match dimention tables',
-            16,
-            1
-        )
+    (
+        'ETL Validation failed: one or more staging value do not match dimention table',
+        16,
+        1
+    )
     RETURN;
 END;
 
--- Validation: Check whether data is already exists
+--Validation: Check whether data is already exists
 
-IF EXISTS
+IF EXISTS 
 (
     SELECT 1
     FROM dbo.StgCOGS AS ST
@@ -83,28 +83,28 @@ IF EXISTS
     INNER JOIN dbo.DimCompany AS C
         ON ST.CompanyName = C.CompanyName
 
-    INNER JOIN dbo.DimScenario AS S      
-        ON ST.ScenarioName = S.ScenarioName
-
-    INNER JOIN dbo.DimPeriod AS P
+    INNER JOIN dbo.DimPeriod AS P      
         ON ST.[Year] = P.[Year]
         AND ST.[Quarter] = P.[Quarter]
 
-    INNER JOIN dbo.DimDirection AS D
+    INNER JOIN dbo.DimScenario AS S
+        ON ST.ScenarioName = S.ScenarioName
+
+    INNER JOIN dbo.DimDirection AS D       
         ON ST.DirectionName = D.DirectionName
 
-    INNER JOIN dbo.FactCOGS AS FC
-        ON FC.CompanyId = C.CompanyId
-        AND FC.ScenarioId = S.ScenarioId
-        AND FC.PeriodId = P.PeriodId
-        AND FC.DirectionId = D.DirectionId
+    INNER JOIN dbo.FactCOGS AS FC     
+    ON FC.CompanyId = C.CompanyId
+    AND FC.PeriodId = P.PeriodId
+    AND FC.ScenarioId = S.ScenarioId
+    AND FC.DirectionId = D.DirectionId
 )
 BEGIN
     RAISERROR
     (
-        'ETL process stopped: one or more  FactCOGS records already exists',
-        16,
-        1
+       'ETL process stopped: one or more  FactCOGS records already exists',
+       16,
+       1 
     )
     RETURN;
 END;
@@ -123,8 +123,7 @@ SELECT
     S.ScenarioId,
     D.DirectionId,
     ST.COGSAmount
-
-FROM dbo.StgCOGS AS ST   
+FROM dbo.StgCOGS AS ST
 
 INNER JOIN dbo.DimCompany AS C
     ON ST.CompanyName = C.CompanyName
@@ -133,11 +132,11 @@ INNER JOIN dbo.DimPeriod AS P
     ON ST.[Year] = P.[Year]
     AND ST.[Quarter] = P.[Quarter]
 
-INNER JOIN dbo.DimScenario AS S    
+INNER JOIN dbo.DimScenario AS S
     ON ST.ScenarioName = S.ScenarioName
 
-INNER JOIN dbo.DimDirection AS D
-    ON ST.DirectionName = D.DirectionName    
+INNER JOIN dbo.DimDirection AS D 
+    ON ST.DirectionName = D.DirectionName
 
 -- Validation: Verify inserted FactCOGS data
 
@@ -145,14 +144,15 @@ SELECT
     P.[Year],
     P.[Quarter],
     S.ScenarioName,
-    COUNT(*) AS TotalRows,
+    COUNT(*) AS CountRows,
     SUM(COGSAmount) AS TotalCOGSAmount
+
 FROM dbo.FactCOGS AS FC
 
 INNER JOIN dbo.DimPeriod AS P
     ON FC.PeriodId = P.PeriodId
 
-INNER JOIN dbo.DimScenario AS S     
+INNER JOIN dbo.DimScenario AS S
     ON FC.ScenarioId = S.ScenarioId
 
 WHERE P.[Year] = 2023
@@ -163,4 +163,7 @@ GROUP BY
     P.[Year],
     P.[Quarter],
     S.ScenarioName;
-   
+
+
+
+
