@@ -1,12 +1,3 @@
-/*
-==============================================================================================
-Project   : Financial Analytics SQL
-Script    : 25_ETLCOGS_to_FactCOGS_2023_Q4.sql
-Purpose   : Load StgCOGS data into FactCOGS table
-Autor     : Sergii Khomenko
-==============================================================================================
-*/
-
 USE FinanceAnalyticsPortfolioDB;
 GO
 
@@ -19,8 +10,8 @@ SELECT
     ST.COGSAmount,
 
     C.CompanyId,
-    S.ScenarioId,
     P.PeriodId,
+    S.ScenarioId,
     D.DirectionId
 
 FROM dbo.StgCOGS AS ST
@@ -35,10 +26,10 @@ LEFT JOIN dbo.DimPeriod AS P
 LEFT JOIN dbo.DimScenario AS S
     ON ST.ScenarioName = S.ScenarioName
 
-LEFT JOIN dbo.DimDirection AS D
+LEFT JOIN dbo.DimDirection AS D                 
     ON ST.DirectionName = D.DirectionName;
 
---Validation: Verify staging data against dimention table
+-- Validation: Verify sraging data against dimention table
 
 IF EXISTS 
 (
@@ -47,26 +38,26 @@ IF EXISTS
 
     LEFT JOIN dbo.DimCompany AS C
         ON ST.CompanyName = C.CompanyName
-    
-    LEFT JOIN dbo.DimScenario As S
-        ON ST.ScenarioName = S.ScenarioName
 
-    LEFT JOIN dbo.DimPeriod As P
+    LEFT JOIN dbo.DimPeriod AS P
         ON ST.[Year] = P.[Year]
         AND ST.[Quarter] = P.[Quarter]
 
+    LEFT JOIN dbo.DimScenario AS S
+        ON ST.ScenarioName = S.ScenarioName
+
     LEFT JOIN dbo.DimDirection AS D
         ON ST.DirectionName = D.DirectionName
-     
+
     WHERE C.CompanyId IS NULL
-        OR S.ScenarioId IS NULL
         OR P.PeriodId IS NULL
+        OR S.ScenarioId IS NULL
         OR D.DirectionId IS NULL
 )
 BEGIN
     RAISERROR
     (
-        'ETL Validation failed: one or more staging value do not match dimention table',
+        'ETL Validation failed: one or more staging value do not much dimention table',
         16,
         1
     )
@@ -75,7 +66,7 @@ END;
 
 --Validation: Check whether data is already exists
 
-IF EXISTS 
+IF EXISTS
 (
     SELECT 1
     FROM dbo.StgCOGS AS ST
@@ -83,28 +74,28 @@ IF EXISTS
     INNER JOIN dbo.DimCompany AS C
         ON ST.CompanyName = C.CompanyName
 
-    INNER JOIN dbo.DimPeriod AS P      
+    INNER JOIN dbo.DimPeriod AS P
         ON ST.[Year] = P.[Year]
         AND ST.[Quarter] = P.[Quarter]
 
     INNER JOIN dbo.DimScenario AS S
         ON ST.ScenarioName = S.ScenarioName
 
-    INNER JOIN dbo.DimDirection AS D       
+    INNER JOIN dbo.DimDirection AS D
         ON ST.DirectionName = D.DirectionName
 
-    INNER JOIN dbo.FactCOGS AS FC     
-    ON FC.CompanyId = C.CompanyId
-    AND FC.PeriodId = P.PeriodId
-    AND FC.ScenarioId = S.ScenarioId
-    AND FC.DirectionId = D.DirectionId
+    INNER JOIN dbo.FactCOGS AS FC
+        ON FC.CompanyId = C.CompanyId
+        AND FC.PeriodId = P.PeriodId
+        AND FC.ScenarioId = S.ScenarioId
+        AND FC.DirectionId = D.DirectionId               
 )
 BEGIN
     RAISERROR
     (
-       'ETL process stopped: one or more  FactCOGS records already exists',
-       16,
-       1 
+        'ETL stopped: one or more FactCOGS records already exists',
+        16,
+        1
     )
     RETURN;
 END;
@@ -117,7 +108,7 @@ INSERT INTO dbo.FactCOGS
     DirectionId,
     COGSAmount
 )
-SELECT 
+SELECT
     C.CompanyId,
     P.PeriodId,
     S.ScenarioId,
@@ -135,18 +126,17 @@ INNER JOIN dbo.DimPeriod AS P
 INNER JOIN dbo.DimScenario AS S
     ON ST.ScenarioName = S.ScenarioName
 
-INNER JOIN dbo.DimDirection AS D 
+INNER JOIN dbo.DimDirection AS D
     ON ST.DirectionName = D.DirectionName
 
--- Validation: Verify inserted FactCOGS data
+--Validation: Verify inserted FactCOGS data
 
 SELECT 
     P.[Year],
     P.[Quarter],
     S.ScenarioName,
     COUNT(*) AS CountRows,
-    SUM(COGSAmount) AS TotalCOGSAmount
-
+    SUM(COGSAmount)
 FROM dbo.FactCOGS AS FC
 
 INNER JOIN dbo.DimPeriod AS P
@@ -155,14 +145,18 @@ INNER JOIN dbo.DimPeriod AS P
 INNER JOIN dbo.DimScenario AS S
     ON FC.ScenarioId = S.ScenarioId
 
-WHERE P.[Year] = 2023
-    AND P.[Quarter] = 'Q4'
-    AND S.ScenarioName = 'Actual'
+WHERE [Year] = 2024
+    AND [Quarter] = 'Q1'
+    AND ScenarioName = 'Actual'    
 
 GROUP BY
     P.[Year],
     P.[Quarter],
-    S.ScenarioName;
+    S.ScenarioName;         
+
+
+
+
 
 
 
