@@ -1,7 +1,7 @@
 /*
 ==============================================================================================
 Project   : Financial Analytics SQL
-Script    : 25_ETLCOGS_to_FactCOGS_2023_Q4.sql
+Script    : 25_ETL_COGS_to_FactCOGS_2023_Q4.sql
 Purpose   : Load StgCOGS data into FactCOGS table
 Autor     : Sergii Khomenko
 ==============================================================================================
