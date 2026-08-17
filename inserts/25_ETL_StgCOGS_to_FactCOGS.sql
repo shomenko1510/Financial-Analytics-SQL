@@ -145,8 +145,8 @@ SELECT
     P.[Year],
     P.[Quarter],
     S.ScenarioName,
-    COUNT(*) AS TotalRows,
-    SUM(FC.COGSAmount) AS TotalCOGS
+    COUNT(*) AS CountRows,
+    SUM(FC.COGSAmount) AS TotalCOGSAmount
 FROM dbo.FactCOGS AS FC
 
 INNER JOIN dbo.DimPeriod AS P
@@ -155,9 +155,14 @@ INNER JOIN dbo.DimPeriod AS P
 INNER JOIN dbo.DimScenario AS S
     ON FC.ScenarioId = S.ScenarioId
 
-WHERE P.[Year] = 2023
-    AND P.[Quarter] = 'Q2'
-    AND S.ScenarioName = 'Actual'
+INNER JOIN dbo.DimCompany AS C
+    ON FC.CompanyId = C.CompanyId
+
+INNER JOIN dbo.StgCOGS AS ST
+    ON ST.CompanyName = C.CompanyName
+    AND ST.[Year] = P.[Year]
+    AND ST.[Quarter] = P.[Quarter]
+    AND ST.ScenarioName = S.ScenarioName    
 
 GROUP BY
     P.[Year],

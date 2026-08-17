@@ -1,6 +1,25 @@
 USE FinanceAnalyticsPortfolioDB;
 GO
 
+IF EXISTS
+(
+    SELECT 1
+    FROM dbo.StgCOGS
+    WHERE CompanyName = 'Company A'
+    AND [Year] = 2024
+    AND [Quarter] = 'Q2'
+    AND ScenarioName = 'Actual'  
+)
+BEGIN
+    RAISERROR
+    (
+        'StgCOGS Actual data for Company A, Q2 2024 already exists',
+        16,
+        1
+    )
+    RETURN;
+END;    
+
 INSERT INTO dbo.StgCOGS
 (
     CompanyName,
