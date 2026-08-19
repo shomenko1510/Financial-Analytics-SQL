@@ -55,6 +55,7 @@ SELECT
     OPEXCategoryName,
     OPEXSubCategoryName
 FROM dbo.DimOPEX;
+
 GO
 
 
