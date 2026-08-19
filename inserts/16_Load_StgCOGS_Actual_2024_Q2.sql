@@ -9,6 +9,9 @@ IF EXISTS
     AND [Year] = 2024
     AND [Quarter] = 'Q2'
     AND ScenarioName = 'Actual'  
+        AND [Year] = 2024
+        AND [Quarter] = 'Q2'
+        AND ScenarioName = 'Actual' 
 )
 BEGIN
     RAISERROR
@@ -19,6 +22,7 @@ BEGIN
     )
     RETURN;
 END;    
+END;
 
 INSERT INTO dbo.StgCOGS
 (

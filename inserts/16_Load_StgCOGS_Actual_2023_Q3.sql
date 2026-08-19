@@ -54,9 +54,9 @@ GO
 --Validation: Verify inserted data
 
 SELECT
-    SUM(COGSAmount) AS TotalCOGS,
-    COUNT(*)
-FROM dbo.StgCOGS    
+    COUNT(*) AS CountRows, 
+    SUM(COGSAmount) AS TotalCOGS
+    FROM dbo.StgCOGS    
 WHERE ScenarioName = 'Actual'
     AND [Year] = 2023
     AND [Quarter] = 'Q3';

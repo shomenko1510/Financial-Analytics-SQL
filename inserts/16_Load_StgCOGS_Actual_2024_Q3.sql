@@ -29,6 +29,7 @@ BEGIN
     RETURN;
 END;    
 
+
 INSERT INTO dbo.StgCOGS
 (
     CompanyName,

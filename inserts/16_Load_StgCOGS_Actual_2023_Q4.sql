@@ -51,11 +51,11 @@ VALUES
 GO 
 
 SELECT
-    SUM(COGSAmount) AS TotalCOGSAmount,
-    COUNT(*)
-FROM dbo.StgCOGS
+    COUNT(*) AS CountRows, 
+    SUM(COGSAmount) AS TotalCOGS
+    FROM dbo.StgCOGS    
 WHERE ScenarioName = 'Actual'
     AND [Year] = 2023
-    AND [Quarter] = 'Q4';    
+    AND [Quarter] = 'Q3';
 
 
