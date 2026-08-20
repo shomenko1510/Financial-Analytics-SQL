@@ -22,7 +22,6 @@ BEGIN
     )
     RETURN;
 END;    
-END;
 
 INSERT INTO dbo.StgCOGS
 (
