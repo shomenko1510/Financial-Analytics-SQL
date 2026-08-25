@@ -27,7 +27,7 @@ FROM 'D:\GitHub\Executive_Financial_Dashboard\data\COGS_Budget_SQL.csv'
 WITH
 (
     FIRSTROW = 2,
-    FIELDTERMINATOR = ';',
+    FIELDTERMINATOR = ',',
     ROWTERMINATOR = '0x0d0a',
     CODEPAGE = '55001',
     TABLOCK
