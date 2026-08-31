@@ -7,7 +7,7 @@ IF EXISTS
 (
     SELECT 1
     FROM dbo.StgCOGS
-    WHERE CompanyName = 'Cpmpany A'
+    WHERE CompanyName = 'Company A'
         AND ScenarioName = 'Budget'
         AND [Year] BETWEEN 2023 AND 2025
 )
