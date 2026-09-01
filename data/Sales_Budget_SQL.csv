@@ -1,0 +1,109 @@
+﻿CompanyName,Year,Quarter,ScenarioName,DirectionName,Volume,Price,RevenueAmount,VolumeUnit
+Company A,2023,Q1,Budget,Business Line A,500,73,36500,ths.m2
+Company A,2023,Q2,Budget,Business Line A,750,73,54750,ths.m2
+Company A,2023,Q3,Budget,Business Line A,700,73,51100,ths.m2
+Company A,2023,Q4,Budget,Business Line A,300,74,22200,ths.m2
+Company A,2024,Q1,Budget,Business Line A,850,75,63750,ths.m2
+Company A,2024,Q2,Budget,Business Line A,1000,75,75000,ths.m2
+Company A,2024,Q3,Budget,Business Line A,690,77,53130,ths.m2
+Company A,2024,Q4,Budget,Business Line A,300,77,23100,ths.m2
+Company A,2025,Q1,Budget,Business Line A,800,77,61600,ths.m2
+Company A,2025,Q2,Budget,Business Line A,950,82,77900,ths.m2
+Company A,2025,Q3,Budget,Business Line A,780,82,63960,ths.m2
+Company A,2025,Q4,Budget,Business Line A,780,82,63960,ths.m2
+Company A,2023,Q1,Budget,Business Line B,200,210,42000,ths.m2
+Company A,2023,Q2,Budget,Business Line B,200,210,42000,ths.m2
+Company A,2023,Q3,Budget,Business Line B,150,230,34500,ths.m2
+Company A,2023,Q4,Budget,Business Line B,70,230,16100,ths.m2
+Company A,2024,Q1,Budget,Business Line B,130,230,29900,ths.m2
+Company A,2024,Q2,Budget,Business Line B,200,230,46000,ths.m2
+Company A,2024,Q3,Budget,Business Line B,110,240,26400,ths.m2
+Company A,2024,Q4,Budget,Business Line B,90,240,21600,ths.m2
+Company A,2025,Q1,Budget,Business Line B,150,240,36000,ths.m2
+Company A,2025,Q2,Budget,Business Line B,200,240,48000,ths.m2
+Company A,2025,Q3,Budget,Business Line B,110,240,26400,ths.m2
+Company A,2025,Q4,Budget,Business Line B,110,240,26400,ths.m2
+Company A,2023,Q1,Budget,Business Line C,10000,14.5,145000,ths.m2
+Company A,2023,Q2,Budget,Business Line C,12000,14.5,174000,ths.m2
+Company A,2023,Q3,Budget,Business Line C,12000,14.5,174000,ths.m2
+Company A,2023,Q4,Budget,Business Line C,12000,14.5,174000,ths.m2
+Company A,2024,Q1,Budget,Business Line C,12000,16,192000,ths.m2
+Company A,2024,Q2,Budget,Business Line C,10000,16,160000,ths.m2
+Company A,2024,Q3,Budget,Business Line C,10000,19,190000,ths.m2
+Company A,2024,Q4,Budget,Business Line C,7000,19,133000,ths.m2
+Company A,2025,Q1,Budget,Business Line C,10000,19,190000,ths.m2
+Company A,2025,Q2,Budget,Business Line C,12000,19,228000,ths.m2
+Company A,2025,Q3,Budget,Business Line C,10000,19,190000,ths.m2
+Company A,2025,Q4,Budget,Business Line C,10000,19,190000,ths.m2
+Company A,2023,Q1,Budget,Business Line D,0,0,0,ths.m2
+Company A,2023,Q2,Budget,Business Line D,0,0,0,ths.m2
+Company A,2023,Q3,Budget,Business Line D,0,0,0,ths.m2
+Company A,2023,Q4,Budget,Business Line D,0,0,0,ths.m2
+Company A,2024,Q1,Budget,Business Line D,0,0,0,ths.m2
+Company A,2024,Q2,Budget,Business Line D,250,14,3500,ths.m2
+Company A,2024,Q3,Budget,Business Line D,100,14,1400,ths.m2
+Company A,2024,Q4,Budget,Business Line D,150,14,2100,ths.m2
+Company A,2025,Q1,Budget,Business Line D,1000,14,14000,ths.m2
+Company A,2025,Q2,Budget,Business Line D,500,18,9000,ths.m2
+Company A,2025,Q3,Budget,Business Line D,150,20,3000,ths.m2
+Company A,2025,Q4,Budget,Business Line D,150,22,3300,ths.m2
+Company A,2023,Q1,Budget,Business Line E,150,65,9750,t
+Company A,2023,Q2,Budget,Business Line E,180,65,11700,t
+Company A,2023,Q3,Budget,Business Line E,250,65,16250,t
+Company A,2023,Q4,Budget,Business Line E,270,65,17550,t
+Company A,2024,Q1,Budget,Business Line E,270,65,17550,t
+Company A,2024,Q2,Budget,Business Line E,150,65,9750,t
+Company A,2024,Q3,Budget,Business Line E,250,65,16250,t
+Company A,2024,Q4,Budget,Business Line E,200,65,13000,t
+Company A,2025,Q1,Budget,Business Line E,200,65,13000,t
+Company A,2025,Q2,Budget,Business Line E,150,65,9750,t
+Company A,2025,Q3,Budget,Business Line E,80,65,5200,t
+Company A,2025,Q4,Budget,Business Line E,80,65,5200,t
+Company A,2023,Q1,Budget,Business Line F,190,38,7220,t
+Company A,2023,Q2,Budget,Business Line F,250,38,9500,t
+Company A,2023,Q3,Budget,Business Line F,250,38,9500,t
+Company A,2023,Q4,Budget,Business Line F,280,38,10640,t
+Company A,2024,Q1,Budget,Business Line F,200,38,7600,t
+Company A,2024,Q2,Budget,Business Line F,250,38,9500,t
+Company A,2024,Q3,Budget,Business Line F,150,38,5700,t
+Company A,2024,Q4,Budget,Business Line F,150,38,5700,t
+Company A,2025,Q1,Budget,Business Line F,210,38,7980,t
+Company A,2025,Q2,Budget,Business Line F,80,38,3040,t
+Company A,2025,Q3,Budget,Business Line F,150,38,5700,t
+Company A,2025,Q4,Budget,Business Line F,150,38,5700,t
+Company A,2023,Q1,Budget,Business Line G,0,0,0,ths.m2
+Company A,2023,Q2,Budget,Business Line G,150,25,3750,ths.m2
+Company A,2023,Q3,Budget,Business Line G,90,30,2700,ths.m2
+Company A,2023,Q4,Budget,Business Line G,80,30,2400,ths.m2
+Company A,2024,Q1,Budget,Business Line G,330,30,9900,ths.m2
+Company A,2024,Q2,Budget,Business Line G,400,30,12000,ths.m2
+Company A,2024,Q3,Budget,Business Line G,500,25,12500,ths.m2
+Company A,2024,Q4,Budget,Business Line G,250,25,6250,ths.m2
+Company A,2025,Q1,Budget,Business Line G,650,25,16250,ths.m2
+Company A,2025,Q2,Budget,Business Line G,850,25,21250,ths.m2
+Company A,2025,Q3,Budget,Business Line G,730,25,18250,ths.m2
+Company A,2025,Q4,Budget,Business Line G,730,25,18250,ths.m2
+Company A,2023,Q1,Budget,Business Line H,0,0,0,t
+Company A,2023,Q2,Budget,Business Line H,20,48,960,t
+Company A,2023,Q3,Budget,Business Line H,0,0,0,t
+Company A,2023,Q4,Budget,Business Line H,0,0,0,t
+Company A,2024,Q1,Budget,Business Line H,0,0,0,t
+Company A,2024,Q2,Budget,Business Line H,0,0,0,t
+Company A,2024,Q3,Budget,Business Line H,0,0,0,t
+Company A,2024,Q4,Budget,Business Line H,0,0,0,t
+Company A,2025,Q1,Budget,Business Line H,300,50,15000,t
+Company A,2025,Q2,Budget,Business Line H,600,50,30000,t
+Company A,2025,Q3,Budget,Business Line H,180,50,9000,t
+Company A,2025,Q4,Budget,Business Line H,180,50,9000,t
+Company A,2023,Q1,Budget,Other,1,4000,4000,t
+Company A,2023,Q2,Budget,Other,1,4000,4000,t
+Company A,2023,Q3,Budget,Other,1,4000,4000,t
+Company A,2023,Q4,Budget,Other,1,4000,4000,t
+Company A,2024,Q1,Budget,Other,1,4000,4000,t
+Company A,2024,Q2,Budget,Other,1,4000,4000,t
+Company A,2024,Q3,Budget,Other,1,4000,4000,t
+Company A,2024,Q4,Budget,Other,1,4000,4000,t
+Company A,2025,Q1,Budget,Other,1,4000,4000,t
+Company A,2025,Q2,Budget,Other,1,4000,4000,t
+Company A,2025,Q3,Budget,Other,1,4000,4000,t
+Company A,2025,Q4,Budget,Other,1,4000,4000,t

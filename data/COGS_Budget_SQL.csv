@@ -1,0 +1,109 @@
+﻿CompanyName,Year,Quarter,ScenarioName,DirectionName,COGSAmount
+Company A,2023,Q1,Budget,Business Line A,21850
+Company A,2023,Q2,Budget,Business Line A,32775
+Company A,2023,Q3,Budget,Business Line A,30590
+Company A,2023,Q4,Budget,Business Line A,13800
+Company A,2024,Q1,Budget,Business Line A,44200
+Company A,2024,Q2,Budget,Business Line A,39400
+Company A,2024,Q3,Budget,Business Line A,31740
+Company A,2024,Q4,Budget,Business Line A,13260
+Company A,2025,Q1,Budget,Business Line A,40080
+Company A,2025,Q2,Budget,Business Line A,54150
+Company A,2025,Q3,Budget,Business Line A,40092
+Company A,2025,Q4,Budget,Business Line A,37440
+Company A,2023,Q1,Budget,Business Line B,34100
+Company A,2023,Q2,Budget,Business Line B,34700
+Company A,2023,Q3,Budget,Business Line B,26325
+Company A,2023,Q4,Budget,Business Line B,12390
+Company A,2024,Q1,Budget,Business Line B,23010
+Company A,2024,Q2,Budget,Business Line B,35400
+Company A,2024,Q3,Budget,Business Line B,20394
+Company A,2024,Q4,Budget,Business Line B,16686
+Company A,2025,Q1,Budget,Business Line B,27810
+Company A,2025,Q2,Budget,Business Line B,37080
+Company A,2025,Q3,Budget,Business Line B,20394
+Company A,2025,Q4,Budget,Business Line B,20911
+Company A,2023,Q1,Budget,Business Line C,99000
+Company A,2023,Q2,Budget,Business Line C,118800
+Company A,2023,Q3,Budget,Business Line C,118800
+Company A,2023,Q4,Budget,Business Line C,118800
+Company A,2024,Q1,Budget,Business Line C,121200
+Company A,2024,Q2,Budget,Business Line C,115000
+Company A,2024,Q3,Budget,Business Line C,115000
+Company A,2024,Q4,Budget,Business Line C,80500
+Company A,2025,Q1,Budget,Business Line C,100000
+Company A,2025,Q2,Budget,Business Line C,160800
+Company A,2025,Q3,Budget,Business Line C,134000
+Company A,2025,Q4,Budget,Business Line C,101000
+Company A,2023,Q1,Budget,Business Line D,0
+Company A,2023,Q2,Budget,Business Line D,0
+Company A,2023,Q3,Budget,Business Line D,0
+Company A,2023,Q4,Budget,Business Line D,0
+Company A,2024,Q1,Budget,Business Line D,0
+Company A,2024,Q2,Budget,Business Line D,1750
+Company A,2024,Q3,Budget,Business Line D,610
+Company A,2024,Q4,Budget,Business Line D,1425
+Company A,2025,Q1,Budget,Business Line D,9500
+Company A,2025,Q2,Budget,Business Line D,4750
+Company A,2025,Q3,Budget,Business Line D,1425
+Company A,2025,Q4,Budget,Business Line D,1590
+Company A,2023,Q1,Budget,Business Line E,6765
+Company A,2023,Q2,Budget,Business Line E,9025.2
+Company A,2023,Q3,Budget,Business Line E,11250
+Company A,2023,Q4,Budget,Business Line E,8775
+Company A,2024,Q1,Budget,Business Line E,12150
+Company A,2024,Q2,Budget,Business Line E,7050
+Company A,2024,Q3,Budget,Business Line E,13100
+Company A,2024,Q4,Budget,Business Line E,9080
+Company A,2025,Q1,Budget,Business Line E,9080
+Company A,2025,Q2,Budget,Business Line E,6810
+Company A,2025,Q3,Budget,Business Line E,3632
+Company A,2025,Q4,Budget,Business Line E,3632
+Company A,2023,Q1,Budget,Business Line F,4750
+Company A,2023,Q2,Budget,Business Line F,6750
+Company A,2023,Q3,Budget,Business Line F,6750
+Company A,2023,Q4,Budget,Business Line F,5320
+Company A,2024,Q1,Budget,Business Line F,5400
+Company A,2024,Q2,Budget,Business Line F,6750
+Company A,2024,Q3,Budget,Business Line F,4050
+Company A,2024,Q4,Budget,Business Line F,3810
+Company A,2025,Q1,Budget,Business Line F,5334
+Company A,2025,Q2,Budget,Business Line F,2032
+Company A,2025,Q3,Budget,Business Line F,4125
+Company A,2025,Q4,Budget,Business Line F,4350
+Company A,2023,Q1,Budget,Business Line G,0
+Company A,2023,Q2,Budget,Business Line G,1890
+Company A,2023,Q3,Budget,Business Line G,2700
+Company A,2023,Q4,Budget,Business Line G,1320
+Company A,2024,Q1,Budget,Business Line G,3960
+Company A,2024,Q2,Budget,Business Line G,4280
+Company A,2024,Q3,Budget,Business Line G,6250
+Company A,2024,Q4,Budget,Business Line G,2850
+Company A,2025,Q1,Budget,Business Line G,7410
+Company A,2025,Q2,Budget,Business Line G,9690
+Company A,2025,Q3,Budget,Business Line G,9344
+Company A,2025,Q4,Budget,Business Line G,9125
+Company A,2023,Q1,Budget,Business Line H,0
+Company A,2023,Q2,Budget,Business Line H,484
+Company A,2023,Q3,Budget,Business Line H,0
+Company A,2023,Q4,Budget,Business Line H,0
+Company A,2024,Q1,Budget,Business Line H,0
+Company A,2024,Q2,Budget,Business Line H,0
+Company A,2024,Q3,Budget,Business Line H,0
+Company A,2024,Q4,Budget,Business Line H,0
+Company A,2025,Q1,Budget,Business Line H,10230
+Company A,2025,Q2,Budget,Business Line H,20460
+Company A,2025,Q3,Budget,Business Line H,5400
+Company A,2025,Q4,Budget,Business Line H,5598
+Company A,2023,Q1,Budget,Other,2600
+Company A,2023,Q2,Budget,Other,2600
+Company A,2023,Q3,Budget,Other,2600
+Company A,2023,Q4,Budget,Other,2600
+Company A,2024,Q1,Budget,Other,2600
+Company A,2024,Q2,Budget,Other,2600
+Company A,2024,Q3,Budget,Other,2600
+Company A,2024,Q4,Budget,Other,2600
+Company A,2025,Q1,Budget,Other,2600
+Company A,2025,Q2,Budget,Other,2600
+Company A,2025,Q3,Budget,Other,2600
+Company A,2025,Q4,Budget,Other,2600

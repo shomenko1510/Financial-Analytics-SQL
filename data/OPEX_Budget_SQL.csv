@@ -1,0 +1,193 @@
+﻿CompanyName,Year,Quarter,ScenarioName,OPEXCategoryName,OPEXSubcategoryName,OPEXAmount
+Company A,2023,Q1,Budget,Administrative Expenses,Salaries,1250
+Company A,2023,Q2,Budget,Administrative Expenses,Salaries,1250
+Company A,2023,Q3,Budget,Administrative Expenses,Salaries,1250
+Company A,2023,Q4,Budget,Administrative Expenses,Salaries,1250
+Company A,2024,Q1,Budget,Administrative Expenses,Salaries,1400
+Company A,2024,Q2,Budget,Administrative Expenses,Salaries,1400
+Company A,2024,Q3,Budget,Administrative Expenses,Salaries,1400
+Company A,2024,Q4,Budget,Administrative Expenses,Salaries,1400
+Company A,2025,Q1,Budget,Administrative Expenses,Salaries,1700
+Company A,2025,Q2,Budget,Administrative Expenses,Salaries,1700
+Company A,2025,Q3,Budget,Administrative Expenses,Salaries,1700
+Company A,2025,Q4,Budget,Administrative Expenses,Salaries,1700
+Company A,2023,Q1,Budget,Administrative Expenses,Bonuses,240
+Company A,2023,Q2,Budget,Administrative Expenses,Bonuses,240
+Company A,2023,Q3,Budget,Administrative Expenses,Bonuses,240
+Company A,2023,Q4,Budget,Administrative Expenses,Bonuses,240
+Company A,2024,Q1,Budget,Administrative Expenses,Bonuses,270
+Company A,2024,Q2,Budget,Administrative Expenses,Bonuses,270
+Company A,2024,Q3,Budget,Administrative Expenses,Bonuses,270
+Company A,2024,Q4,Budget,Administrative Expenses,Bonuses,270
+Company A,2025,Q1,Budget,Administrative Expenses,Bonuses,270
+Company A,2025,Q2,Budget,Administrative Expenses,Bonuses,270
+Company A,2025,Q3,Budget,Administrative Expenses,Bonuses,270
+Company A,2025,Q4,Budget,Administrative Expenses,Bonuses,270
+Company A,2023,Q1,Budget,Administrative Expenses,Utilities,3100
+Company A,2023,Q2,Budget,Administrative Expenses,Utilities,3100
+Company A,2023,Q3,Budget,Administrative Expenses,Utilities,3100
+Company A,2023,Q4,Budget,Administrative Expenses,Utilities,3100
+Company A,2024,Q1,Budget,Administrative Expenses,Utilities,4500
+Company A,2024,Q2,Budget,Administrative Expenses,Utilities,4500
+Company A,2024,Q3,Budget,Administrative Expenses,Utilities,4500
+Company A,2024,Q4,Budget,Administrative Expenses,Utilities,4500
+Company A,2025,Q1,Budget,Administrative Expenses,Utilities,5300
+Company A,2025,Q2,Budget,Administrative Expenses,Utilities,5900
+Company A,2025,Q3,Budget,Administrative Expenses,Utilities,6200
+Company A,2025,Q4,Budget,Administrative Expenses,Utilities,6900
+Company A,2023,Q1,Budget,Administrative Expenses,Internet & Comunication,140
+Company A,2023,Q2,Budget,Administrative Expenses,Internet & Comunication,140
+Company A,2023,Q3,Budget,Administrative Expenses,Internet & Comunication,140
+Company A,2023,Q4,Budget,Administrative Expenses,Internet & Comunication,140
+Company A,2024,Q1,Budget,Administrative Expenses,Internet & Comunication,140
+Company A,2024,Q2,Budget,Administrative Expenses,Internet & Comunication,140
+Company A,2024,Q3,Budget,Administrative Expenses,Internet & Comunication,140
+Company A,2024,Q4,Budget,Administrative Expenses,Internet & Comunication,140
+Company A,2025,Q1,Budget,Administrative Expenses,Internet & Comunication,160
+Company A,2025,Q2,Budget,Administrative Expenses,Internet & Comunication,160.5521975
+Company A,2025,Q3,Budget,Administrative Expenses,Internet & Comunication,160.5521975
+Company A,2025,Q4,Budget,Administrative Expenses,Internet & Comunication,160.5521975
+Company A,2023,Q1,Budget,Administrative Expenses,IT Servise,450
+Company A,2023,Q2,Budget,Administrative Expenses,IT Servise,450
+Company A,2023,Q3,Budget,Administrative Expenses,IT Servise,450
+Company A,2023,Q4,Budget,Administrative Expenses,IT Servise,450
+Company A,2024,Q1,Budget,Administrative Expenses,IT Servise,550
+Company A,2024,Q2,Budget,Administrative Expenses,IT Servise,550
+Company A,2024,Q3,Budget,Administrative Expenses,IT Servise,550
+Company A,2024,Q4,Budget,Administrative Expenses,IT Servise,550
+Company A,2025,Q1,Budget,Administrative Expenses,IT Servise,600
+Company A,2025,Q2,Budget,Administrative Expenses,IT Servise,600
+Company A,2025,Q3,Budget,Administrative Expenses,IT Servise,600
+Company A,2025,Q4,Budget,Administrative Expenses,IT Servise,600
+Company A,2023,Q1,Budget,Administrative Expenses,Insurance,64.12
+Company A,2023,Q2,Budget,Administrative Expenses,Insurance,64.12
+Company A,2023,Q3,Budget,Administrative Expenses,Insurance,64.12
+Company A,2023,Q4,Budget,Administrative Expenses,Insurance,64.12
+Company A,2024,Q1,Budget,Administrative Expenses,Insurance,64.12
+Company A,2024,Q2,Budget,Administrative Expenses,Insurance,64.12
+Company A,2024,Q3,Budget,Administrative Expenses,Insurance,64.12
+Company A,2024,Q4,Budget,Administrative Expenses,Insurance,64.12
+Company A,2025,Q1,Budget,Administrative Expenses,Insurance,64.12
+Company A,2025,Q2,Budget,Administrative Expenses,Insurance,64.12
+Company A,2025,Q3,Budget,Administrative Expenses,Insurance,64.12
+Company A,2025,Q4,Budget,Administrative Expenses,Insurance,64.12
+Company A,2023,Q1,Budget,Selling Expenses,Salaries,650
+Company A,2023,Q2,Budget,Selling Expenses,Salaries,650
+Company A,2023,Q3,Budget,Selling Expenses,Salaries,650
+Company A,2023,Q4,Budget,Selling Expenses,Salaries,650
+Company A,2024,Q1,Budget,Selling Expenses,Salaries,750
+Company A,2024,Q2,Budget,Selling Expenses,Salaries,750
+Company A,2024,Q3,Budget,Selling Expenses,Salaries,750
+Company A,2024,Q4,Budget,Selling Expenses,Salaries,750
+Company A,2025,Q1,Budget,Selling Expenses,Salaries,830
+Company A,2025,Q2,Budget,Selling Expenses,Salaries,830
+Company A,2025,Q3,Budget,Selling Expenses,Salaries,830
+Company A,2025,Q4,Budget,Selling Expenses,Salaries,830
+Company A,2023,Q1,Budget,Selling Expenses,Bonuses,733.6874961
+Company A,2023,Q2,Budget,Selling Expenses,Bonuses,965.5083494
+Company A,2023,Q3,Budget,Selling Expenses,Bonuses,755.1017523
+Company A,2023,Q4,Budget,Selling Expenses,Bonuses,648.8172149
+Company A,2024,Q1,Budget,Selling Expenses,Bonuses,866.5573452
+Company A,2024,Q2,Budget,Selling Expenses,Bonuses,957.6905988
+Company A,2024,Q3,Budget,Selling Expenses,Bonuses,828.3060138
+Company A,2024,Q4,Budget,Selling Expenses,Bonuses,608.7906751
+Company A,2025,Q1,Budget,Selling Expenses,Bonuses,977.5415489
+Company A,2025,Q2,Budget,Selling Expenses,Bonuses,1315.003902
+Company A,2025,Q3,Budget,Selling Expenses,Bonuses,856.9277148
+Company A,2025,Q4,Budget,Selling Expenses,Bonuses,772.5775152
+Company A,2023,Q1,Budget,Selling Expenses,Advertising,248.6
+Company A,2023,Q2,Budget,Selling Expenses,Advertising,248.6
+Company A,2023,Q3,Budget,Selling Expenses,Advertising,248.6
+Company A,2023,Q4,Budget,Selling Expenses,Advertising,248.6
+Company A,2024,Q1,Budget,Selling Expenses,Advertising,248.6
+Company A,2024,Q2,Budget,Selling Expenses,Advertising,248.6
+Company A,2024,Q3,Budget,Selling Expenses,Advertising,248.6
+Company A,2024,Q4,Budget,Selling Expenses,Advertising,248.6
+Company A,2025,Q1,Budget,Selling Expenses,Advertising,248.6
+Company A,2025,Q2,Budget,Selling Expenses,Advertising,248.6
+Company A,2025,Q3,Budget,Selling Expenses,Advertising,248.6
+Company A,2025,Q4,Budget,Selling Expenses,Advertising,248.6
+Company A,2023,Q1,Budget,Selling Expenses,Marketing,90
+Company A,2023,Q2,Budget,Selling Expenses,Marketing,90
+Company A,2023,Q3,Budget,Selling Expenses,Marketing,90
+Company A,2023,Q4,Budget,Selling Expenses,Marketing,90
+Company A,2024,Q1,Budget,Selling Expenses,Marketing,120
+Company A,2024,Q2,Budget,Selling Expenses,Marketing,120
+Company A,2024,Q3,Budget,Selling Expenses,Marketing,120
+Company A,2024,Q4,Budget,Selling Expenses,Marketing,120
+Company A,2025,Q1,Budget,Selling Expenses,Marketing,140
+Company A,2025,Q2,Budget,Selling Expenses,Marketing,140
+Company A,2025,Q3,Budget,Selling Expenses,Marketing,140
+Company A,2025,Q4,Budget,Selling Expenses,Marketing,140
+Company A,2023,Q1,Budget,Selling Expenses,Transportation,20000
+Company A,2023,Q2,Budget,Selling Expenses,Transportation,20000
+Company A,2023,Q3,Budget,Selling Expenses,Transportation,17000
+Company A,2023,Q4,Budget,Selling Expenses,Transportation,15000
+Company A,2024,Q1,Budget,Selling Expenses,Transportation,24000
+Company A,2024,Q2,Budget,Selling Expenses,Transportation,23000
+Company A,2024,Q3,Budget,Selling Expenses,Transportation,18000
+Company A,2024,Q4,Budget,Selling Expenses,Transportation,9000
+Company A,2025,Q1,Budget,Selling Expenses,Transportation,27000
+Company A,2025,Q2,Budget,Selling Expenses,Transportation,25000
+Company A,2025,Q3,Budget,Selling Expenses,Transportation,19000
+Company A,2025,Q4,Budget,Selling Expenses,Transportation,16000
+Company A,2023,Q1,Budget,Selling Expenses,Business Trip,200
+Company A,2023,Q2,Budget,Selling Expenses,Business Trip,200
+Company A,2023,Q3,Budget,Selling Expenses,Business Trip,200
+Company A,2023,Q4,Budget,Selling Expenses,Business Trip,200
+Company A,2024,Q1,Budget,Selling Expenses,Business Trip,200
+Company A,2024,Q2,Budget,Selling Expenses,Business Trip,200
+Company A,2024,Q3,Budget,Selling Expenses,Business Trip,200
+Company A,2024,Q4,Budget,Selling Expenses,Business Trip,200
+Company A,2025,Q1,Budget,Selling Expenses,Business Trip,200
+Company A,2025,Q2,Budget,Selling Expenses,Business Trip,200
+Company A,2025,Q3,Budget,Selling Expenses,Business Trip,200
+Company A,2025,Q4,Budget,Selling Expenses,Business Trip,200
+Company A,2023,Q1,Budget,Other Operating Expenses,Environmental Cost,2000
+Company A,2023,Q2,Budget,Other Operating Expenses,Environmental Cost,2000
+Company A,2023,Q3,Budget,Other Operating Expenses,Environmental Cost,2000
+Company A,2023,Q4,Budget,Other Operating Expenses,Environmental Cost,2000
+Company A,2024,Q1,Budget,Other Operating Expenses,Environmental Cost,2000
+Company A,2024,Q2,Budget,Other Operating Expenses,Environmental Cost,2000
+Company A,2024,Q3,Budget,Other Operating Expenses,Environmental Cost,2000
+Company A,2024,Q4,Budget,Other Operating Expenses,Environmental Cost,2000
+Company A,2025,Q1,Budget,Other Operating Expenses,Environmental Cost,2000
+Company A,2025,Q2,Budget,Other Operating Expenses,Environmental Cost,2000
+Company A,2025,Q3,Budget,Other Operating Expenses,Environmental Cost,2000
+Company A,2025,Q4,Budget,Other Operating Expenses,Environmental Cost,2000
+Company A,2023,Q1,Budget,Other Operating Expenses,Write-offs,4000
+Company A,2023,Q2,Budget,Other Operating Expenses,Write-offs,4000
+Company A,2023,Q3,Budget,Other Operating Expenses,Write-offs,4000
+Company A,2023,Q4,Budget,Other Operating Expenses,Write-offs,4000
+Company A,2024,Q1,Budget,Other Operating Expenses,Write-offs,4000
+Company A,2024,Q2,Budget,Other Operating Expenses,Write-offs,4000
+Company A,2024,Q3,Budget,Other Operating Expenses,Write-offs,4000
+Company A,2024,Q4,Budget,Other Operating Expenses,Write-offs,4000
+Company A,2025,Q1,Budget,Other Operating Expenses,Write-offs,4000
+Company A,2025,Q2,Budget,Other Operating Expenses,Write-offs,4000
+Company A,2025,Q3,Budget,Other Operating Expenses,Write-offs,4000
+Company A,2025,Q4,Budget,Other Operating Expenses,Write-offs,4000
+Company A,2023,Q1,Budget,Other Operating Expenses,Taxes & Fees,3000
+Company A,2023,Q2,Budget,Other Operating Expenses,Taxes & Fees,3000
+Company A,2023,Q3,Budget,Other Operating Expenses,Taxes & Fees,3000
+Company A,2023,Q4,Budget,Other Operating Expenses,Taxes & Fees,3000
+Company A,2024,Q1,Budget,Other Operating Expenses,Taxes & Fees,3000
+Company A,2024,Q2,Budget,Other Operating Expenses,Taxes & Fees,3000
+Company A,2024,Q3,Budget,Other Operating Expenses,Taxes & Fees,3000
+Company A,2024,Q4,Budget,Other Operating Expenses,Taxes & Fees,3000
+Company A,2025,Q1,Budget,Other Operating Expenses,Taxes & Fees,3000
+Company A,2025,Q2,Budget,Other Operating Expenses,Taxes & Fees,3000
+Company A,2025,Q3,Budget,Other Operating Expenses,Taxes & Fees,3000
+Company A,2025,Q4,Budget,Other Operating Expenses,Taxes & Fees,3000
+Company A,2023,Q1,Budget,Other Operating Expenses,Health & Safety,1000
+Company A,2023,Q2,Budget,Other Operating Expenses,Health & Safety,1000
+Company A,2023,Q3,Budget,Other Operating Expenses,Health & Safety,1000
+Company A,2023,Q4,Budget,Other Operating Expenses,Health & Safety,1000
+Company A,2024,Q1,Budget,Other Operating Expenses,Health & Safety,1000
+Company A,2024,Q2,Budget,Other Operating Expenses,Health & Safety,1100
+Company A,2024,Q3,Budget,Other Operating Expenses,Health & Safety,1100
+Company A,2024,Q4,Budget,Other Operating Expenses,Health & Safety,1200
+Company A,2025,Q1,Budget,Other Operating Expenses,Health & Safety,1200
+Company A,2025,Q2,Budget,Other Operating Expenses,Health & Safety,1200
+Company A,2025,Q3,Budget,Other Operating Expenses,Health & Safety,1300
+Company A,2025,Q4,Budget,Other Operating Expenses,Health & Safety,1300

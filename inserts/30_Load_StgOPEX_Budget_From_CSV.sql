@@ -4,7 +4,7 @@ GO
 IF EXISTS
 (
     SELECT 1
-    FROM dbo.StgSales
+    FROM dbo.StgOPEX
     WHERE CompanyName = 'Company A'
     AND ScenarioName = 'Budget'
     AND [Year] BETWEEN 2023 AND 2025
@@ -12,15 +12,15 @@ IF EXISTS
 BEGIN
     RAISERROR
     (
-        'Budget StgSales data for Company A, 2023 - 2025 already exists',
-        16,
-        1
-    );
+            'Budget StgOPEX data for Company A, 2023-2025 already exists ',
+            16,
+            1
+    )
     RETURN;
 END;
 
-BULK INSERT dbo.StgSales
-FROM 'D:\GitHub\Financial-Analytics-SQL\data\Sales_Budget_SQL.csv'
+BULK INSERT dbo.StgOPEX
+FROM 'D:\GitHub\Financial-Analytics-SQL\data\OPEX_Budget_SQL.csv'
 WITH
 (
     FIRSTROW = 2,
@@ -29,14 +29,15 @@ WITH
     CODEPAGE = '65001',
     TABLOCK
 );
+GO
 
 SELECT
     [Year],
     [Quarter],
     ScenarioName,
     COUNT(*) AS CountRows,
-    SUM(RevenueAmount) AS TotalRevenue
-FROM dbo.StgSales
+    SUM(OPEXAmount) AS TotalOPEXAmount
+FROM dbo.StgOPEX
 WHERE ScenarioName = 'Budget'
 GROUP BY
     [Year],
@@ -44,4 +45,4 @@ GROUP BY
     ScenarioName
 ORDER BY
     [Year],
-    [Quarter];          
+    [Quarter];        

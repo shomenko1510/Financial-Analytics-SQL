@@ -23,7 +23,7 @@ END;
 GO
 
 BULK INSERT dbo.StgCOGS
-FROM 'D:\GitHub\Executive_Financial_Dashboard\data\COGS_Budget_SQL.csv'
+FROM 'D:\GitHub\Financial-Analytics-SQL\data\COGS_Budget_SQL.csv'
 WITH
 (
     FIRSTROW = 2,
