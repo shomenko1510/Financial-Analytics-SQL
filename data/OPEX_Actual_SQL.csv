@@ -1,0 +1,193 @@
+CompanyName,Year,Quarter,ScenarioName,OPEXCategoryName,OPEXSubcategoryName,OPEXAmount
+Company A,2023,Q1,Actual,Administrative Expenses,Salaries,1259.611992
+Company A,2023,Q2,Actual,Administrative Expenses,Salaries,1303.338448
+Company A,2023,Q3,Actual,Administrative Expenses,Salaries,1354.427433
+Company A,2023,Q4,Actual,Administrative Expenses,Salaries,1391.92106
+Company A,2024,Q1,Actual,Administrative Expenses,Salaries,1435.103165
+Company A,2024,Q2,Actual,Administrative Expenses,Salaries,1476.201914
+Company A,2024,Q3,Actual,Administrative Expenses,Salaries,1533.18351
+Company A,2024,Q4,Actual,Administrative Expenses,Salaries,1579.914571
+Company A,2025,Q1,Actual,Administrative Expenses,Salaries,1625.482413
+Company A,2025,Q2,Actual,Administrative Expenses,Salaries,1669.108572
+Company A,2025,Q3,Actual,Administrative Expenses,Salaries,1719.208303
+Company A,2025,Q4,Actual,Administrative Expenses,Salaries,1770.419633
+Company A,2023,Q1,Actual,Administrative Expenses,Bonuses,261.0324318
+Company A,2023,Q2,Actual,Administrative Expenses,Bonuses,265.4997471
+Company A,2023,Q3,Actual,Administrative Expenses,Bonuses,284.0017774
+Company A,2023,Q4,Actual,Administrative Expenses,Bonuses,269.908443
+Company A,2024,Q1,Actual,Administrative Expenses,Bonuses,269.2051243
+Company A,2024,Q2,Actual,Administrative Expenses,Bonuses,268.8717196
+Company A,2024,Q3,Actual,Administrative Expenses,Bonuses,261.2096303
+Company A,2024,Q4,Actual,Administrative Expenses,Bonuses,249.0759953
+Company A,2025,Q1,Actual,Administrative Expenses,Bonuses,280.725254
+Company A,2025,Q2,Actual,Administrative Expenses,Bonuses,287.8338945
+Company A,2025,Q3,Actual,Administrative Expenses,Bonuses,281.5181321
+Company A,2025,Q4,Actual,Administrative Expenses,Bonuses,318.7754534
+Company A,2023,Q1,Actual,Administrative Expenses,Utilities,3045.129728
+Company A,2023,Q2,Actual,Administrative Expenses,Utilities,3090.547943
+Company A,2023,Q3,Actual,Administrative Expenses,Utilities,3552.521378
+Company A,2023,Q4,Actual,Administrative Expenses,Utilities,3831.033459
+Company A,2024,Q1,Actual,Administrative Expenses,Utilities,4334.56633
+Company A,2024,Q2,Actual,Administrative Expenses,Utilities,4463.846076
+Company A,2024,Q3,Actual,Administrative Expenses,Utilities,4545.656265
+Company A,2024,Q4,Actual,Administrative Expenses,Utilities,4853.04153
+Company A,2025,Q1,Actual,Administrative Expenses,Utilities,5220.114474
+Company A,2025,Q2,Actual,Administrative Expenses,Utilities,5802.208172
+Company A,2025,Q3,Actual,Administrative Expenses,Utilities,6133.331847
+Company A,2025,Q4,Actual,Administrative Expenses,Utilities,6888.598962
+Company A,2023,Q1,Actual,Administrative Expenses,Internet & Comunication,128.8297535
+Company A,2023,Q2,Actual,Administrative Expenses,Internet & Comunication,134.6743976
+Company A,2023,Q3,Actual,Administrative Expenses,Internet & Comunication,139.5392064
+Company A,2023,Q4,Actual,Administrative Expenses,Internet & Comunication,142.34561
+Company A,2024,Q1,Actual,Administrative Expenses,Internet & Comunication,144.029601
+Company A,2024,Q2,Actual,Administrative Expenses,Internet & Comunication,147.3162177
+Company A,2024,Q3,Actual,Administrative Expenses,Internet & Comunication,149.0527378
+Company A,2024,Q4,Actual,Administrative Expenses,Internet & Comunication,155.5836265
+Company A,2025,Q1,Actual,Administrative Expenses,Internet & Comunication,158.7910898
+Company A,2025,Q2,Actual,Administrative Expenses,Internet & Comunication,160.5521975
+Company A,2025,Q3,Actual,Administrative Expenses,Internet & Comunication,168.2876953
+Company A,2025,Q4,Actual,Administrative Expenses,Internet & Comunication,170.2083102
+Company A,2023,Q1,Actual,Administrative Expenses,IT Servise,466.7477378
+Company A,2023,Q2,Actual,Administrative Expenses,IT Servise,479.1085246
+Company A,2023,Q3,Actual,Administrative Expenses,IT Servise,492.5336811
+Company A,2023,Q4,Actual,Administrative Expenses,IT Servise,515.175487
+Company A,2024,Q1,Actual,Administrative Expenses,IT Servise,528.7793161
+Company A,2024,Q2,Actual,Administrative Expenses,IT Servise,544.8411592
+Company A,2024,Q3,Actual,Administrative Expenses,IT Servise,556.0415507
+Company A,2024,Q4,Actual,Administrative Expenses,IT Servise,571.8640257
+Company A,2025,Q1,Actual,Administrative Expenses,IT Servise,590.2395396
+Company A,2025,Q2,Actual,Administrative Expenses,IT Servise,617.6334723
+Company A,2025,Q3,Actual,Administrative Expenses,IT Servise,625.7608346
+Company A,2025,Q4,Actual,Administrative Expenses,IT Servise,649.4394435
+Company A,2023,Q1,Actual,Administrative Expenses,Insurance,64.12
+Company A,2023,Q2,Actual,Administrative Expenses,Insurance,64.12
+Company A,2023,Q3,Actual,Administrative Expenses,Insurance,64.12
+Company A,2023,Q4,Actual,Administrative Expenses,Insurance,64.12
+Company A,2024,Q1,Actual,Administrative Expenses,Insurance,64.12
+Company A,2024,Q2,Actual,Administrative Expenses,Insurance,64.12
+Company A,2024,Q3,Actual,Administrative Expenses,Insurance,64.12
+Company A,2024,Q4,Actual,Administrative Expenses,Insurance,64.12
+Company A,2025,Q1,Actual,Administrative Expenses,Insurance,64.12
+Company A,2025,Q2,Actual,Administrative Expenses,Insurance,64.12
+Company A,2025,Q3,Actual,Administrative Expenses,Insurance,64.12
+Company A,2025,Q4,Actual,Administrative Expenses,Insurance,64.12
+Company A,2023,Q1,Actual,Selling Expenses,Salaries,638.3915543
+Company A,2023,Q2,Actual,Selling Expenses,Salaries,655.9146409
+Company A,2023,Q3,Actual,Selling Expenses,Salaries,674.661635
+Company A,2023,Q4,Actual,Selling Expenses,Salaries,692.6777658
+Company A,2024,Q1,Actual,Selling Expenses,Salaries,713.405206
+Company A,2024,Q2,Actual,Selling Expenses,Salaries,740.528795
+Company A,2024,Q3,Actual,Selling Expenses,Salaries,762.2751441
+Company A,2024,Q4,Actual,Selling Expenses,Salaries,783.1938033
+Company A,2025,Q1,Actual,Selling Expenses,Salaries,808.852277
+Company A,2025,Q2,Actual,Selling Expenses,Salaries,839.5549913
+Company A,2025,Q3,Actual,Selling Expenses,Salaries,868.3588725
+Company A,2025,Q4,Actual,Selling Expenses,Salaries,891.3160864
+Company A,2023,Q1,Actual,Selling Expenses,Bonuses,733.6874961
+Company A,2023,Q2,Actual,Selling Expenses,Bonuses,965.5083494
+Company A,2023,Q3,Actual,Selling Expenses,Bonuses,755.1017523
+Company A,2023,Q4,Actual,Selling Expenses,Bonuses,648.8172149
+Company A,2024,Q1,Actual,Selling Expenses,Bonuses,866.5573452
+Company A,2024,Q2,Actual,Selling Expenses,Bonuses,957.6905988
+Company A,2024,Q3,Actual,Selling Expenses,Bonuses,828.3060138
+Company A,2024,Q4,Actual,Selling Expenses,Bonuses,608.7906751
+Company A,2025,Q1,Actual,Selling Expenses,Bonuses,977.5415489
+Company A,2025,Q2,Actual,Selling Expenses,Bonuses,1315.003902
+Company A,2025,Q3,Actual,Selling Expenses,Bonuses,856.9277148
+Company A,2025,Q4,Actual,Selling Expenses,Bonuses,772.5775152
+Company A,2023,Q1,Actual,Selling Expenses,Advertising,255.2126199
+Company A,2023,Q2,Actual,Selling Expenses,Advertising,261.6616736
+Company A,2023,Q3,Actual,Selling Expenses,Advertising,268.893223
+Company A,2023,Q4,Actual,Selling Expenses,Advertising,279.2899041
+Company A,2024,Q1,Actual,Selling Expenses,Advertising,287.0160725
+Company A,2024,Q2,Actual,Selling Expenses,Advertising,294.7010499
+Company A,2024,Q3,Actual,Selling Expenses,Advertising,304.0720838
+Company A,2024,Q4,Actual,Selling Expenses,Advertising,315.3386326
+Company A,2025,Q1,Actual,Selling Expenses,Advertising,323.4989268
+Company A,2025,Q2,Actual,Selling Expenses,Advertising,335.1353099
+Company A,2025,Q3,Actual,Selling Expenses,Advertising,346.937676
+Company A,2025,Q4,Actual,Selling Expenses,Advertising,360.4032421
+Company A,2023,Q1,Actual,Selling Expenses,Marketing,89.79465674
+Company A,2023,Q2,Actual,Selling Expenses,Marketing,94.7293243
+Company A,2023,Q3,Actual,Selling Expenses,Marketing,94.49866251
+Company A,2023,Q4,Actual,Selling Expenses,Marketing,96.36830731
+Company A,2024,Q1,Actual,Selling Expenses,Marketing,97.42327266
+Company A,2024,Q2,Actual,Selling Expenses,Marketing,108.7256297
+Company A,2024,Q3,Actual,Selling Expenses,Marketing,122.0913293
+Company A,2024,Q4,Actual,Selling Expenses,Marketing,133.0065982
+Company A,2025,Q1,Actual,Selling Expenses,Marketing,143.6835775
+Company A,2025,Q2,Actual,Selling Expenses,Marketing,135.2074794
+Company A,2025,Q3,Actual,Selling Expenses,Marketing,130.2241646
+Company A,2025,Q4,Actual,Selling Expenses,Marketing,135.5189267
+Company A,2023,Q1,Actual,Selling Expenses,Transportation,20248.915
+Company A,2023,Q2,Actual,Selling Expenses,Transportation,20250
+Company A,2023,Q3,Actual,Selling Expenses,Transportation,16969.13819
+Company A,2023,Q4,Actual,Selling Expenses,Transportation,15485.43891
+Company A,2024,Q1,Actual,Selling Expenses,Transportation,25411.76061
+Company A,2024,Q2,Actual,Selling Expenses,Transportation,23029.01196
+Company A,2024,Q3,Actual,Selling Expenses,Transportation,17590.92602
+Company A,2024,Q4,Actual,Selling Expenses,Transportation,9890.006357
+Company A,2025,Q1,Actual,Selling Expenses,Transportation,27000.64772
+Company A,2025,Q2,Actual,Selling Expenses,Transportation,25273.36133
+Company A,2025,Q3,Actual,Selling Expenses,Transportation,18631.32438
+Company A,2025,Q4,Actual,Selling Expenses,Transportation,16056.09568
+Company A,2023,Q1,Actual,Selling Expenses,Business Trip,152.1844504
+Company A,2023,Q2,Actual,Selling Expenses,Business Trip,158.1196183
+Company A,2023,Q3,Actual,Selling Expenses,Business Trip,163.2463749
+Company A,2023,Q4,Actual,Selling Expenses,Business Trip,168.8737812
+Company A,2024,Q1,Actual,Selling Expenses,Business Trip,173.1667488
+Company A,2024,Q2,Actual,Selling Expenses,Business Trip,177.9049087
+Company A,2024,Q3,Actual,Selling Expenses,Business Trip,182.8661005
+Company A,2024,Q4,Actual,Selling Expenses,Business Trip,188.7578586
+Company A,2025,Q1,Actual,Selling Expenses,Business Trip,194.1172303
+Company A,2025,Q2,Actual,Selling Expenses,Business Trip,199.1824351
+Company A,2025,Q3,Actual,Selling Expenses,Business Trip,206.0799138
+Company A,2025,Q4,Actual,Selling Expenses,Business Trip,213.1209741
+Company A,2023,Q1,Actual,Other Operating Expenses,Environmental Cost,2215.182618
+Company A,2023,Q2,Actual,Other Operating Expenses,Environmental Cost,1241
+Company A,2023,Q3,Actual,Other Operating Expenses,Environmental Cost,2034.12
+Company A,2023,Q4,Actual,Other Operating Expenses,Environmental Cost,2095.768333
+Company A,2024,Q1,Actual,Other Operating Expenses,Environmental Cost,2165.42368
+Company A,2024,Q2,Actual,Other Operating Expenses,Environmental Cost,2235.876806
+Company A,2024,Q3,Actual,Other Operating Expenses,Environmental Cost,2323.716636
+Company A,2024,Q4,Actual,Other Operating Expenses,Environmental Cost,2395.277668
+Company A,2025,Q1,Actual,Other Operating Expenses,Environmental Cost,2463.050175
+Company A,2025,Q2,Actual,Other Operating Expenses,Environmental Cost,2543.520456
+Company A,2025,Q3,Actual,Other Operating Expenses,Environmental Cost,2614.3
+Company A,2025,Q4,Actual,Other Operating Expenses,Environmental Cost,2686.717217
+Company A,2023,Q1,Actual,Other Operating Expenses,Write-offs,2736.547692
+Company A,2023,Q2,Actual,Other Operating Expenses,Write-offs,143.8734238
+Company A,2023,Q3,Actual,Other Operating Expenses,Write-offs,101.2528703
+Company A,2023,Q4,Actual,Other Operating Expenses,Write-offs,13885.91113
+Company A,2024,Q1,Actual,Other Operating Expenses,Write-offs,32749.53596
+Company A,2024,Q2,Actual,Other Operating Expenses,Write-offs,3402.736089
+Company A,2024,Q3,Actual,Other Operating Expenses,Write-offs,12534.72712
+Company A,2024,Q4,Actual,Other Operating Expenses,Write-offs,14584.22862
+Company A,2025,Q1,Actual,Other Operating Expenses,Write-offs,18822.37085
+Company A,2025,Q2,Actual,Other Operating Expenses,Write-offs,10284.65046
+Company A,2025,Q3,Actual,Other Operating Expenses,Write-offs,247.5238631
+Company A,2025,Q4,Actual,Other Operating Expenses,Write-offs,2927.0651
+Company A,2023,Q1,Actual,Other Operating Expenses,Taxes & Fees,3221.000413
+Company A,2023,Q2,Actual,Other Operating Expenses,Taxes & Fees,3310.420583
+Company A,2023,Q3,Actual,Other Operating Expenses,Taxes & Fees,3430.806125
+Company A,2023,Q4,Actual,Other Operating Expenses,Taxes & Fees,3548.927806
+Company A,2024,Q1,Actual,Other Operating Expenses,Taxes & Fees,3643.244815
+Company A,2024,Q2,Actual,Other Operating Expenses,Taxes & Fees,3749.336228
+Company A,2024,Q3,Actual,Other Operating Expenses,Taxes & Fees,3855.304807
+Company A,2024,Q4,Actual,Other Operating Expenses,Taxes & Fees,3995.334446
+Company A,2025,Q1,Actual,Other Operating Expenses,Taxes & Fees,4120.18749
+Company A,2025,Q2,Actual,Other Operating Expenses,Taxes & Fees,4269.183052
+Company A,2025,Q3,Actual,Other Operating Expenses,Taxes & Fees,4419.83547
+Company A,2025,Q4,Actual,Other Operating Expenses,Taxes & Fees,4596.483513
+Company A,2023,Q1,Actual,Other Operating Expenses,Health & Safety,946.6692769
+Company A,2023,Q2,Actual,Other Operating Expenses,Health & Safety,972.7059935
+Company A,2023,Q3,Actual,Other Operating Expenses,Health & Safety,1008.821005
+Company A,2023,Q4,Actual,Other Operating Expenses,Health & Safety,1039.392728
+Company A,2024,Q1,Actual,Other Operating Expenses,Health & Safety,1080.79554
+Company A,2024,Q2,Actual,Other Operating Expenses,Health & Safety,1108.150877
+Company A,2024,Q3,Actual,Other Operating Expenses,Health & Safety,1139.251441
+Company A,2024,Q4,Actual,Other Operating Expenses,Health & Safety,1172.459269
+Company A,2025,Q1,Actual,Other Operating Expenses,Health & Safety,1218.291484
+Company A,2025,Q2,Actual,Other Operating Expenses,Health & Safety,1251.646034
+Company A,2025,Q3,Actual,Other Operating Expenses,Health & Safety,1296.340667
+Company A,2025,Q4,Actual,Other Operating Expenses,Health & Safety,1342.73417
