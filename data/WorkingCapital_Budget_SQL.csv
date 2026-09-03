@@ -1,0 +1,37 @@
+﻿CompanyName,Year,Quarter,ScenarioName,WorkingCapitalCategory,WorkingCapitalItem,WorkingCapitalAmount
+Company A,2023,Q1,Budget,Inventory,Total Inventory,180000
+Company A,2023,Q2,Budget,Inventory,Total Inventory,180000
+Company A,2023,Q3,Budget,Inventory,Total Inventory,180000
+Company A,2023,Q4,Budget,Inventory,Total Inventory,180000
+Company A,2024,Q1,Budget,Inventory,Total Inventory,200000
+Company A,2024,Q2,Budget,Inventory,Total Inventory,200000
+Company A,2024,Q3,Budget,Inventory,Total Inventory,200000
+Company A,2024,Q4,Budget,Inventory,Total Inventory,230000
+Company A,2025,Q1,Budget,Inventory,Total Inventory,230000
+Company A,2025,Q2,Budget,Inventory,Total Inventory,230000
+Company A,2025,Q3,Budget,Inventory,Total Inventory,230000
+Company A,2025,Q4,Budget,Inventory,Total Inventory,270000
+Company A,2023,Q1,Budget,Receivables,Total Trade Receivables,110000
+Company A,2023,Q2,Budget,Receivables,Total Trade Receivables,110000
+Company A,2023,Q3,Budget,Receivables,Total Trade Receivables,110000
+Company A,2023,Q4,Budget,Receivables,Total Trade Receivables,150000
+Company A,2024,Q1,Budget,Receivables,Total Trade Receivables,150000
+Company A,2024,Q2,Budget,Receivables,Total Trade Receivables,150000
+Company A,2024,Q3,Budget,Receivables,Total Trade Receivables,150000
+Company A,2024,Q4,Budget,Receivables,Total Trade Receivables,120000
+Company A,2025,Q1,Budget,Receivables,Total Trade Receivables,120000
+Company A,2025,Q2,Budget,Receivables,Total Trade Receivables,150000
+Company A,2025,Q3,Budget,Receivables,Total Trade Receivables,150000
+Company A,2025,Q4,Budget,Receivables,Total Trade Receivables,150000
+Company A,2023,Q1,Budget,Payables,Total Payables,40000
+Company A,2023,Q2,Budget,Payables,Total Payables,40000
+Company A,2023,Q3,Budget,Payables,Total Payables,40000
+Company A,2023,Q4,Budget,Payables,Total Payables,40000
+Company A,2024,Q1,Budget,Payables,Total Payables,40000
+Company A,2024,Q2,Budget,Payables,Total Payables,40000
+Company A,2024,Q3,Budget,Payables,Total Payables,10000
+Company A,2024,Q4,Budget,Payables,Total Payables,10000
+Company A,2025,Q1,Budget,Payables,Total Payables,10000
+Company A,2025,Q2,Budget,Payables,Total Payables,10000
+Company A,2025,Q3,Budget,Payables,Total Payables,10000
+Company A,2025,Q4,Budget,Payables,Total Payables,10000
