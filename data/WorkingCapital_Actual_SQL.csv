@@ -1,37 +1,37 @@
-WorkingCapitalCategory;CompanyName;ScenarioName;Year;Quarter;WorkingCapitalItem;WorkingCapitalAmount
-Inventory;Company A;Actual;2023;Q1;Total Inventory;176213.391
-Inventory;Company A;Actual;2023;Q2;Total Inventory;183797.0496
-Inventory;Company A;Actual;2023;Q3;Total Inventory;188097.335
-Inventory;Company A;Actual;2023;Q4;Total Inventory;195169.8709
-Inventory;Company A;Actual;2024;Q1;Total Inventory;205630.1196
-Inventory;Company A;Actual;2024;Q2;Total Inventory;219371.7268
-Inventory;Company A;Actual;2024;Q3;Total Inventory;213132.1465
-Inventory;Company A;Actual;2024;Q4;Total Inventory;226775.3142
-Inventory;Company A;Actual;2025;Q1;Total Inventory;238177.547
-Inventory;Company A;Actual;2025;Q2;Total Inventory;253364.291
-Inventory;Company A;Actual;2025;Q3;Total Inventory;245838.1228
-Inventory;Company A;Actual;2025;Q4;Total Inventory;262120.2692
-Receivables;Company A;Actual;2023;Q1;Total Trade Receivables;109364.8
-Receivables;Company A;Actual;2023;Q2;Total Trade Receivables;104862.0313
-Receivables;Company A;Actual;2023;Q3;Total Trade Receivables;107460.7078
-Receivables;Company A;Actual;2023;Q4;Total Trade Receivables;144869.3113
-Receivables;Company A;Actual;2024;Q1;Total Trade Receivables;158085.868
-Receivables;Company A;Actual;2024;Q2;Total Trade Receivables;128120.8125
-Receivables;Company A;Actual;2024;Q3;Total Trade Receivables;110365.995
-Receivables;Company A;Actual;2024;Q4;Total Trade Receivables;100237.6218
-Receivables;Company A;Actual;2025;Q1;Total Trade Receivables;143107.0116
-Receivables;Company A;Actual;2025;Q2;Total Trade Receivables;154871.7821
-Receivables;Company A;Actual;2025;Q3;Total Trade Receivables;149712.5657
-Receivables;Company A;Actual;2025;Q4;Total Trade Receivables;150175.7457
-Payables;Company A;Actual;2023;Q1;Total Payables;21185.3898
-Payables;Company A;Actual;2023;Q2;Total Payables;49077.64861
-Payables;Company A;Actual;2023;Q3;Total Payables;6967.967397
-Payables;Company A;Actual;2023;Q4;Total Payables;20990.42785
-Payables;Company A;Actual;2024;Q1;Total Payables;34687.1934
-Payables;Company A;Actual;2024;Q2;Total Payables;36120.43618
-Payables;Company A;Actual;2024;Q3;Total Payables;9803.030223
-Payables;Company A;Actual;2024;Q4;Total Payables;9235
-Payables;Company A;Actual;2025;Q1;Total Payables;10863.81055
-Payables;Company A;Actual;2025;Q2;Total Payables;12568
-Payables;Company A;Actual;2025;Q3;Total Payables;11506
-Payables;Company A;Actual;2025;Q4;Total Payables;14111
+﻿CompanyName,Year,Quarter,ScenarioName,WorkingCapitalCategory,WorkingCapitalItem,WorkingCapitalAmount
+Company A,2023,Q1,Actual,Inventory,Total Inventory,176213.391
+Company A,2023,Q2,Actual,Inventory,Total Inventory,183797.0496
+Company A,2023,Q3,Actual,Inventory,Total Inventory,188097.335
+Company A,2023,Q4,Actual,Inventory,Total Inventory,195169.8709
+Company A,2024,Q1,Actual,Inventory,Total Inventory,205630.1196
+Company A,2024,Q2,Actual,Inventory,Total Inventory,219371.7268
+Company A,2024,Q3,Actual,Inventory,Total Inventory,213132.1465
+Company A,2024,Q4,Actual,Inventory,Total Inventory,226775.3142
+Company A,2025,Q1,Actual,Inventory,Total Inventory,238177.547
+Company A,2025,Q2,Actual,Inventory,Total Inventory,253364.291
+Company A,2025,Q3,Actual,Inventory,Total Inventory,245838.1228
+Company A,2025,Q4,Actual,Inventory,Total Inventory,262120.2692
+Company A,2023,Q1,Actual,Receivables,Total Trade Receivables,109364.8
+Company A,2023,Q2,Actual,Receivables,Total Trade Receivables,104862.0313
+Company A,2023,Q3,Actual,Receivables,Total Trade Receivables,107460.7078
+Company A,2023,Q4,Actual,Receivables,Total Trade Receivables,144869.3113
+Company A,2024,Q1,Actual,Receivables,Total Trade Receivables,158085.868
+Company A,2024,Q2,Actual,Receivables,Total Trade Receivables,128120.8125
+Company A,2024,Q3,Actual,Receivables,Total Trade Receivables,110365.995
+Company A,2024,Q4,Actual,Receivables,Total Trade Receivables,100237.6218
+Company A,2025,Q1,Actual,Receivables,Total Trade Receivables,143107.0116
+Company A,2025,Q2,Actual,Receivables,Total Trade Receivables,154871.7821
+Company A,2025,Q3,Actual,Receivables,Total Trade Receivables,149712.5657
+Company A,2025,Q4,Actual,Receivables,Total Trade Receivables,150175.7457
+Company A,2023,Q1,Actual,Payables,Total Payables,21185.3898
+Company A,2023,Q2,Actual,Payables,Total Payables,49077.64861
+Company A,2023,Q3,Actual,Payables,Total Payables,6967.967397
+Company A,2023,Q4,Actual,Payables,Total Payables,20990.42785
+Company A,2024,Q1,Actual,Payables,Total Payables,34687.1934
+Company A,2024,Q2,Actual,Payables,Total Payables,36120.43618
+Company A,2024,Q3,Actual,Payables,Total Payables,9803.030223
+Company A,2024,Q4,Actual,Payables,Total Payables,9235
+Company A,2025,Q1,Actual,Payables,Total Payables,10863.81055
+Company A,2025,Q2,Actual,Payables,Total Payables,12568
+Company A,2025,Q3,Actual,Payables,Total Payables,11506
+Company A,2025,Q4,Actual,Payables,Total Payables,14111
