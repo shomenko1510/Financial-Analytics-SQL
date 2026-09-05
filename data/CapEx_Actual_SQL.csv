@@ -1,0 +1,61 @@
+﻿CompanyName,Year,Quarter,ScenarioName,CapExCategory,CapExItem,CapExAmount
+Company A,2023,Q1,Actual,Production Equipment,Machinery,6855
+Company A,2023,Q2,Actual,Production Equipment,Machinery,6780
+Company A,2023,Q3,Actual,Production Equipment,Machinery,7290
+Company A,2023,Q4,Actual,Production Equipment,Machinery,4289
+Company A,2024,Q1,Actual,Production Equipment,Machinery,5245
+Company A,2024,Q2,Actual,Production Equipment,Machinery,3450
+Company A,2024,Q3,Actual,Production Equipment,Machinery,3680
+Company A,2024,Q4,Actual,Production Equipment,Machinery,980
+Company A,2025,Q1,Actual,Production Equipment,Machinery,1120
+Company A,2025,Q2,Actual,Production Equipment,Machinery,980
+Company A,2025,Q3,Actual,Production Equipment,Machinery,534
+Company A,2025,Q4,Actual,Production Equipment,Machinery,680
+Company A,2023,Q1,Actual,Production Equipment,Tools,472
+Company A,2023,Q2,Actual,Production Equipment,Tools,563
+Company A,2023,Q3,Actual,Production Equipment,Tools,607
+Company A,2023,Q4,Actual,Production Equipment,Tools,3560
+Company A,2024,Q1,Actual,Production Equipment,Tools,3670
+Company A,2024,Q2,Actual,Production Equipment,Tools,4110
+Company A,2024,Q3,Actual,Production Equipment,Tools,4378
+Company A,2024,Q4,Actual,Production Equipment,Tools,794
+Company A,2025,Q1,Actual,Production Equipment,Tools,980
+Company A,2025,Q2,Actual,Production Equipment,Tools,967
+Company A,2025,Q3,Actual,Production Equipment,Tools,1230
+Company A,2025,Q4,Actual,Production Equipment,Tools,1340
+Company A,2023,Q1,Actual,Infrastructure,Building,5001
+Company A,2023,Q2,Actual,Infrastructure,Building,5106
+Company A,2023,Q3,Actual,Infrastructure,Building,3490
+Company A,2023,Q4,Actual,Infrastructure,Building,42160
+Company A,2024,Q1,Actual,Infrastructure,Building,41539
+Company A,2024,Q2,Actual,Infrastructure,Building,36789
+Company A,2024,Q3,Actual,Infrastructure,Building,39567
+Company A,2024,Q4,Actual,Infrastructure,Building,6136
+Company A,2025,Q1,Actual,Infrastructure,Building,5890
+Company A,2025,Q2,Actual,Infrastructure,Building,6100
+Company A,2025,Q3,Actual,Infrastructure,Building,5788
+Company A,2025,Q4,Actual,Infrastructure,Building,5899
+Company A,2023,Q1,Actual,IT,Hardware,1202
+Company A,2023,Q2,Actual,IT,Hardware,800
+Company A,2023,Q3,Actual,IT,Hardware,893
+Company A,2023,Q4,Actual,IT,Hardware,1675
+Company A,2024,Q1,Actual,IT,Hardware,2109
+Company A,2024,Q2,Actual,IT,Hardware,1670
+Company A,2024,Q3,Actual,IT,Hardware,1670
+Company A,2024,Q4,Actual,IT,Hardware,1970
+Company A,2025,Q1,Actual,IT,Hardware,1671
+Company A,2025,Q2,Actual,IT,Hardware,1489
+Company A,2025,Q3,Actual,IT,Hardware,1764
+Company A,2025,Q4,Actual,IT,Hardware,1378
+Company A,2023,Q1,Actual,Other,Other CapEx,839
+Company A,2023,Q2,Actual,Other,Other CapEx,1350
+Company A,2023,Q3,Actual,Other,Other CapEx,1480
+Company A,2023,Q4,Actual,Other,Other CapEx,1890
+Company A,2024,Q1,Actual,Other,Other CapEx,2045
+Company A,2024,Q2,Actual,Other,Other CapEx,1980
+Company A,2024,Q3,Actual,Other,Other CapEx,2131
+Company A,2024,Q4,Actual,Other,Other CapEx,3890
+Company A,2025,Q1,Actual,Other,Other CapEx,3990
+Company A,2025,Q2,Actual,Other,Other CapEx,3890
+Company A,2025,Q3,Actual,Other,Other CapEx,4567
+Company A,2025,Q4,Actual,Other,Other CapEx,5763
