@@ -4,8 +4,8 @@ INSERT INTO dbo.DimCapEx
     CapExItem
 )
 VALUES
-    ('Production Eqipment', 'Machinery'),
-    ('Production Eqipment', 'Tools'),
+    ('Production Equipment', 'Machinery'),
+    ('Production Equipment', 'Tools'),
     ('Infrastructure', 'Building'),
     ('IT', 'Hardware'),
     ('Other', 'Other CapEx');
