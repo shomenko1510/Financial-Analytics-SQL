@@ -16,20 +16,21 @@ BEGIN
         16,
         1
     );
-    RETURN;
-END;
-GO
+END
+ELSE
+BEGIN
 
-BULK INSERT dbo.StgCapEx
-FROM 'D:\GitHub\Financial-Analytics-SQL\data\CapEx_Actual_SQL.csv'
-WITH
-(
+    BULK INSERT dbo.StgCapEx
+    FROM 'D:\GitHub\Financial-Analytics-SQL\data\CapEx_Actual_SQL.csv'
+    WITH
+    (
         FIRSTROW = 2,
         FIELDTERMINATOR = ',',
         ROWTERMINATOR = '0x0a',
         CODEPAGE = '65001',
         TABLOCK
-);
+    );
+END;
 GO
 
 SELECT

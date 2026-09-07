@@ -46,7 +46,7 @@ SELECT
     P.[Year],
     P.[Quarter],
     S.ScenarioName,
-    COUNT(*) AS CauntRows,
+    COUNT(*) AS CountRows,
     SUM(FC.CapAmount) AS TotalCapExAmount
 FROM dbo.FactCapEx AS FC
 
