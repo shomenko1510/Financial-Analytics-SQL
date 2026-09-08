@@ -1,0 +1,73 @@
+﻿CompanyName,Year,Quarter,ScenarioName,DebtMetricName,DebtMatricValue
+Company A,2023,Q1,Actual,Opening Loan Balance,0
+Company A,2023,Q2,Actual,Opening Loan Balance,12000
+Company A,2023,Q3,Actual,Opening Loan Balance,0
+Company A,2023,Q4,Actual,Opening Loan Balance,0
+Company A,2024,Q1,Actual,Opening Loan Balance,2000
+Company A,2024,Q2,Actual,Opening Loan Balance,24000
+Company A,2024,Q3,Actual,Opening Loan Balance,28000
+Company A,2024,Q4,Actual,Opening Loan Balance,42000
+Company A,2025,Q1,Actual,Opening Loan Balance,42000
+Company A,2025,Q2,Actual,Opening Loan Balance,32000
+Company A,2025,Q3,Actual,Opening Loan Balance,0
+Company A,2025,Q4,Actual,Opening Loan Balance,0
+Company A,2023,Q1,Actual,Loan Drawdown,12000
+Company A,2023,Q2,Actual,Loan Drawdown,0
+Company A,2023,Q3,Actual,Loan Drawdown,0
+Company A,2023,Q4,Actual,Loan Drawdown,2000
+Company A,2024,Q1,Actual,Loan Drawdown,22000
+Company A,2024,Q2,Actual,Loan Drawdown,4000
+Company A,2024,Q3,Actual,Loan Drawdown,14000
+Company A,2024,Q4,Actual,Loan Drawdown,0
+Company A,2025,Q1,Actual,Loan Drawdown,0
+Company A,2025,Q2,Actual,Loan Drawdown,0
+Company A,2025,Q3,Actual,Loan Drawdown,0
+Company A,2025,Q4,Actual,Loan Drawdown,0
+Company A,2023,Q1,Actual,Loan Repayment,0
+Company A,2023,Q2,Actual,Loan Repayment,12000
+Company A,2023,Q3,Actual,Loan Repayment,0
+Company A,2023,Q4,Actual,Loan Repayment,0
+Company A,2024,Q1,Actual,Loan Repayment,0
+Company A,2024,Q2,Actual,Loan Repayment,0
+Company A,2024,Q3,Actual,Loan Repayment,0
+Company A,2024,Q4,Actual,Loan Repayment,0
+Company A,2025,Q1,Actual,Loan Repayment,10000
+Company A,2025,Q2,Actual,Loan Repayment,32000
+Company A,2025,Q3,Actual,Loan Repayment,0
+Company A,2025,Q4,Actual,Loan Repayment,0
+Company A,2023,Q1,Actual,Closing Loan Balance,12000
+Company A,2023,Q2,Actual,Closing Loan Balance,0
+Company A,2023,Q3,Actual,Closing Loan Balance,0
+Company A,2023,Q4,Actual,Closing Loan Balance,2000
+Company A,2024,Q1,Actual,Closing Loan Balance,24000
+Company A,2024,Q2,Actual,Closing Loan Balance,28000
+Company A,2024,Q3,Actual,Closing Loan Balance,42000
+Company A,2024,Q4,Actual,Closing Loan Balance,42000
+Company A,2025,Q1,Actual,Closing Loan Balance,32000
+Company A,2025,Q2,Actual,Closing Loan Balance,0
+Company A,2025,Q3,Actual,Closing Loan Balance,0
+Company A,2025,Q4,Actual,Closing Loan Balance,0
+Company A,2023,Q1,Actual,Interest Rate,0.19
+Company A,2023,Q2,Actual,Interest Rate,0.19
+Company A,2023,Q3,Actual,Interest Rate,0.19
+Company A,2023,Q4,Actual,Interest Rate,0.19
+Company A,2024,Q1,Actual,Interest Rate,0.19
+Company A,2024,Q2,Actual,Interest Rate,0.19
+Company A,2024,Q3,Actual,Interest Rate,0.19
+Company A,2024,Q4,Actual,Interest Rate,0.19
+Company A,2025,Q1,Actual,Interest Rate,0.19
+Company A,2025,Q2,Actual,Interest Rate,0.19
+Company A,2025,Q3,Actual,Interest Rate,0.19
+Company A,2025,Q4,Actual,Interest Rate,0.19
+Company A,2023,Q1,Actual,Interest Expense,1140
+Company A,2023,Q2,Actual,Interest Expense,1140
+Company A,2023,Q3,Actual,Interest Expense,0
+Company A,2023,Q4,Actual,Interest Expense,190
+Company A,2024,Q1,Actual,Interest Expense,2470
+Company A,2024,Q2,Actual,Interest Expense,4940
+Company A,2024,Q3,Actual,Interest Expense,6650
+Company A,2024,Q4,Actual,Interest Expense,7980
+Company A,2025,Q1,Actual,Interest Expense,7030
+Company A,2025,Q2,Actual,Interest Expense,3040
+Company A,2025,Q3,Actual,Interest Expense,0
+Company A,2025,Q4,Actual,Interest Expense,0
