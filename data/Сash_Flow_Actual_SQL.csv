@@ -1,0 +1,385 @@
+﻿CompanyName,Year,Quarter,ScenarioName,IndicatorName,Amount
+Company A,2023,Q1,Actual,Opening Cash Balance,9007.353984
+Company A,2023,Q2,Actual,Opening Cash Balance,970.1140126
+Company A,2023,Q3,Actual,Opening Cash Balance,69128.3789
+Company A,2023,Q4,Actual,Opening Cash Balance,61973.06668
+Company A,2024,Q1,Actual,Opening Cash Balance,3377.119896
+Company A,2024,Q2,Actual,Opening Cash Balance,3199.722475
+Company A,2024,Q3,Actual,Opening Cash Balance,36410.41129
+Company A,2024,Q4,Actual,Opening Cash Balance,9217.393036
+Company A,2025,Q1,Actual,Opening Cash Balance,49978.59945
+Company A,2025,Q2,Actual,Opening Cash Balance,32938.5891
+Company A,2025,Q3,Actual,Opening Cash Balance,51467.687
+Company A,2025,Q4,Actual,Opening Cash Balance,106260.3687
+Company A,2023,Q1,Actual,Revenue (excl. VAT),244562.4987
+Company A,2023,Q2,Actual,Revenue (excl. VAT),321836.1165
+Company A,2023,Q3,Actual,Revenue (excl. VAT),251700.5841
+Company A,2023,Q4,Actual,Revenue (excl. VAT),216272.405
+Company A,2024,Q1,Actual,Revenue (excl. VAT),288852.4484
+Company A,2024,Q2,Actual,Revenue (excl. VAT),319230.1996
+Company A,2024,Q3,Actual,Revenue (excl. VAT),276102.0046
+Company A,2024,Q4,Actual,Revenue (excl. VAT),202930.225
+Company A,2025,Q1,Actual,Revenue (excl. VAT),325847.183
+Company A,2025,Q2,Actual,Revenue (excl. VAT),438334.634
+Company A,2025,Q3,Actual,Revenue (excl. VAT),285642.5716
+Company A,2025,Q4,Actual,Revenue (excl. VAT),257525.8384
+Company A,2023,Q1,Actual,COGS (excl.VAT),168385.5068
+Company A,2023,Q2,Actual,COGS (excl.VAT),211331.0042
+Company A,2023,Q3,Actual,COGS (excl.VAT),160344.729
+Company A,2023,Q4,Actual,COGS (excl.VAT),144339.0602
+Company A,2024,Q1,Actual,COGS (excl.VAT),191698.5019
+Company A,2024,Q2,Actual,COGS (excl.VAT),211024.6055
+Company A,2024,Q3,Actual,COGS (excl.VAT),189879.1008
+Company A,2024,Q4,Actual,COGS (excl.VAT),112030.2381
+Company A,2025,Q1,Actual,COGS (excl.VAT),205839.8149
+Company A,2025,Q2,Actual,COGS (excl.VAT),289710.1556
+Company A,2025,Q3,Actual,COGS (excl.VAT),188660.3239
+Company A,2025,Q4,Actual,COGS (excl.VAT),159476.1568
+Company A,2023,Q1,Actual,Gross Profit,76176.99185
+Company A,2023,Q2,Actual,Gross Profit,110505.1123
+Company A,2023,Q3,Actual,Gross Profit,91355.8551
+Company A,2023,Q4,Actual,Gross Profit,71933.34474
+Company A,2024,Q1,Actual,Gross Profit,97153.94649
+Company A,2024,Q2,Actual,Gross Profit,108205.5941
+Company A,2024,Q3,Actual,Gross Profit,86222.9038
+Company A,2024,Q4,Actual,Gross Profit,90899.98694
+Company A,2025,Q1,Actual,Gross Profit,120007.368
+Company A,2025,Q2,Actual,Gross Profit,148624.4784
+Company A,2025,Q3,Actual,Gross Profit,96982.24764
+Company A,2025,Q4,Actual,Gross Profit,98049.68165
+Company A,2023,Q1,Actual,Other Operating Income,7124.771644
+Company A,2023,Q2,Actual,Other Operating Income,7284.96048
+Company A,2023,Q3,Actual,Other Operating Income,12710.12818
+Company A,2023,Q4,Actual,Other Operating Income,15390.55945
+Company A,2024,Q1,Actual,Other Operating Income,29039.31501
+Company A,2024,Q2,Actual,Other Operating Income,7776.383569
+Company A,2024,Q3,Actual,Other Operating Income,13914.01675
+Company A,2024,Q4,Actual,Other Operating Income,48525.17742
+Company A,2025,Q1,Actual,Other Operating Income,19263.81327
+Company A,2025,Q2,Actual,Other Operating Income,13773.09031
+Company A,2025,Q3,Actual,Other Operating Income,11387.52708
+Company A,2025,Q4,Actual,Other Operating Income,14025.0183
+Company A,2023,Q1,Actual,Administrative Expenses,5077.403947
+Company A,2023,Q2,Actual,Administrative Expenses,5292.059843
+Company A,2023,Q3,Actual,Administrative Expenses,5445.885424
+Company A,2023,Q4,Actual,Administrative Expenses,5947.981764
+Company A,2024,Q1,Actual,Administrative Expenses,6276.193638
+Company A,2024,Q2,Actual,Administrative Expenses,6158.1913
+Company A,2024,Q3,Actual,Administrative Expenses,6262.914822
+Company A,2024,Q4,Actual,Administrative Expenses,6849.63074
+Company A,2025,Q1,Actual,Administrative Expenses,6976.564941
+Company A,2025,Q2,Actual,Administrative Expenses,7389.38937
+Company A,2025,Q3,Actual,Administrative Expenses,7633.535489
+Company A,2025,Q4,Actual,Administrative Expenses,7850.917852
+Company A,2023,Q1,Actual,Selling Expenses,22118.18578
+Company A,2023,Q2,Actual,Selling Expenses,22270.87705
+Company A,2023,Q3,Actual,Selling Expenses,18925.53984
+Company A,2023,Q4,Actual,Selling Expenses,17371.46589
+Company A,2024,Q1,Actual,Selling Expenses,27549.32925
+Company A,2024,Q2,Actual,Selling Expenses,25308.56294
+Company A,2024,Q3,Actual,Selling Expenses,19790.53669
+Company A,2024,Q4,Actual,Selling Expenses,11919.09392
+Company A,2025,Q1,Actual,Selling Expenses,29448.34128
+Company A,2025,Q2,Actual,Selling Expenses,28097.44545
+Company A,2025,Q3,Actual,Selling Expenses,21039.85272
+Company A,2025,Q4,Actual,Selling Expenses,18429.03243
+Company A,2023,Q1,Actual,Other Operating Expenses,9119.4
+Company A,2023,Q2,Actual,Other Operating Expenses,5668
+Company A,2023,Q3,Actual,Other Operating Expenses,6575
+Company A,2023,Q4,Actual,Other Operating Expenses,20570
+Company A,2024,Q1,Actual,Other Operating Expenses,39639
+Company A,2024,Q2,Actual,Other Operating Expenses,10496.1
+Company A,2024,Q3,Actual,Other Operating Expenses,19853
+Company A,2024,Q4,Actual,Other Operating Expenses,22147.3
+Company A,2025,Q1,Actual,Other Operating Expenses,26623.9
+Company A,2025,Q2,Actual,Other Operating Expenses,18349
+Company A,2025,Q3,Actual,Other Operating Expenses,8578
+Company A,2025,Q4,Actual,Other Operating Expenses,11553
+Company A,2023,Q1,Actual,Depreciation,12527
+Company A,2023,Q2,Actual,Depreciation,15744
+Company A,2023,Q3,Actual,Depreciation,16382
+Company A,2023,Q4,Actual,Depreciation,16988
+Company A,2024,Q1,Actual,Depreciation,16110
+Company A,2024,Q2,Actual,Depreciation,16780
+Company A,2024,Q3,Actual,Depreciation,17012
+Company A,2024,Q4,Actual,Depreciation,16950
+Company A,2025,Q1,Actual,Depreciation,16830
+Company A,2025,Q2,Actual,Depreciation,16780
+Company A,2025,Q3,Actual,Depreciation,16934
+Company A,2025,Q4,Actual,Depreciation,16750
+Company A,2023,Q1,Actual,Other Financial Income,12.1
+Company A,2023,Q2,Actual,Other Financial Income,3.12
+Company A,2023,Q3,Actual,Other Financial Income,1.91
+Company A,2023,Q4,Actual,Other Financial Income,0
+Company A,2024,Q1,Actual,Other Financial Income,0
+Company A,2024,Q2,Actual,Other Financial Income,0
+Company A,2024,Q3,Actual,Other Financial Income,0
+Company A,2024,Q4,Actual,Other Financial Income,8
+Company A,2025,Q1,Actual,Other Financial Income,20
+Company A,2025,Q2,Actual,Other Financial Income,22
+Company A,2025,Q3,Actual,Other Financial Income,15.3
+Company A,2025,Q4,Actual,Other Financial Income,18.6
+Company A,2023,Q1,Actual,Financial Expenses,1140
+Company A,2023,Q2,Actual,Financial Expenses,1140
+Company A,2023,Q3,Actual,Financial Expenses,0
+Company A,2023,Q4,Actual,Financial Expenses,190
+Company A,2024,Q1,Actual,Financial Expenses,2470
+Company A,2024,Q2,Actual,Financial Expenses,4940
+Company A,2024,Q3,Actual,Financial Expenses,6650
+Company A,2024,Q4,Actual,Financial Expenses,7980
+Company A,2025,Q1,Actual,Financial Expenses,7030
+Company A,2025,Q2,Actual,Financial Expenses,3040
+Company A,2025,Q3,Actual,Financial Expenses,0
+Company A,2025,Q4,Actual,Financial Expenses,0
+Company A,2023,Q1,Actual,Other Expenses,570.2357649
+Company A,2023,Q2,Actual,Other Expenses,39.49763529
+Company A,2023,Q3,Actual,Other Expenses,17.39525726
+Company A,2023,Q4,Actual,Other Expenses,67.18839162
+Company A,2024,Q1,Actual,Other Expenses,61.5878181
+Company A,2024,Q2,Actual,Other Expenses,26.76718265
+Company A,2024,Q3,Actual,Other Expenses,22.80515206
+Company A,2024,Q4,Actual,Other Expenses,68.60056688
+Company A,2025,Q1,Actual,Other Expenses,11.2890303
+Company A,2025,Q2,Actual,Other Expenses,75.66747432
+Company A,2025,Q3,Actual,Other Expenses,13.04780246
+Company A,2025,Q4,Actual,Other Expenses,15.72405867
+Company A,2023,Q1,Actual,Other Income,0
+Company A,2023,Q2,Actual,Other Income,0
+Company A,2023,Q3,Actual,Other Income,0
+Company A,2023,Q4,Actual,Other Income,0
+Company A,2024,Q1,Actual,Other Income,220.1
+Company A,2024,Q2,Actual,Other Income,35
+Company A,2024,Q3,Actual,Other Income,178
+Company A,2024,Q4,Actual,Other Income,0
+Company A,2025,Q1,Actual,Other Income,0
+Company A,2025,Q2,Actual,Other Income,0
+Company A,2025,Q3,Actual,Other Income,0
+Company A,2025,Q4,Actual,Other Income,0
+Company A,2023,Q1,Actual,Profit Before Tax,32761.638
+Company A,2023,Q2,Actual,Profit Before Tax,67638.75823
+Company A,2023,Q3,Actual,Profit Before Tax,56722.07276
+Company A,2023,Q4,Actual,Profit Before Tax,26189.26815
+Company A,2024,Q1,Actual,Profit Before Tax,34307.25079
+Company A,2024,Q2,Actual,Profit Before Tax,52307.35623
+Company A,2024,Q3,Actual,Profit Before Tax,30723.66388
+Company A,2024,Q4,Actual,Profit Before Tax,73518.53913
+Company A,2025,Q1,Actual,Profit Before Tax,52371.08602
+Company A,2025,Q2,Actual,Profit Before Tax,88688.06639
+Company A,2025,Q3,Actual,Profit Before Tax,54186.63871
+Company A,2025,Q4,Actual,Profit Before Tax,57494.6256
+Company A,2023,Q1,Actual,Income Tax,5897.09484
+Company A,2023,Q2,Actual,Income Tax,12174.97648
+Company A,2023,Q3,Actual,Income Tax,10209.9731
+Company A,2023,Q4,Actual,Income Tax,4714.068266
+Company A,2024,Q1,Actual,Income Tax,6175.305142
+Company A,2024,Q2,Actual,Income Tax,9415.324121
+Company A,2024,Q3,Actual,Income Tax,5530.259498
+Company A,2024,Q4,Actual,Income Tax,13233.33704
+Company A,2025,Q1,Actual,Income Tax,9426.795484
+Company A,2025,Q2,Actual,Income Tax,15963.85195
+Company A,2025,Q3,Actual,Income Tax,9753.594967
+Company A,2025,Q4,Actual,Income Tax,10349.03261
+Company A,2023,Q1,Actual,Net Profit,26864.54316
+Company A,2023,Q2,Actual,Net Profit,55463.78175
+Company A,2023,Q3,Actual,Net Profit,46512.09966
+Company A,2023,Q4,Actual,Net Profit,21475.19988
+Company A,2024,Q1,Actual,Net Profit,28131.94565
+Company A,2024,Q2,Actual,Net Profit,42892.03211
+Company A,2024,Q3,Actual,Net Profit,25193.40438
+Company A,2024,Q4,Actual,Net Profit,60285.20208
+Company A,2025,Q1,Actual,Net Profit,42944.29054
+Company A,2025,Q2,Actual,Net Profit,72724.21444
+Company A,2025,Q3,Actual,Net Profit,44433.04374
+Company A,2025,Q4,Actual,Net Profit,47145.593
+Company A,2023,Q1,Actual,Change in Inventory,8070.438339
+Company A,2023,Q2,Actual,Change in Inventory,7583.658615
+Company A,2023,Q3,Actual,Change in Inventory,4300.285346
+Company A,2023,Q4,Actual,Change in Inventory,7072.535895
+Company A,2024,Q1,Actual,Change in Inventory,10460.24871
+Company A,2024,Q2,Actual,Change in Inventory,13741.60719
+Company A,2024,Q3,Actual,Change in Inventory,-6239.580326
+Company A,2024,Q4,Actual,Change in Inventory,13643.1677
+Company A,2025,Q1,Actual,Change in Inventory,11402.23287
+Company A,2025,Q2,Actual,Change in Inventory,15186.74395
+Company A,2025,Q3,Actual,Change in Inventory,-7526.168191
+Company A,2025,Q4,Actual,Change in Inventory,16282.14644
+Company A,2023,Q1,Actual,Change in Trade Receivables,200.0689041
+Company A,2023,Q2,Actual,Change in Trade Receivables,-4502.768724
+Company A,2023,Q3,Actual,Change in Trade Receivables,2598.676556
+Company A,2023,Q4,Actual,Change in Trade Receivables,37408.60351
+Company A,2024,Q1,Actual,Change in Trade Receivables,13216.55668
+Company A,2024,Q2,Actual,Change in Trade Receivables,-29965.05549
+Company A,2024,Q3,Actual,Change in Trade Receivables,-17754.81755
+Company A,2024,Q4,Actual,Change in Trade Receivables,-10128.37321
+Company A,2025,Q1,Actual,Change in Trade Receivables,42869.38984
+Company A,2025,Q2,Actual,Change in Trade Receivables,11764.77047
+Company A,2025,Q3,Actual,Change in Trade Receivables,-5159.216356
+Company A,2025,Q4,Actual,Change in Trade Receivables,463.1799284
+Company A,2023,Q1,Actual,Change in Trade Payables,-33797.14549
+Company A,2023,Q2,Actual,Change in Trade Payables,27892.2588
+Company A,2023,Q3,Actual,Change in Trade Payables,-42109.68121
+Company A,2023,Q4,Actual,Change in Trade Payables,14022.46045
+Company A,2024,Q1,Actual,Change in Trade Payables,13696.76555
+Company A,2024,Q2,Actual,Change in Trade Payables,1433.242782
+Company A,2024,Q3,Actual,Change in Trade Payables,-26317.40596
+Company A,2024,Q4,Actual,Change in Trade Payables,-568.030223
+Company A,2025,Q1,Actual,Change in Trade Payables,1628.810551
+Company A,2025,Q2,Actual,Change in Trade Payables,1704.189449
+Company A,2025,Q3,Actual,Change in Trade Payables,-1062
+Company A,2025,Q4,Actual,Change in Trade Payables,2605
+Company A,2023,Q1,Actual,Operating Cash Flow,-5884.891953
+Company A,2023,Q2,Actual,Operating Cash Flow,90122.05583
+Company A,2023,Q3,Actual,Operating Cash Flow,1710.48007
+Company A,2023,Q4,Actual,Operating Cash Flow,-2205.452174
+Company A,2024,Q1,Actual,Operating Cash Flow,29547.83755
+Company A,2024,Q2,Actual,Operating Cash Flow,71153.41805
+Company A,2024,Q3,Actual,Operating Cash Flow,30467.07218
+Company A,2024,Q4,Actual,Operating Cash Flow,67622.11787
+Company A,2025,Q1,Actual,Operating Cash Flow,-6101.858659
+Company A,2025,Q2,Actual,Operating Cash Flow,54830.09398
+Company A,2025,Q3,Actual,Operating Cash Flow,57026.57634
+Company A,2025,Q4,Actual,Operating Cash Flow,40001.67166
+Company A,2023,Q1,Actual,Capital Expenditures,14152.34802
+Company A,2023,Q2,Actual,Capital Expenditures,9963.790941
+Company A,2023,Q3,Actual,Capital Expenditures,8865.79229
+Company A,2023,Q4,Actual,Capital Expenditures,58390.49461
+Company A,2024,Q1,Actual,Capital Expenditures,51725.23497
+Company A,2024,Q2,Actual,Capital Expenditures,41942.72923
+Company A,2024,Q3,Actual,Capital Expenditures,71660.09043
+Company A,2024,Q4,Actual,Capital Expenditures,26860.91146
+Company A,2025,Q1,Actual,Capital Expenditures,938.1516895
+Company A,2025,Q2,Actual,Capital Expenditures,4300.996079
+Company A,2025,Q3,Actual,Capital Expenditures,2233.894611
+Company A,2025,Q4,Actual,Capital Expenditures,296.3111208
+Company A,2023,Q1,Actual,Cash Flow from Investing Activities,-14152.34802
+Company A,2023,Q2,Actual,Cash Flow from Investing Activities,-9963.790941
+Company A,2023,Q3,Actual,Cash Flow from Investing Activities,-8865.79229
+Company A,2023,Q4,Actual,Cash Flow from Investing Activities,-58390.49461
+Company A,2024,Q1,Actual,Cash Flow from Investing Activities,-51725.23497
+Company A,2024,Q2,Actual,Cash Flow from Investing Activities,-41942.72923
+Company A,2024,Q3,Actual,Cash Flow from Investing Activities,-71660.09043
+Company A,2024,Q4,Actual,Cash Flow from Investing Activities,-26860.91146
+Company A,2025,Q1,Actual,Cash Flow from Investing Activities,-938.1516895
+Company A,2025,Q2,Actual,Cash Flow from Investing Activities,-4300.996079
+Company A,2025,Q3,Actual,Cash Flow from Investing Activities,-2233.894611
+Company A,2025,Q4,Actual,Cash Flow from Investing Activities,-296.3111208
+Company A,2023,Q1,Actual,Charge in Share Capital,0
+Company A,2023,Q2,Actual,Charge in Share Capital,0
+Company A,2023,Q3,Actual,Charge in Share Capital,0
+Company A,2023,Q4,Actual,Charge in Share Capital,0
+Company A,2024,Q1,Actual,Charge in Share Capital,0
+Company A,2024,Q2,Actual,Charge in Share Capital,0
+Company A,2024,Q3,Actual,Charge in Share Capital,0
+Company A,2024,Q4,Actual,Charge in Share Capital,0
+Company A,2025,Q1,Actual,Charge in Share Capital,0
+Company A,2025,Q2,Actual,Charge in Share Capital,0
+Company A,2025,Q3,Actual,Charge in Share Capital,0
+Company A,2025,Q4,Actual,Charge in Share Capital,0
+Company A,2023,Q1,Actual,Target Financing,0
+Company A,2023,Q2,Actual,Target Financing,0
+Company A,2023,Q3,Actual,Target Financing,0
+Company A,2023,Q4,Actual,Target Financing,0
+Company A,2024,Q1,Actual,Target Financing,0
+Company A,2024,Q2,Actual,Target Financing,0
+Company A,2024,Q3,Actual,Target Financing,0
+Company A,2024,Q4,Actual,Target Financing,0
+Company A,2025,Q1,Actual,Target Financing,0
+Company A,2025,Q2,Actual,Target Financing,0
+Company A,2025,Q3,Actual,Target Financing,0
+Company A,2025,Q4,Actual,Target Financing,0
+Company A,2023,Q1,Actual,Loans from Shareholders,0
+Company A,2023,Q2,Actual,Loans from Shareholders,0
+Company A,2023,Q3,Actual,Loans from Shareholders,0
+Company A,2023,Q4,Actual,Loans from Shareholders,0
+Company A,2024,Q1,Actual,Loans from Shareholders,0
+Company A,2024,Q2,Actual,Loans from Shareholders,0
+Company A,2024,Q3,Actual,Loans from Shareholders,0
+Company A,2024,Q4,Actual,Loans from Shareholders,0
+Company A,2025,Q1,Actual,Loans from Shareholders,0
+Company A,2025,Q2,Actual,Loans from Shareholders,0
+Company A,2025,Q3,Actual,Loans from Shareholders,0
+Company A,2025,Q4,Actual,Loans from Shareholders,0
+Company A,2023,Q1,Actual,Prepayment of Sharholders Loans,0
+Company A,2023,Q2,Actual,Prepayment of Sharholders Loans,0
+Company A,2023,Q3,Actual,Prepayment of Sharholders Loans,0
+Company A,2023,Q4,Actual,Prepayment of Sharholders Loans,0
+Company A,2024,Q1,Actual,Prepayment of Sharholders Loans,0
+Company A,2024,Q2,Actual,Prepayment of Sharholders Loans,0
+Company A,2024,Q3,Actual,Prepayment of Sharholders Loans,0
+Company A,2024,Q4,Actual,Prepayment of Sharholders Loans,0
+Company A,2025,Q1,Actual,Prepayment of Sharholders Loans,0
+Company A,2025,Q2,Actual,Prepayment of Sharholders Loans,0
+Company A,2025,Q3,Actual,Prepayment of Sharholders Loans,0
+Company A,2025,Q4,Actual,Prepayment of Sharholders Loans,0
+Company A,2023,Q1,Actual,Proceeds from Borrowings,12000
+Company A,2023,Q2,Actual,Proceeds from Borrowings,0
+Company A,2023,Q3,Actual,Proceeds from Borrowings,0
+Company A,2023,Q4,Actual,Proceeds from Borrowings,2000
+Company A,2024,Q1,Actual,Proceeds from Borrowings,22000
+Company A,2024,Q2,Actual,Proceeds from Borrowings,4000
+Company A,2024,Q3,Actual,Proceeds from Borrowings,14000
+Company A,2024,Q4,Actual,Proceeds from Borrowings,0
+Company A,2025,Q1,Actual,Proceeds from Borrowings,0
+Company A,2025,Q2,Actual,Proceeds from Borrowings,0
+Company A,2025,Q3,Actual,Proceeds from Borrowings,0
+Company A,2025,Q4,Actual,Proceeds from Borrowings,0
+Company A,2023,Q1,Actual,Repayment of Borrowings,0
+Company A,2023,Q2,Actual,Repayment of Borrowings,12000
+Company A,2023,Q3,Actual,Repayment of Borrowings,0
+Company A,2023,Q4,Actual,Repayment of Borrowings,0
+Company A,2024,Q1,Actual,Repayment of Borrowings,0
+Company A,2024,Q2,Actual,Repayment of Borrowings,0
+Company A,2024,Q3,Actual,Repayment of Borrowings,0
+Company A,2024,Q4,Actual,Repayment of Borrowings,0
+Company A,2025,Q1,Actual,Repayment of Borrowings,10000
+Company A,2025,Q2,Actual,Repayment of Borrowings,32000
+Company A,2025,Q3,Actual,Repayment of Borrowings,0
+Company A,2025,Q4,Actual,Repayment of Borrowings,0
+Company A,2023,Q1,Actual,Other,0
+Company A,2023,Q2,Actual,Other,0
+Company A,2023,Q3,Actual,Other,0
+Company A,2023,Q4,Actual,Other,0
+Company A,2024,Q1,Actual,Other,0
+Company A,2024,Q2,Actual,Other,0
+Company A,2024,Q3,Actual,Other,0
+Company A,2024,Q4,Actual,Other,0
+Company A,2025,Q1,Actual,Other,0
+Company A,2025,Q2,Actual,Other,0
+Company A,2025,Q3,Actual,Other,0
+Company A,2025,Q4,Actual,Other,0
+Company A,2023,Q1,Actual,Cash Flow from Financing Activities,12000
+Company A,2023,Q2,Actual,Cash Flow from Financing Activities,-12000
+Company A,2023,Q3,Actual,Cash Flow from Financing Activities,0
+Company A,2023,Q4,Actual,Cash Flow from Financing Activities,2000
+Company A,2024,Q1,Actual,Cash Flow from Financing Activities,22000
+Company A,2024,Q2,Actual,Cash Flow from Financing Activities,4000
+Company A,2024,Q3,Actual,Cash Flow from Financing Activities,14000
+Company A,2024,Q4,Actual,Cash Flow from Financing Activities,0
+Company A,2025,Q1,Actual,Cash Flow from Financing Activities,-10000
+Company A,2025,Q2,Actual,Cash Flow from Financing Activities,-32000
+Company A,2025,Q3,Actual,Cash Flow from Financing Activities,0
+Company A,2025,Q4,Actual,Cash Flow from Financing Activities,0
+Company A,2023,Q1,Actual,Net Cash Flow,-8037.239972
+Company A,2023,Q2,Actual,Net Cash Flow,68158.26489
+Company A,2023,Q3,Actual,Net Cash Flow,-7155.31222
+Company A,2023,Q4,Actual,Net Cash Flow,-58595.94678
+Company A,2024,Q1,Actual,Net Cash Flow,-177.397421
+Company A,2024,Q2,Actual,Net Cash Flow,33210.68882
+Company A,2024,Q3,Actual,Net Cash Flow,-27193.01826
+Company A,2024,Q4,Actual,Net Cash Flow,40761.20641
+Company A,2025,Q1,Actual,Net Cash Flow,-17040.01035
+Company A,2025,Q2,Actual,Net Cash Flow,18529.0979
+Company A,2025,Q3,Actual,Net Cash Flow,54792.68173
+Company A,2025,Q4,Actual,Net Cash Flow,39705.36054
+Company A,2023,Q1,Actual,Closing Cash Balance,970.1140126
+Company A,2023,Q2,Actual,Closing Cash Balance,69128.3789
+Company A,2023,Q3,Actual,Closing Cash Balance,61973.06668
+Company A,2023,Q4,Actual,Closing Cash Balance,3377.119896
+Company A,2024,Q1,Actual,Closing Cash Balance,3199.722475
+Company A,2024,Q2,Actual,Closing Cash Balance,36410.41129
+Company A,2024,Q3,Actual,Closing Cash Balance,9217.393036
+Company A,2024,Q4,Actual,Closing Cash Balance,49978.59945
+Company A,2025,Q1,Actual,Closing Cash Balance,32938.5891
+Company A,2025,Q2,Actual,Closing Cash Balance,51467.687
+Company A,2025,Q3,Actual,Closing Cash Balance,106260.3687
+Company A,2025,Q4,Actual,Closing Cash Balance,145965.7293

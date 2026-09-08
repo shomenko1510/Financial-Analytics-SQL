@@ -9,7 +9,7 @@ VALUES
     ('Opening Loan Balance'),
     ('Loan Drawndown'),
     ('Loan Repayment'),
-    ('Closing Loan Balanse'),
+    ('Closing Loan Balance'),
     ('Interest Rate'),
     ('Interest Expense');
 GO

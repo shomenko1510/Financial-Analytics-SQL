@@ -11,18 +11,18 @@ Company A,2025,Q1,Budget,Opening Loan Balance,48000
 Company A,2025,Q2,Budget,Opening Loan Balance,0
 Company A,2025,Q3,Budget,Opening Loan Balance,0
 Company A,2025,Q4,Budget,Opening Loan Balance,0
-Company A,2023,Q1,Budget,Loan Drawdown,0
-Company A,2023,Q2,Budget,Loan Drawdown,0
-Company A,2023,Q3,Budget,Loan Drawdown,0
-Company A,2023,Q4,Budget,Loan Drawdown,0
-Company A,2024,Q1,Budget,Loan Drawdown,7000
-Company A,2024,Q2,Budget,Loan Drawdown,10000
-Company A,2024,Q3,Budget,Loan Drawdown,36000
-Company A,2024,Q4,Budget,Loan Drawdown,0
-Company A,2025,Q1,Budget,Loan Drawdown,0
-Company A,2025,Q2,Budget,Loan Drawdown,0
-Company A,2025,Q3,Budget,Loan Drawdown,0
-Company A,2025,Q4,Budget,Loan Drawdown,0
+Company A,2023,Q1,Budget,Loan Drawndown,0
+Company A,2023,Q2,Budget,Loan Drawndown,0
+Company A,2023,Q3,Budget,Loan Drawndown,0
+Company A,2023,Q4,Budget,Loan Drawndown,0
+Company A,2024,Q1,Budget,Loan Drawndown,7000
+Company A,2024,Q2,Budget,Loan Drawndown,10000
+Company A,2024,Q3,Budget,Loan Drawndown,36000
+Company A,2024,Q4,Budget,Loan Drawndown,0
+Company A,2025,Q1,Budget,Loan Drawndown,0
+Company A,2025,Q2,Budget,Loan Drawndown,0
+Company A,2025,Q3,Budget,Loan Drawndown,0
+Company A,2025,Q4,Budget,Loan Drawndown,0
 Company A,2023,Q1,Budget,Loan Repayment,0
 Company A,2023,Q2,Budget,Loan Repayment,0
 Company A,2023,Q3,Budget,Loan Repayment,0

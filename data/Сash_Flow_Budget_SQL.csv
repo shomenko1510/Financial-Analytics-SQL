@@ -1,0 +1,385 @@
+﻿CompanyName,Year,Quarter,ScenarioName,IndicatorName,Amount
+Company A,2023,Q1,Budget,Opening Cash Balance,7024.234265
+Company A,2023,Q2,Budget,Opening Cash Balance,23701.58479
+Company A,2023,Q3,Budget,Opening Cash Balance,60413.44689
+Company A,2023,Q4,Budget,Opening Cash Balance,96025.37016
+Company A,2024,Q1,Budget,Opening Cash Balance,47391.71756
+Company A,2024,Q2,Budget,Opening Cash Balance,44739.78684
+Company A,2024,Q3,Budget,Opening Cash Balance,56717.22007
+Company A,2024,Q4,Budget,Opening Cash Balance,72956.37264
+Company A,2025,Q1,Budget,Opening Cash Balance,89241.51857
+Company A,2025,Q2,Budget,Opening Cash Balance,113720.176
+Company A,2025,Q3,Budget,Opening Cash Balance,139954.3167
+Company A,2025,Q4,Budget,Opening Cash Balance,179505.9625
+Company A,2023,Q1,Budget,Revenue (excl. VAT),244470
+Company A,2023,Q2,Budget,Revenue (excl. VAT),300660
+Company A,2023,Q3,Budget,Revenue (excl. VAT),292050
+Company A,2023,Q4,Budget,Revenue (excl. VAT),246890
+Company A,2024,Q1,Budget,Revenue (excl. VAT),324700
+Company A,2024,Q2,Budget,Revenue (excl. VAT),319750
+Company A,2024,Q3,Budget,Revenue (excl. VAT),309380
+Company A,2024,Q4,Budget,Revenue (excl. VAT),208750
+Company A,2025,Q1,Budget,Revenue (excl. VAT),357830
+Company A,2025,Q2,Budget,Revenue (excl. VAT),430940
+Company A,2025,Q3,Budget,Revenue (excl. VAT),325510
+Company A,2025,Q4,Budget,Revenue (excl. VAT),325810
+Company A,2023,Q1,Budget,COGS (excl.VAT),169065
+Company A,2023,Q2,Budget,COGS (excl.VAT),207024.2
+Company A,2023,Q3,Budget,COGS (excl.VAT),199015
+Company A,2023,Q4,Budget,COGS (excl.VAT),163005
+Company A,2024,Q1,Budget,COGS (excl.VAT),212520
+Company A,2024,Q2,Budget,COGS (excl.VAT),212230
+Company A,2024,Q3,Budget,COGS (excl.VAT),193744
+Company A,2024,Q4,Budget,COGS (excl.VAT),130211
+Company A,2025,Q1,Budget,COGS (excl.VAT),212044
+Company A,2025,Q2,Budget,COGS (excl.VAT),298372
+Company A,2025,Q3,Budget,COGS (excl.VAT),221012
+Company A,2025,Q4,Budget,COGS (excl.VAT),186246
+Company A,2023,Q1,Budget,Gross Profit,75405
+Company A,2023,Q2,Budget,Gross Profit,93635.8
+Company A,2023,Q3,Budget,Gross Profit,93035
+Company A,2023,Q4,Budget,Gross Profit,83885
+Company A,2024,Q1,Budget,Gross Profit,112180
+Company A,2024,Q2,Budget,Gross Profit,107520
+Company A,2024,Q3,Budget,Gross Profit,115636
+Company A,2024,Q4,Budget,Gross Profit,78539
+Company A,2025,Q1,Budget,Gross Profit,145786
+Company A,2025,Q2,Budget,Gross Profit,132568
+Company A,2025,Q3,Budget,Gross Profit,104498
+Company A,2025,Q4,Budget,Gross Profit,139564
+Company A,2023,Q1,Budget,Other Operating Income,10000
+Company A,2023,Q2,Budget,Other Operating Income,10000
+Company A,2023,Q3,Budget,Other Operating Income,10000
+Company A,2023,Q4,Budget,Other Operating Income,10000
+Company A,2024,Q1,Budget,Other Operating Income,15000
+Company A,2024,Q2,Budget,Other Operating Income,15000
+Company A,2024,Q3,Budget,Other Operating Income,15000
+Company A,2024,Q4,Budget,Other Operating Income,15000
+Company A,2025,Q1,Budget,Other Operating Income,18000
+Company A,2025,Q2,Budget,Other Operating Income,18000
+Company A,2025,Q3,Budget,Other Operating Income,18000
+Company A,2025,Q4,Budget,Other Operating Income,18000
+Company A,2023,Q1,Budget,Administrative Expenses,5244.12
+Company A,2023,Q2,Budget,Administrative Expenses,5244.12
+Company A,2023,Q3,Budget,Administrative Expenses,5244.12
+Company A,2023,Q4,Budget,Administrative Expenses,5244.12
+Company A,2024,Q1,Budget,Administrative Expenses,6924.12
+Company A,2024,Q2,Budget,Administrative Expenses,6924.12
+Company A,2024,Q3,Budget,Administrative Expenses,6924.12
+Company A,2024,Q4,Budget,Administrative Expenses,6924.12
+Company A,2025,Q1,Budget,Administrative Expenses,8094.12
+Company A,2025,Q2,Budget,Administrative Expenses,8694.672198
+Company A,2025,Q3,Budget,Administrative Expenses,8994.672198
+Company A,2025,Q4,Budget,Administrative Expenses,9694.672198
+Company A,2023,Q1,Budget,Selling Expenses,21922.2875
+Company A,2023,Q2,Budget,Selling Expenses,22154.10835
+Company A,2023,Q3,Budget,Selling Expenses,18943.70175
+Company A,2023,Q4,Budget,Selling Expenses,16837.41721
+Company A,2024,Q1,Budget,Selling Expenses,26185.15735
+Company A,2024,Q2,Budget,Selling Expenses,25276.2906
+Company A,2024,Q3,Budget,Selling Expenses,20146.90601
+Company A,2024,Q4,Budget,Selling Expenses,10927.39068
+Company A,2025,Q1,Budget,Selling Expenses,29396.14155
+Company A,2025,Q2,Budget,Selling Expenses,27733.6039
+Company A,2025,Q3,Budget,Selling Expenses,21275.52771
+Company A,2025,Q4,Budget,Selling Expenses,18191.17752
+Company A,2023,Q1,Budget,Other Operating Expenses,10000
+Company A,2023,Q2,Budget,Other Operating Expenses,10000
+Company A,2023,Q3,Budget,Other Operating Expenses,10000
+Company A,2023,Q4,Budget,Other Operating Expenses,10000
+Company A,2024,Q1,Budget,Other Operating Expenses,10000
+Company A,2024,Q2,Budget,Other Operating Expenses,10100
+Company A,2024,Q3,Budget,Other Operating Expenses,10100
+Company A,2024,Q4,Budget,Other Operating Expenses,10200
+Company A,2025,Q1,Budget,Other Operating Expenses,10200
+Company A,2025,Q2,Budget,Other Operating Expenses,10200
+Company A,2025,Q3,Budget,Other Operating Expenses,10300
+Company A,2025,Q4,Budget,Other Operating Expenses,10300
+Company A,2023,Q1,Budget,Depreciation,15000
+Company A,2023,Q2,Budget,Depreciation,15000
+Company A,2023,Q3,Budget,Depreciation,15000
+Company A,2023,Q4,Budget,Depreciation,15000
+Company A,2024,Q1,Budget,Depreciation,15000
+Company A,2024,Q2,Budget,Depreciation,15000
+Company A,2024,Q3,Budget,Depreciation,15000
+Company A,2024,Q4,Budget,Depreciation,15000
+Company A,2025,Q1,Budget,Depreciation,15000
+Company A,2025,Q2,Budget,Depreciation,15000
+Company A,2025,Q3,Budget,Depreciation,15000
+Company A,2025,Q4,Budget,Depreciation,15000
+Company A,2023,Q1,Budget,Other Financial Income,0
+Company A,2023,Q2,Budget,Other Financial Income,0
+Company A,2023,Q3,Budget,Other Financial Income,0
+Company A,2023,Q4,Budget,Other Financial Income,0
+Company A,2024,Q1,Budget,Other Financial Income,0
+Company A,2024,Q2,Budget,Other Financial Income,0
+Company A,2024,Q3,Budget,Other Financial Income,0
+Company A,2024,Q4,Budget,Other Financial Income,0
+Company A,2025,Q1,Budget,Other Financial Income,0
+Company A,2025,Q2,Budget,Other Financial Income,0
+Company A,2025,Q3,Budget,Other Financial Income,0
+Company A,2025,Q4,Budget,Other Financial Income,0
+Company A,2023,Q1,Budget,Financial Expenses,0
+Company A,2023,Q2,Budget,Financial Expenses,0
+Company A,2023,Q3,Budget,Financial Expenses,0
+Company A,2023,Q4,Budget,Financial Expenses,0
+Company A,2024,Q1,Budget,Financial Expenses,665
+Company A,2024,Q2,Budget,Financial Expenses,2280
+Company A,2024,Q3,Budget,Financial Expenses,6650
+Company A,2024,Q4,Budget,Financial Expenses,9595
+Company A,2025,Q1,Budget,Financial Expenses,4560
+Company A,2025,Q2,Budget,Financial Expenses,0
+Company A,2025,Q3,Budget,Financial Expenses,0
+Company A,2025,Q4,Budget,Financial Expenses,0
+Company A,2023,Q1,Budget,Other Expenses,500
+Company A,2023,Q2,Budget,Other Expenses,500
+Company A,2023,Q3,Budget,Other Expenses,500
+Company A,2023,Q4,Budget,Other Expenses,500
+Company A,2024,Q1,Budget,Other Expenses,500
+Company A,2024,Q2,Budget,Other Expenses,500
+Company A,2024,Q3,Budget,Other Expenses,500
+Company A,2024,Q4,Budget,Other Expenses,500
+Company A,2025,Q1,Budget,Other Expenses,500
+Company A,2025,Q2,Budget,Other Expenses,500
+Company A,2025,Q3,Budget,Other Expenses,500
+Company A,2025,Q4,Budget,Other Expenses,500
+Company A,2023,Q1,Budget,Other Income,0
+Company A,2023,Q2,Budget,Other Income,0
+Company A,2023,Q3,Budget,Other Income,0
+Company A,2023,Q4,Budget,Other Income,0
+Company A,2024,Q1,Budget,Other Income,0
+Company A,2024,Q2,Budget,Other Income,0
+Company A,2024,Q3,Budget,Other Income,0
+Company A,2024,Q4,Budget,Other Income,0
+Company A,2025,Q1,Budget,Other Income,0
+Company A,2025,Q2,Budget,Other Income,0
+Company A,2025,Q3,Budget,Other Income,0
+Company A,2025,Q4,Budget,Other Income,0
+Company A,2023,Q1,Budget,Profit Before Tax,32738.5925
+Company A,2023,Q2,Budget,Profit Before Tax,50737.57165
+Company A,2023,Q3,Budget,Profit Before Tax,53347.17825
+Company A,2023,Q4,Budget,Profit Before Tax,46303.46279
+Company A,2024,Q1,Budget,Profit Before Tax,67905.72265
+Company A,2024,Q2,Budget,Profit Before Tax,62439.5894
+Company A,2024,Q3,Budget,Profit Before Tax,71314.97399
+Company A,2024,Q4,Budget,Profit Before Tax,40392.48932
+Company A,2025,Q1,Budget,Profit Before Tax,96035.73845
+Company A,2025,Q2,Budget,Profit Before Tax,88439.7239
+Company A,2025,Q3,Budget,Profit Before Tax,66427.80009
+Company A,2025,Q4,Budget,Profit Before Tax,103878.1503
+Company A,2023,Q1,Budget,Income Tax,5892.946651
+Company A,2023,Q2,Budget,Income Tax,9132.762897
+Company A,2023,Q3,Budget,Income Tax,9602.492085
+Company A,2023,Q4,Budget,Income Tax,8334.623301
+Company A,2024,Q1,Budget,Income Tax,12223.03008
+Company A,2024,Q2,Budget,Income Tax,11239.12609
+Company A,2024,Q3,Budget,Income Tax,12836.69532
+Company A,2024,Q4,Budget,Income Tax,7270.648078
+Company A,2025,Q1,Budget,Income Tax,17286.43292
+Company A,2025,Q2,Budget,Income Tax,15919.1503
+Company A,2025,Q3,Budget,Income Tax,11957.00402
+Company A,2025,Q4,Budget,Income Tax,18698.06705
+Company A,2023,Q1,Budget,Net Profit,26845.64585
+Company A,2023,Q2,Budget,Net Profit,41604.80875
+Company A,2023,Q3,Budget,Net Profit,43744.68616
+Company A,2023,Q4,Budget,Net Profit,37968.83948
+Company A,2024,Q1,Budget,Net Profit,55682.69258
+Company A,2024,Q2,Budget,Net Profit,51200.46331
+Company A,2024,Q3,Budget,Net Profit,58478.27867
+Company A,2024,Q4,Budget,Net Profit,33121.84125
+Company A,2025,Q1,Budget,Net Profit,78749.30553
+Company A,2025,Q2,Budget,Net Profit,72520.5736
+Company A,2025,Q3,Budget,Net Profit,54470.79607
+Company A,2025,Q4,Budget,Net Profit,85180.08324
+Company A,2023,Q1,Budget,Change in Inventory,10000
+Company A,2023,Q2,Budget,Change in Inventory,0
+Company A,2023,Q3,Budget,Change in Inventory,0
+Company A,2023,Q4,Budget,Change in Inventory,0
+Company A,2024,Q1,Budget,Change in Inventory,20000
+Company A,2024,Q2,Budget,Change in Inventory,0
+Company A,2024,Q3,Budget,Change in Inventory,0
+Company A,2024,Q4,Budget,Change in Inventory,30000
+Company A,2025,Q1,Budget,Change in Inventory,0
+Company A,2025,Q2,Budget,Change in Inventory,0
+Company A,2025,Q3,Budget,Change in Inventory,0
+Company A,2025,Q4,Budget,Change in Inventory,40000
+Company A,2023,Q1,Budget,Change in Trade Receivables,0
+Company A,2023,Q2,Budget,Change in Trade Receivables,0
+Company A,2023,Q3,Budget,Change in Trade Receivables,0
+Company A,2023,Q4,Budget,Change in Trade Receivables,40000
+Company A,2024,Q1,Budget,Change in Trade Receivables,0
+Company A,2024,Q2,Budget,Change in Trade Receivables,0
+Company A,2024,Q3,Budget,Change in Trade Receivables,0
+Company A,2024,Q4,Budget,Change in Trade Receivables,-30000
+Company A,2025,Q1,Budget,Change in Trade Receivables,0
+Company A,2025,Q2,Budget,Change in Trade Receivables,30000
+Company A,2025,Q3,Budget,Change in Trade Receivables,0
+Company A,2025,Q4,Budget,Change in Trade Receivables,0
+Company A,2023,Q1,Budget,Change in Trade Payables,0
+Company A,2023,Q2,Budget,Change in Trade Payables,0
+Company A,2023,Q3,Budget,Change in Trade Payables,0
+Company A,2023,Q4,Budget,Change in Trade Payables,0
+Company A,2024,Q1,Budget,Change in Trade Payables,0
+Company A,2024,Q2,Budget,Change in Trade Payables,0
+Company A,2024,Q3,Budget,Change in Trade Payables,-30000
+Company A,2024,Q4,Budget,Change in Trade Payables,0
+Company A,2025,Q1,Budget,Change in Trade Payables,0
+Company A,2025,Q2,Budget,Change in Trade Payables,0
+Company A,2025,Q3,Budget,Change in Trade Payables,0
+Company A,2025,Q4,Budget,Change in Trade Payables,0
+Company A,2023,Q1,Budget,Operating Cash Flow,30677.35053
+Company A,2023,Q2,Budget,Operating Cash Flow,50711.8621
+Company A,2023,Q3,Budget,Operating Cash Flow,49611.92327
+Company A,2023,Q4,Budget,Operating Cash Flow,3366.347399
+Company A,2024,Q1,Budget,Operating Cash Flow,42348.06928
+Company A,2024,Q2,Budget,Operating Cash Flow,53977.43323
+Company A,2024,Q3,Budget,Operating Cash Flow,32239.15258
+Company A,2024,Q4,Budget,Operating Cash Flow,35285.14593
+Company A,2025,Q1,Budget,Operating Cash Flow,86478.65745
+Company A,2025,Q2,Budget,Operating Cash Flow,40234.14068
+Company A,2025,Q3,Budget,Operating Cash Flow,53551.64577
+Company A,2025,Q4,Budget,Operating Cash Flow,48223.07922
+Company A,2023,Q1,Budget,Capital Expenditures,14000
+Company A,2023,Q2,Budget,Capital Expenditures,14000
+Company A,2023,Q3,Budget,Capital Expenditures,14000
+Company A,2023,Q4,Budget,Capital Expenditures,52000
+Company A,2024,Q1,Budget,Capital Expenditures,52000
+Company A,2024,Q2,Budget,Capital Expenditures,52000
+Company A,2024,Q3,Budget,Capital Expenditures,52000
+Company A,2024,Q4,Budget,Capital Expenditures,14000
+Company A,2025,Q1,Budget,Capital Expenditures,14000
+Company A,2025,Q2,Budget,Capital Expenditures,14000
+Company A,2025,Q3,Budget,Capital Expenditures,14000
+Company A,2025,Q4,Budget,Capital Expenditures,14000
+Company A,2023,Q1,Budget,Cash Flow from Investing Activities,-14000
+Company A,2023,Q2,Budget,Cash Flow from Investing Activities,-14000
+Company A,2023,Q3,Budget,Cash Flow from Investing Activities,-14000
+Company A,2023,Q4,Budget,Cash Flow from Investing Activities,-52000
+Company A,2024,Q1,Budget,Cash Flow from Investing Activities,-52000
+Company A,2024,Q2,Budget,Cash Flow from Investing Activities,-52000
+Company A,2024,Q3,Budget,Cash Flow from Investing Activities,-52000
+Company A,2024,Q4,Budget,Cash Flow from Investing Activities,-14000
+Company A,2025,Q1,Budget,Cash Flow from Investing Activities,-14000
+Company A,2025,Q2,Budget,Cash Flow from Investing Activities,-14000
+Company A,2025,Q3,Budget,Cash Flow from Investing Activities,-14000
+Company A,2025,Q4,Budget,Cash Flow from Investing Activities,-14000
+Company A,2023,Q1,Budget,Charge in Share Capital,0
+Company A,2023,Q2,Budget,Charge in Share Capital,0
+Company A,2023,Q3,Budget,Charge in Share Capital,0
+Company A,2023,Q4,Budget,Charge in Share Capital,0
+Company A,2024,Q1,Budget,Charge in Share Capital,0
+Company A,2024,Q2,Budget,Charge in Share Capital,0
+Company A,2024,Q3,Budget,Charge in Share Capital,0
+Company A,2024,Q4,Budget,Charge in Share Capital,0
+Company A,2025,Q1,Budget,Charge in Share Capital,0
+Company A,2025,Q2,Budget,Charge in Share Capital,0
+Company A,2025,Q3,Budget,Charge in Share Capital,0
+Company A,2025,Q4,Budget,Charge in Share Capital,0
+Company A,2023,Q1,Budget,Target Financing,0
+Company A,2023,Q2,Budget,Target Financing,0
+Company A,2023,Q3,Budget,Target Financing,0
+Company A,2023,Q4,Budget,Target Financing,0
+Company A,2024,Q1,Budget,Target Financing,0
+Company A,2024,Q2,Budget,Target Financing,0
+Company A,2024,Q3,Budget,Target Financing,0
+Company A,2024,Q4,Budget,Target Financing,0
+Company A,2025,Q1,Budget,Target Financing,0
+Company A,2025,Q2,Budget,Target Financing,0
+Company A,2025,Q3,Budget,Target Financing,0
+Company A,2025,Q4,Budget,Target Financing,0
+Company A,2023,Q1,Budget,Loans from Shareholders,0
+Company A,2023,Q2,Budget,Loans from Shareholders,0
+Company A,2023,Q3,Budget,Loans from Shareholders,0
+Company A,2023,Q4,Budget,Loans from Shareholders,0
+Company A,2024,Q1,Budget,Loans from Shareholders,0
+Company A,2024,Q2,Budget,Loans from Shareholders,0
+Company A,2024,Q3,Budget,Loans from Shareholders,0
+Company A,2024,Q4,Budget,Loans from Shareholders,0
+Company A,2025,Q1,Budget,Loans from Shareholders,0
+Company A,2025,Q2,Budget,Loans from Shareholders,0
+Company A,2025,Q3,Budget,Loans from Shareholders,0
+Company A,2025,Q4,Budget,Loans from Shareholders,0
+Company A,2023,Q1,Budget,Prepayment of Sharholders Loans,0
+Company A,2023,Q2,Budget,Prepayment of Sharholders Loans,0
+Company A,2023,Q3,Budget,Prepayment of Sharholders Loans,0
+Company A,2023,Q4,Budget,Prepayment of Sharholders Loans,0
+Company A,2024,Q1,Budget,Prepayment of Sharholders Loans,0
+Company A,2024,Q2,Budget,Prepayment of Sharholders Loans,0
+Company A,2024,Q3,Budget,Prepayment of Sharholders Loans,0
+Company A,2024,Q4,Budget,Prepayment of Sharholders Loans,0
+Company A,2025,Q1,Budget,Prepayment of Sharholders Loans,0
+Company A,2025,Q2,Budget,Prepayment of Sharholders Loans,0
+Company A,2025,Q3,Budget,Prepayment of Sharholders Loans,0
+Company A,2025,Q4,Budget,Prepayment of Sharholders Loans,0
+Company A,2023,Q1,Budget,Proceeds from Borrowings,0
+Company A,2023,Q2,Budget,Proceeds from Borrowings,0
+Company A,2023,Q3,Budget,Proceeds from Borrowings,0
+Company A,2023,Q4,Budget,Proceeds from Borrowings,0
+Company A,2024,Q1,Budget,Proceeds from Borrowings,7000
+Company A,2024,Q2,Budget,Proceeds from Borrowings,10000
+Company A,2024,Q3,Budget,Proceeds from Borrowings,36000
+Company A,2024,Q4,Budget,Proceeds from Borrowings,0
+Company A,2025,Q1,Budget,Proceeds from Borrowings,0
+Company A,2025,Q2,Budget,Proceeds from Borrowings,0
+Company A,2025,Q3,Budget,Proceeds from Borrowings,0
+Company A,2025,Q4,Budget,Proceeds from Borrowings,0
+Company A,2023,Q1,Budget,Repayment of Borrowings,0
+Company A,2023,Q2,Budget,Repayment of Borrowings,0
+Company A,2023,Q3,Budget,Repayment of Borrowings,0
+Company A,2023,Q4,Budget,Repayment of Borrowings,0
+Company A,2024,Q1,Budget,Repayment of Borrowings,0
+Company A,2024,Q2,Budget,Repayment of Borrowings,0
+Company A,2024,Q3,Budget,Repayment of Borrowings,0
+Company A,2024,Q4,Budget,Repayment of Borrowings,5000
+Company A,2025,Q1,Budget,Repayment of Borrowings,48000
+Company A,2025,Q2,Budget,Repayment of Borrowings,0
+Company A,2025,Q3,Budget,Repayment of Borrowings,0
+Company A,2025,Q4,Budget,Repayment of Borrowings,0
+Company A,2023,Q1,Budget,Other,0
+Company A,2023,Q2,Budget,Other,0
+Company A,2023,Q3,Budget,Other,0
+Company A,2023,Q4,Budget,Other,0
+Company A,2024,Q1,Budget,Other,0
+Company A,2024,Q2,Budget,Other,0
+Company A,2024,Q3,Budget,Other,0
+Company A,2024,Q4,Budget,Other,0
+Company A,2025,Q1,Budget,Other,0
+Company A,2025,Q2,Budget,Other,0
+Company A,2025,Q3,Budget,Other,0
+Company A,2025,Q4,Budget,Other,0
+Company A,2023,Q1,Budget,Cash Flow from Financng Activities,0
+Company A,2023,Q2,Budget,Cash Flow from Financng Activities,0
+Company A,2023,Q3,Budget,Cash Flow from Financng Activities,0
+Company A,2023,Q4,Budget,Cash Flow from Financng Activities,0
+Company A,2024,Q1,Budget,Cash Flow from Financng Activities,7000
+Company A,2024,Q2,Budget,Cash Flow from Financng Activities,10000
+Company A,2024,Q3,Budget,Cash Flow from Financng Activities,36000
+Company A,2024,Q4,Budget,Cash Flow from Financng Activities,-5000
+Company A,2025,Q1,Budget,Cash Flow from Financng Activities,-48000
+Company A,2025,Q2,Budget,Cash Flow from Financng Activities,0
+Company A,2025,Q3,Budget,Cash Flow from Financng Activities,0
+Company A,2025,Q4,Budget,Cash Flow from Financng Activities,0
+Company A,2023,Q1,Budget,Net Cash Flow,16677.35053
+Company A,2023,Q2,Budget,Net Cash Flow,36711.8621
+Company A,2023,Q3,Budget,Net Cash Flow,35611.92327
+Company A,2023,Q4,Budget,Net Cash Flow,-48633.6526
+Company A,2024,Q1,Budget,Net Cash Flow,-2651.930724
+Company A,2024,Q2,Budget,Net Cash Flow,11977.43323
+Company A,2024,Q3,Budget,Net Cash Flow,16239.15258
+Company A,2024,Q4,Budget,Net Cash Flow,16285.14593
+Company A,2025,Q1,Budget,Net Cash Flow,24478.65745
+Company A,2025,Q2,Budget,Net Cash Flow,26234.14068
+Company A,2025,Q3,Budget,Net Cash Flow,39551.64577
+Company A,2025,Q4,Budget,Net Cash Flow,34223.07922
+Company A,2023,Q1,Budget,Closing Cash Balance,23701.58479
+Company A,2023,Q2,Budget,Closing Cash Balance,60413.44689
+Company A,2023,Q3,Budget,Closing Cash Balance,96025.37016
+Company A,2023,Q4,Budget,Closing Cash Balance,47391.71756
+Company A,2024,Q1,Budget,Closing Cash Balance,44739.78684
+Company A,2024,Q2,Budget,Closing Cash Balance,56717.22007
+Company A,2024,Q3,Budget,Closing Cash Balance,72956.37264
+Company A,2024,Q4,Budget,Closing Cash Balance,89241.51857
+Company A,2025,Q1,Budget,Closing Cash Balance,113720.176
+Company A,2025,Q2,Budget,Closing Cash Balance,139954.3167
+Company A,2025,Q3,Budget,Closing Cash Balance,179505.9625
+Company A,2025,Q4,Budget,Closing Cash Balance,213729.0417
