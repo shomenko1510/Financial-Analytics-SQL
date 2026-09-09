@@ -17,7 +17,6 @@ CREATE TABLE dbo.FactFinancialData
     PeriodId INT NOT NULL,
     ScenarioId INT NOT NULL,
     DirectionId INT NOT NULL,
-    IndicatorId INT NOT NULL,
     Amount DECIMAL(19,4) NOT NULL,
 
     CONSTRAINT PK_FactFinancialData
@@ -49,7 +48,6 @@ CREATE TABLE dbo.FactFinancialData
             CompanyId,
             PeriodId,
             ScenarioId,
-            DirectionId,
             IndicatorId
         )                    
 );
