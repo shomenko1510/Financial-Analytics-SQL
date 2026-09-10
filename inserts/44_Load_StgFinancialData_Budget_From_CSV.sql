@@ -49,10 +49,4 @@ GROUP BY
 ORDER BY
     [Year],
     [QUarter],
-    ScenarioName;     
-
-
-
-
-
-    
+    ScenarioName;       
