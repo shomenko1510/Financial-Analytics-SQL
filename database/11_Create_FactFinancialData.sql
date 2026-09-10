@@ -16,7 +16,7 @@ CREATE TABLE dbo.FactFinancialData
     CompanyId INT NOT NULL,
     PeriodId INT NOT NULL,
     ScenarioId INT NOT NULL,
-    DirectionId INT NOT NULL,
+    IndicatorId INT NOT NULL,
     Amount DECIMAL(19,4) NOT NULL,
 
     CONSTRAINT PK_FactFinancialData
@@ -33,10 +33,6 @@ CREATE TABLE dbo.FactFinancialData
     CONSTRAINT FK_FactFinancialData_DimScenario
         FOREIGN KEY(ScenarioId)
         REFERENCES dbo.DimScenario(ScenarioId),
-
-    CONSTRAINT FK_FactFinancialData_DimDirection
-        FOREIGN KEY(DirectionId)
-        REFERENCES dbo.DimDirection(DirectionId),     
 
     CONSTRAINT FK_FactFinancialData_DimFinancialIndicator
         FOREIGN KEY(IndicatorId)
