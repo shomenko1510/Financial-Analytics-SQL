@@ -8,7 +8,7 @@ CREATE TABLE dbo.FactCapEx
     PeriodId INT NOT NULL,
     ScenarioId INT NOT NULL,
     CapExId INT NOT NULL,
-    CapAmount DECIMAL(18,4) NOT NULL,
+    CapExAmount DECIMAL(18,4) NOT NULL,
 
     CONSTRAINT PK_FactCapEx
         PRIMARY KEY (CapExFactId)  

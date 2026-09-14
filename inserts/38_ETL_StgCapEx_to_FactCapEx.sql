@@ -7,7 +7,7 @@ INSERT INTO dbo.FactCapEx
     PeriodId,
     ScenarioId,
     CapExId,
-    CapAmount
+    CapExAmount
 )
 SELECT
     C.CompanyId,
@@ -47,7 +47,7 @@ SELECT
     P.[Quarter],
     S.ScenarioName,
     COUNT(*) AS CountRows,
-    SUM(FC.CapAmount) AS TotalCapExAmount
+    SUM(FC.CapExAmount) AS TotalCapExAmount
 FROM dbo.FactCapEx AS FC
 
 INNER JOIN dbo.DimPeriod AS P

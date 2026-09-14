@@ -38,7 +38,7 @@ SELECT
     [Quarter],
     ScenarioName,
     COUNT(*) AS CountRows,
-    SUM(CapExAmount) AS TotalCapAmount
+    SUM(CapExAmount) AS TotalCapExAmount
 FROM dbo.StgCapEx
 WHERE ScenarioName = 'Budget'
 GROUP BY
