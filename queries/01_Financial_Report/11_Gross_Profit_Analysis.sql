@@ -6,15 +6,28 @@ GO
     SELECT
         FS.PeriodId,
         FS.DirectionId,
-        SUM(FS.RevenueAmount) AS RevenueAmount
+        
+        SUM(
+            CASE
+                WHEN S.ScenarioName = 'Actual'
+                THEN FS.RevenueAmount
+                ELSE 0
+            END    
+        ) AS ActualRevenue,
+
+        SUM(
+            CASE
+                WHEN S.ScenarioName = 'Budget'
+                THEN FS.RevenueAmount
+                ELSE 0
+            END    
+        ) AS BudgetRevenue
     
     FROM dbo.FactSales AS FS
 
     INNER JOIN dbo.DimScenario AS S
         ON FS.ScenarioId = S.ScenarioId
-
-    WHERE S.ScenarioName = 'Actual'
-
+  
     GROUP BY
         FS.PeriodId,
         FS.DirectionId    
@@ -25,18 +38,56 @@ COGSData AS
     SELECT
         FC.PeriodId,
         FC.DirectionId,
-        SUM(FC.COGSAmount)
-    
-    FROM dbo.FactCOGS AS FC
-    
+        -- SUM(FC.COGSAmount)
+
+        SUM(
+            CASE
+                WHEN S.ScenarioName = 'Actual'
+                THEN FC.COGSAmount
+                ELSE 0
+            END    
+        ) AS ActualCOGS,
+
+        SUM(
+            CASE
+                WHEN S.ScenarioName = 'Budget'
+                THEN FC.COGSAmount
+                ELSE 0
+            END   
+        ) AS BudgetCOGS
+
+    FROM dbo.FactCOGS AS FC    
+     
     INNER JOIN dbo.DimScenario AS S
         ON FC.ScenarioId = S.ScenarioId
-
-    WHERE ScenarioName = 'Actual'
 
     GROUP BY
         FC.PeriodId,
         FC.DirectionId            
+),
+
+GrossProfitData AS
+(
+    SELECT
+        SD.PeriodId,
+        SD.DirectionId,
+
+        SD.ActualRevenue,
+        SD.BudgetRevenue,
+        CD.ActualCOGS,
+        CD.BudgetCOGS,
+
+        SD.ActualRevenue - CD.ActualCOGS
+            AS ActualGrossProfit,
+
+        SD.BudgetRevenue - CD.BudgetCOGS
+            AS BudgetGrossProfit
+
+    FROM SalesData AS SD
+
+    INNER JOIN COGSData AS CD
+        ON SD.PeriodId = CD.PeriodId
+        AND SD.DirectionId = CD.DirectionId
 ) 
 
 SELECT
@@ -45,41 +96,84 @@ SELECT
     D.DirectionName,
 
     CAST(
-        SD.RevenueAmount
+        GPD.ActualRevenue
         AS DECIMAL(18,2)
-    ) AS Revenue,
+    ) AS ActualRevenue,
 
     CAST(
-        CD.COGSAmount
+        GPD.BudgetRevenue
         AS DECIMAL(18,2)
-    ) AS COGS,
+    ) AS BudgetRevenue,
 
     CAST(
-        SD.RevenueAmount - CD.COGSAmount
-        AS DECIMAL(18,1)
-    ) AS GrossProfit,
+        GPD.ActualRevenue - GPD.BudgetRevenue
+        AS DECIMAL(18,2)
+    ) AS RevenueVariance,
+
+    CAST(
+        GPD.ActualCOGS
+        AS DECIMAL(18,2)
+    ) AS ActualCOGS,
+
+    CAST(
+        GPD.BudgetCOGS
+        AS DECIMAL(18,2)
+    ) AS BudgetCOGS,
+
+    CAST(
+        GPD.ActualGrossProfit
+        AS DECIMAL(18,2)
+    ) AS ActualGrossProfit,
+
+    CAST(
+        GPD.BudgetGrossProfit
+        AS DECIMAL(18,2)
+    ) AS BudgetGrossProfit,
+
+    CAST(
+        GPD.ActualGrossProfit - GPD.BudgetGrossProfit
+        AS DECIMAL(18,2)
+    ) AS GrossProfitVariance,
+
+    CAST(
+        GPD.ActualGrossProfit
+        /
+        NULLIF(GPD.ActualRevenue, 0)
+        * 100
+        AS DECIMAL(18,2)
+    ) AS ActualGrossMArginPercent,
+
+    CAST(
+        GPD.BudgetGrossProfit
+        /
+        NULLIF(GPD.BudgetRevenue, 0)
+        * 100
+        AS DECIMAL(18,2)
+    ) AS BudgetGrossMarginPercent,
 
     CAST(
         (
-            SD.RevenueAmount - CD.COGSAmount
+            GPD.ActualGrossProfit
+            /
+            NULLIF(GPD.ActualRevenue, 0)
+            *100
         )
-        /
-        NULLIF(SD.RevenueAmount,0)
-        * 100
-        AS DECIMAL(18,2)
-    ) AS GrossMarginPercent
+        -
+        (
+            GPD.BudgetGrossProfit
+            /
+            NULLIF(GPD.BudgetRevenue,0)
+            * 100
+        ) AS DECIMAL(18,2)
+    ) AS GrossMarginVariancePP
 
-FROM SalesData AS SD
-
-INNER JOIN COGSData AS CD
-    ON SD.PeriodId = CD.PeriodId
-    AND SD.DirectionId = CD.DirectionId
+FROM GrossProfitdata AS GPD
 
 INNER JOIN dbo.DimPeriod AS P
-    ON SD.PeriodId = P.PeriodId
+    ON GPD.PeriodId = P.PeriodId
 
 INNER JOIN dbo.DimDirection AS D
-    ON SD.DirectionId = D.DirectionId
+    ON GPD.DirectionId = D.DirectionId
 
 ORDER BY
     P.[Year],
