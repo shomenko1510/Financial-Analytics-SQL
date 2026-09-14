@@ -72,12 +72,39 @@ GO
         P.[Quarter],
         P.QuarterNumber,
         D.DirectionName
+),
+
+SalesVarianceData AS
+(
+    SELECT
+        [Year],
+        [Quarter],
+        QuarterNumber,
+        DirectionName,
+        ActualVolume,
+        BudgetVolume,
+        ActualPrice,
+        BudgetPrice,
+        ActualRevenue,
+        BudgetRevenue,
+
+        ActualVolume - BudgetVolume
+            AS VolumeVariance,
+
+        ActualPrice - BudgetPrice
+            AS PriceVariance,
+
+        ActualRevenue - BudgetRevenue
+            AS RevenueVariance
+
+    FROM SalesPVData                
 )
 
 SELECT
     [Year],
     [Quarter],
     DirectionName,
+
     CAST(
         ActualVolume
         AS DECIMAL(18,2)
@@ -87,6 +114,11 @@ SELECT
         BudgetVolume
         AS DECIMAL(18,2)
     ) AS BudgetVolume,
+
+    CAST(
+        VolumeVariance
+        AS DECIMAL(18,2)
+    ) AS VolumeVariance,
 
     CAST(
         ActualPrice
@@ -99,6 +131,11 @@ SELECT
     ) AS BudgetPrice,
 
     CAST(
+        PriceVariance
+        AS DECIMAL(18,2)
+    ) AS PriceVariance,
+
+    CAST(
         ActualRevenue
         AS DECIMAL(18,2)
     ) AS ActualRevenue,
@@ -109,22 +146,35 @@ SELECT
     ) AS BudgetRevenue,
 
     CAST(
-        ActualVolume - BudgetVolume
+        RevenueVariance
         AS DECIMAL(18,2)
-    ) AS VolumeVariance,
+    ) AS RevenueVariance, 
+
+    CAST(
+        VolumeVariance * BudgetPrice
+        AS DECIMAL(18,2)
+    ) AS VolumeEffect,
+
+    CAST(
+        PriceVariance * ActualVolume
+        AS DECIMAL(18,2)
+    ) AS PriceEffect,
+
+    CAST(
+        RevenueVariance
+        -
+        (
+            VolumeVariance * BudgetPrice
+        )
+        -
+        (
+            Pricevariance * ActualVolume
+        )
+        AS DECIMAL(18,2)
+    ) AS ResidualEffect
+
+FROM SalesVarianceData
     
-    CAST(
-        ActualPrice - BudgetPrice
-        AS DECIMAL(18,2)
-    ) AS PriceVariance,
-
-    CAST(
-        ActualRevenue - BudgetRevenue
-        AS DECIMAL(18,2)
-    ) AS RevenueVariance
-
-FROM SalesPVData
-
 ORDER BY
     [Year],
     QuarterNumber,
