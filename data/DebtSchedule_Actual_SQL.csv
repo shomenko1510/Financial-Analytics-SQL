@@ -1,4 +1,4 @@
-﻿CompanyName,Year,Quarter,ScenarioName,DebtMetricName,DebtMatricValue
+CompanyName,Year,Quarter,ScenarioName,DebtMetricName,DebtMatricValue
 Company A,2023,Q1,Actual,Opening Loan Balance,0
 Company A,2023,Q2,Actual,Opening Loan Balance,12000
 Company A,2023,Q3,Actual,Opening Loan Balance,0

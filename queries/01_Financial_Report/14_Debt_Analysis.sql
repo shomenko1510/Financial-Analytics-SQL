@@ -123,7 +123,7 @@ GO
 
         SUM(
             CASE
-                WHEN DM.DebtMetricName = 'Loan Drawdown'
+                WHEN DM.DebtMetricName = 'Loan Drawndown'
                 THEN FD.DebtMetricValue
                 ELSE 0
             END    
@@ -179,6 +179,11 @@ SELECT
     ) AS LoanDrawdown,
 
     CAST(
+        LoanRepayment
+        AS DECIMAL(18,2)
+    ) AS LoanRepayment,
+
+    CAST(
         ClosingBalance
         AS DECIMAL(18,2)
     ) AS ClosingBalance,
@@ -208,4 +213,3 @@ ORDER BY
     QuarterNumber,
     ScenarioName;
 GO
-

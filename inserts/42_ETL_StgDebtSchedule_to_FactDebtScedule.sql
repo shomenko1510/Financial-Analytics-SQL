@@ -14,7 +14,7 @@ SELECT
     P.PeriodId,
     S.ScenarioId,
     M.DebtMetricId,
-    SD.DebtMatricValue
+    SD.DebtMetricValue
 FROM dbo.StgDebtSchedule AS SD
 
 INNER JOIN dbo.DimCompany AS C
