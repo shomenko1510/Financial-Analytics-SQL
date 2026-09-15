@@ -13,5 +13,3 @@ CREATE TABLE dbo.DimDebtMetric
         UNIQUE (DebtMetricName)
 );
 GO
-
-
