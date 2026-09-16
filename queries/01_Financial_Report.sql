@@ -18,7 +18,7 @@ SELECT
     FI.IndicatorCode,
     FI.IndicatorName,
     FD.Amount
-FROM dbo.factFinancialData AS FD
+FROM dbo.FactFinancialData AS FD
 
 INNER JOIN dbo.DimCompany AS C
     ON FD.CompanyId = C.CompanyId
