@@ -1,12 +1,14 @@
 USE FinanceAnalyticsPortfolioDB;
 GO
+CREATE OR ALTER VIEW dbo.vw_GrossProfitAnalysis
+AS
 
-;WITH SalesData AS
+WITH SalesData AS
 (
     SELECT
         FS.PeriodId,
         FS.DirectionId,
-        
+
         SUM(
             CASE
                 WHEN S.ScenarioName = 'Actual'
@@ -22,15 +24,14 @@ GO
                 ELSE 0
             END    
         ) AS BudgetRevenue
-    
-    FROM dbo.FactSales AS FS
+    FROM dbo.factsales AS FS
 
     INNER JOIN dbo.DimScenario AS S
         ON FS.ScenarioId = S.ScenarioId
-  
+
     GROUP BY
         FS.PeriodId,
-        FS.DirectionId    
+        FS.DirectionId        
 ),
 
 COGSData AS
@@ -38,7 +39,6 @@ COGSData AS
     SELECT
         FC.PeriodId,
         FC.DirectionId,
-        -- SUM(FC.COGSAmount)
 
         SUM(
             CASE
@@ -53,33 +53,34 @@ COGSData AS
                 WHEN S.ScenarioName = 'Budget'
                 THEN FC.COGSAmount
                 ELSE 0
-            END   
-        ) AS BudgetCOGS
+            END    
+        ) AS BudgetCOGS 
+    
+    FROM dbo.FactCOGS AS FC
 
-    FROM dbo.FactCOGS AS FC    
-     
     INNER JOIN dbo.DimScenario AS S
         ON FC.ScenarioId = S.ScenarioId
 
     GROUP BY
         FC.PeriodId,
-        FC.DirectionId            
+        FC.DirectionId    
 ),
 
 GrossProfitData AS
 (
-    SELECT
+    SELECT 
         SD.PeriodId,
         SD.DirectionId,
 
         SD.ActualRevenue,
         SD.BudgetRevenue,
+
         CD.ActualCOGS,
         CD.BudgetCOGS,
 
         SD.ActualRevenue - CD.ActualCOGS
             AS ActualGrossProfit,
-
+        
         SD.BudgetRevenue - CD.BudgetCOGS
             AS BudgetGrossProfit
 
@@ -88,11 +89,12 @@ GrossProfitData AS
     INNER JOIN COGSData AS CD
         ON SD.PeriodId = CD.PeriodId
         AND SD.DirectionId = CD.DirectionId
-) 
+)
 
 SELECT
     P.[Year],
     P.[Quarter],
+    P.QuarterNumber,
     D.DirectionName,
 
     CAST(
@@ -121,9 +123,14 @@ SELECT
     ) AS BudgetCOGS,
 
     CAST(
+        GPD.ActualCOGS - GPD.BudgetCOGS
+        AS DECIMAL(18,2)
+    ) AS COGSVariance,
+
+    CAST(
         GPD.ActualGrossProfit
         AS DECIMAL(18,2)
-    ) AS ActualGrossProfit,
+    ) AS ActualGrossPrifit,
 
     CAST(
         GPD.BudgetGrossProfit
@@ -141,7 +148,7 @@ SELECT
         NULLIF(GPD.ActualRevenue, 0)
         * 100
         AS DECIMAL(18,2)
-    ) AS ActualGrossMArginPercent,
+    ) AS ActualGrossMarginPercent,
 
     CAST(
         GPD.BudgetGrossProfit
@@ -156,15 +163,16 @@ SELECT
             GPD.ActualGrossProfit
             /
             NULLIF(GPD.ActualRevenue, 0)
-            *100
+            * 100
         )
         -
         (
             GPD.BudgetGrossProfit
             /
-            NULLIF(GPD.BudgetRevenue,0)
+            NULLIF(GPD.BudgetRevenue, 0)
             * 100
-        ) AS DECIMAL(18,2)
+        )
+        AS DECIMAL(18,2)
     ) AS GrossMarginVariancePP
 
 FROM GrossProfitData AS GPD
@@ -173,10 +181,6 @@ INNER JOIN dbo.DimPeriod AS P
     ON GPD.PeriodId = P.PeriodId
 
 INNER JOIN dbo.DimDirection AS D
-    ON GPD.DirectionId = D.DirectionId
+    ON GPD.DirectionId = D.DirectionId;
 
-ORDER BY
-    P.[Year],
-    P.QuarterNumber,
-    D.DirectionName;
-GO
+GO        
