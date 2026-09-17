@@ -18,7 +18,7 @@ INNER JOIN dbo.DimScenario AS S
 INNER JOIN dbo.DimFinancialIndicator AS FI
     ON FD.IndicatorId = FI.IndicatorId
 
-WHERE S.Scenarioname = 'Actual'
+WHERE S.ScenarioName = 'Actual'
     AND FI.IndicatorCode = 'REV_EX_VAT'
 
 ORDER BY
@@ -55,7 +55,7 @@ INNER JOIN dbo.DimScenario AS S
 INNER JOIN dbo.DimFinancialIndicator AS FI
     ON FD.IndicatorId = FI.IndicatorId
 
-WHERE S.Scenarioname = 'Actual'
+WHERE S.ScenarioName = 'Actual'
     AND FI.IndicatorCode = 'REV_EX_VAT'
  
 ORDER BY
