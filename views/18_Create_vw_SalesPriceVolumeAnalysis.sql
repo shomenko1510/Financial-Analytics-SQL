@@ -1,7 +1,7 @@
 USE FinanceAnalyticsPortfolioDB;
 GO
 
-CREATE OR ALTER VIEW dbo.vw_SalesPriceAnalysis
+CREATE OR ALTER VIEW dbo.vw_SalesPriceVolumeAnalysis
 AS 
 
 WITH SalesPVData AS 
@@ -59,7 +59,7 @@ WITH SalesPVData AS
                 ELSE 0
             END    
         ) AS BudgetRevenue
-    FROM dbp.FactSales AS FS
+    FROM dbo.FactSales AS FS
 
     INNER JOIN dbo.DimPeriod AS P
         ON FS.PeriodId = P.PeriodId
@@ -88,13 +88,14 @@ SalesVarianceData AS
         ActualVolume,
         BudgetVolume,
         ActualPrice,
+        BudgetPrice,
         ActualRevenue,
         BudgetRevenue,
 
         ActualVolume - BudgetVolume
             AS VolumeVariance,
 
-        ACTUALPrice - BudgetPrice
+        ActualPrice - BudgetPrice
             AS PriceVariance,
 
         ActualRevenue - BudgetRevenue
@@ -103,13 +104,83 @@ SalesVarianceData AS
     FROM SalesPVData
     )
 
-    SELECT
-        [Year],
-        [Quarter],
-        QuarterNumber,
-        DirectionName,
+SELECT
+    [Year],
+    [Quarter],
+    QuarterNumber,
+    DirectionName,
 
-        CAST(
-            ActualVolume
-            AS DECIMAL(18,2)
-        ) AS ActualVolume,
+    CAST(
+        ActualVolume
+        AS DECIMAL(18,2)
+    ) AS ActualVolume,
+
+    CAST(
+        BudgetVolume
+        AS DECIMAL(18,2)
+    ) AS BudgetVolume,
+
+    CAST(
+        VolumeVariance
+        AS DECIMAL(18,2)
+    ) AS VolumeVariance,
+
+    CAST(
+        ActualPrice
+        AS DECIMAL(18,2)                
+    ) AS ActualPrice,
+
+    CAST(
+        BudgetPrice
+        AS DECIMAL(18,2)
+    ) AS BudgetPrice,
+
+    CAST(
+        PriceVariance
+        AS DECIMAL(18,2)          
+    ) AS PriceVariance,
+
+    CAST(
+        ActualRevenue
+        AS DECIMAL(18,2)          
+    ) AS ActualRevenue,
+
+    CAST(
+        BudgetRevenue
+        AS DECIMAL(18,2)    
+    ) AS BudgetRevenue,
+
+    CAST(
+        RevenueVariance
+        AS DECIMAL(18,2)
+    ) AS RevenueVariance,
+
+    CAST(
+        VolumeVariance * BudgetPrice
+        AS DECIMAL(18,2)
+    ) AS VolumeEffect,
+                
+    CAST(
+        PriceVariance * BudgetPrice
+        AS DECIMAL(18,2)
+    ) AS PriceEffect,
+
+    CAST(
+        RevenueVariance
+        -(VolumeVariance * BudgetPrice)
+        -(PriceVariance * ActualVolume)
+        AS DECIMAL(18,2)
+    ) AS ResidualEffect
+
+FROM SalesVariancedata;
+GO
+
+/*
+SELECT *
+FROM dbo.vw_SalesPriceVolumeAnalysis
+ORDER BY
+    [Year],
+    QuarterNumber,
+    Directionname;
+GO
+*/
