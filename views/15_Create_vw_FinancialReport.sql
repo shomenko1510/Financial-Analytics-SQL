@@ -9,6 +9,7 @@ SELECT
     P.[Year],
     P.[Quarter],
     P.QuarterNumber,
+    P.[Year] * 10 + P.QuarterNumber AS PeriodKey,
     S.ScenarioName,
     FI.IndicatorCode,
     FI.IndicatorName,
@@ -28,4 +29,23 @@ INNER JOIN dbo.DimScenario AS S
 
 INNER JOIN dbo.DimFinancialIndicator AS FI
     ON FD.IndicatorId = FI.IndicatorId;
-GO        
+GO 
+
+/*
+SELECT
+    PeriodKey,
+    [Year],
+    [Quarter],
+    QuarterNumber,
+    ScenarioName,
+    IndicatorCode,
+    IndicatorName,
+    Amount
+FROM dbo.vw_FinancialReport
+ORDER BY
+    [Year],
+    QuarterNumber,
+    ScenarioName,
+    IndicatorCode;
+GO    
+*/

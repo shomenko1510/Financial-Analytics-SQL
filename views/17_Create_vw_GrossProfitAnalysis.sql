@@ -92,6 +92,7 @@ GrossProfitData AS
 )
 
 SELECT
+    P.[Year] * 10 + P.QuarterNumber AS PeriodKey,
     P.[Year],
     P.[Quarter],
     P.QuarterNumber,
@@ -184,3 +185,26 @@ INNER JOIN dbo.DimDirection AS D
     ON GPD.DirectionId = D.DirectionId;
 
 GO        
+/*
+SELECT
+    PeriodKey,
+    [Year],
+    [Quarter]
+    QuarterNumber,
+    DirectionName,
+    ActualRevenue,
+    BudgetRevenue,
+    ActualCOGS,
+    BudgetCOGS,
+    ActualGrossPrifit,
+    BudgetGrossProfit,
+    ActualGrossMarginPercent,
+    BudgetGrossMarginPercent,
+    GrossMarginVariancePP
+FROM dbo.vw_GrossProfitAnalysis
+ORDER BY
+    [Year],
+    QuarterNumber,
+    DirectionName;
+GO    
+*/

@@ -11,6 +11,7 @@ WITH ActualBudgetData AS
         P.[Year],
         P.[Quarter],
         P.QuarterNumber,
+        P.[Year] * 10 + P.QuarterNumber AS PeriodKey,
         FI.IndicatorCode,
         FI.IndicatorName,
         FI.IndicatorSortOrder,
@@ -49,6 +50,7 @@ WITH ActualBudgetData AS
             C.CompanyName,
             P.[Year],
             P.[Quarter],
+            P.[Year] * 10 + P.QuarterNumber,
             P.QuarterNumber,
             FI.IndicatorCode,
             FI.IndicatorName,
@@ -59,6 +61,7 @@ SELECT
     CompanyName,
     [Year],
     [Quarter],
+    PeriodKey,
     QuarterNumber,
     IndicatorCode,
     IndicatorName,
@@ -91,3 +94,22 @@ SELECT
 
 FROM ActualBudgetData;
 GO
+
+/*
+SELECT
+    PeriodKey,
+    [Year],
+    QuarterNumber,
+    IndicatorCode,
+    IndicatorName,
+    ActualAmount,
+    BudgetAmount,
+    Variance,
+    VariancePercent
+FROM dbo.vw_ActualVsBudget
+ORDER BY
+    [Year],
+    QuarterNumber,
+    IndicatorSortOrder;
+GO    
+*/

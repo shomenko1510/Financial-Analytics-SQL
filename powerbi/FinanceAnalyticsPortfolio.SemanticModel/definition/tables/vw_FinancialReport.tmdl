@@ -1,0 +1,103 @@
+table vw_FinancialReport
+	lineageTag: 8a75d8cd-31df-49d2-bc5b-3d747b2dd215
+
+	column CompanyName
+		dataType: string
+		lineageTag: a9a378fc-7cee-4038-8440-e96be7376d46
+		summarizeBy: none
+		sourceColumn: CompanyName
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: b7505ce8-3371-43bc-b10c-dfe991fcda21
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: string
+		lineageTag: af98071d-0acd-4671-b7f0-d1bb208770dd
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuarterNumber
+		dataType: int64
+		formatString: 0
+		lineageTag: e08c661a-4671-45b9-82f5-5527ac14a7d5
+		summarizeBy: sum
+		sourceColumn: QuarterNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column ScenarioName
+		dataType: string
+		lineageTag: 35801c69-bfe7-4bfc-8a8e-570581c5c589
+		summarizeBy: none
+		sourceColumn: ScenarioName
+
+		annotation SummarizationSetBy = Automatic
+
+	column IndicatorCode
+		dataType: string
+		lineageTag: 7190f4f2-8981-457e-b18d-dc38f24e6de9
+		summarizeBy: none
+		sourceColumn: IndicatorCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column IndicatorName
+		dataType: string
+		lineageTag: d30b7860-70a1-4522-817e-a5c38f259f1d
+		summarizeBy: none
+		sourceColumn: IndicatorName
+
+		annotation SummarizationSetBy = Automatic
+
+	column IndicatorSortOrder
+		dataType: int64
+		formatString: 0
+		lineageTag: 1ba6de58-b1b0-464b-8dde-5fcb3f5e9b73
+		summarizeBy: sum
+		sourceColumn: IndicatorSortOrder
+
+		annotation SummarizationSetBy = Automatic
+
+	column Amount
+		dataType: double
+		lineageTag: 86605079-f3f9-4bd4-83f7-b4ca4222d5ed
+		summarizeBy: sum
+		sourceColumn: Amount
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PeriodKey
+		dataType: int64
+		formatString: 0
+		lineageTag: 76cddf16-7abc-491f-a602-c672a9671a67
+		summarizeBy: none
+		sourceColumn: PeriodKey
+
+		annotation SummarizationSetBy = Automatic
+
+	partition vw_FinancialReport = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("Khomenko-SV\SQLEXPRESS", "FinanceAnalyticsPortfolioDB"),
+				    dbo_vw_FinancialReport = Source{[Schema="dbo",Item="vw_FinancialReport"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(dbo_vw_FinancialReport,{{"Year", Int64.Type}, {"QuarterNumber", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

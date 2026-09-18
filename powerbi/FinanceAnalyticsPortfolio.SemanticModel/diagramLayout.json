@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1.2570207430874376,
+            "y": 343.16666286287176
+          },
+          "nodeIndex": "vw_ActualVsBudget",
+          "nodeLineageTag": "524a63d2-fc7e-475e-b91b-8b1b4b5af93c",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 331.76678823732288,
+            "y": 338.88155914743459
+          },
+          "nodeIndex": "vw_FinancialReport",
+          "nodeLineageTag": "8a75d8cd-31df-49d2-bc5b-3d747b2dd215",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 647.19230681450892,
+            "y": 345.68070434904672
+          },
+          "nodeIndex": "vw_GrossProfitAnalysis",
+          "nodeLineageTag": "e15444a3-abdd-4ba1-beff-6a8ee9f97fa5",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 967.64590836404466,
+            "y": 339.39560063360949
+          },
+          "nodeIndex": "vw_SalesPriceVolumeAnalysis",
+          "nodeLineageTag": "b7fcc8da-717e-43bd-8886-c833d7de7815",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 333.81306862754991,
+            "y": 0
+          },
+          "nodeIndex": "DimPeriod",
+          "nodeLineageTag": "f6e7403a-0d1c-46ce-8cf7-3770e1043e8f",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 4
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 79.553182037699813,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

@@ -1,0 +1,23 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: uk-UA
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["vw_FinancialReport","vw_ActualVsBudget","vw_GrossProfitAnalysis","vw_SalesPriceVolumeAnalysis"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table vw_FinancialReport
+ref table vw_ActualVsBudget
+ref table vw_GrossProfitAnalysis
+ref table vw_SalesPriceVolumeAnalysis
+ref table DimPeriod
+
+ref cultureInfo en-US
+

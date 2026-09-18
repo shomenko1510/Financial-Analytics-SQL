@@ -1,0 +1,180 @@
+table vw_SalesPriceVolumeAnalysis
+	lineageTag: b7fcc8da-717e-43bd-8886-c833d7de7815
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 14bdee6f-ce35-4555-950e-8f573e1c70d6
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: string
+		lineageTag: 072f220f-dfa1-43f8-b101-8619cd4c6744
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuarterNumber
+		dataType: int64
+		formatString: 0
+		lineageTag: caaaf3ce-108c-4341-94ee-bbb1777a59ce
+		summarizeBy: sum
+		sourceColumn: QuarterNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column DirectionName
+		dataType: string
+		lineageTag: 5edc5d16-22de-4161-b3da-ed996a7b5fdd
+		summarizeBy: none
+		sourceColumn: DirectionName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActualVolume
+		dataType: double
+		lineageTag: 59a70b65-d4a0-4082-a153-9bb431e3b665
+		summarizeBy: sum
+		sourceColumn: ActualVolume
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column BudgetVolume
+		dataType: double
+		lineageTag: e2224ccb-1bcf-436c-9f87-8c8a3a9fc46f
+		summarizeBy: sum
+		sourceColumn: BudgetVolume
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VolumeVariance
+		dataType: double
+		lineageTag: ad3b5ea1-3f7b-4564-a574-829820d1d1b2
+		summarizeBy: sum
+		sourceColumn: VolumeVariance
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ActualPrice
+		dataType: double
+		lineageTag: ee1ef494-fbea-450c-a0e1-0c0678cd0d60
+		summarizeBy: sum
+		sourceColumn: ActualPrice
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column BudgetPrice
+		dataType: double
+		lineageTag: 437b809b-24d8-4da7-93ff-b14281157e50
+		summarizeBy: sum
+		sourceColumn: BudgetPrice
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PriceVariance
+		dataType: double
+		lineageTag: 7b422f30-0858-4616-a944-3b41eef20237
+		summarizeBy: sum
+		sourceColumn: PriceVariance
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ActualRevenue
+		dataType: double
+		lineageTag: 03cd1c52-3437-428f-8b32-9c9ff735c2d5
+		summarizeBy: sum
+		sourceColumn: ActualRevenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column BudgetRevenue
+		dataType: double
+		lineageTag: d75c0223-43dd-461b-932b-ff13f8c12414
+		summarizeBy: sum
+		sourceColumn: BudgetRevenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column RevenueVariance
+		dataType: double
+		lineageTag: 53be4874-7925-4562-876c-c67df68e566d
+		summarizeBy: sum
+		sourceColumn: RevenueVariance
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column VolumeEffect
+		dataType: double
+		lineageTag: 0fd682a7-6f19-4b29-b602-9bb27524d765
+		summarizeBy: sum
+		sourceColumn: VolumeEffect
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PriceEffect
+		dataType: double
+		lineageTag: 945e8ff4-c867-4e30-9d77-1ba63b2b7660
+		summarizeBy: sum
+		sourceColumn: PriceEffect
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ResidualEffect
+		dataType: double
+		lineageTag: 6f17e314-bde5-40ab-be58-d4b2add32c4b
+		summarizeBy: sum
+		sourceColumn: ResidualEffect
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PeriodKey
+		dataType: int64
+		formatString: 0
+		lineageTag: d4e5bc40-06b3-45b6-a3f8-24ad0c43acc4
+		summarizeBy: none
+		sourceColumn: PeriodKey
+
+		annotation SummarizationSetBy = Automatic
+
+	partition vw_SalesPriceVolumeAnalysis = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("Khomenko-SV\SQLEXPRESS", "FinanceAnalyticsPortfolioDB"),
+				    dbo_vw_SalesPriceVolumeAnalysis = Source{[Schema="dbo",Item="vw_SalesPriceVolumeAnalysis"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(dbo_vw_SalesPriceVolumeAnalysis,{{"Year", Int64.Type}, {"QuarterNumber", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

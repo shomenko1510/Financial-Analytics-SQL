@@ -9,6 +9,7 @@ WITH SalesPVData AS
     SELECT
         P.[Year],
         P.[Quarter],
+        P.[Year] * 10 + P.QuarterNumber AS PeriodKey,
         P.QuarterNumber,
         D.DirectionName,
 
@@ -73,6 +74,7 @@ WITH SalesPVData AS
     GROUP BY
         P.[Year],
         P.[Quarter],
+        P.[Year] * 10 + P.QuarterNumber,
         P.QuarterNumber,
         D.DirectionName        
 ),
@@ -82,9 +84,9 @@ SalesVarianceData AS
     SELECT
         [Year],
         [Quarter],
+        [Year] * 10 + QuarterNumber AS PeriodKey,
         QuarterNumber,
         DirectionName,
-
         ActualVolume,
         BudgetVolume,
         ActualPrice,
@@ -105,6 +107,7 @@ SalesVarianceData AS
     )
 
 SELECT
+    [Year] * 10 + QuarterNumber AS PeriodKey,
     [Year],
     [Quarter],
     QuarterNumber,
@@ -176,11 +179,27 @@ FROM SalesVariancedata;
 GO
 
 /*
-SELECT *
+SELECT
+    PeriodKey,
+    [Year],
+    [Quarter],
+    QuarterNumber,
+    DirectionName,
+    ActualVolume,
+    BudgetVolume,
+    ActualPrice,
+    BudgetPrice,
+    ActualRevenue,
+    BudgetRevenue,
+    RevenueVariance,
+    VolumeEffect,
+    PriceEffect,
+    ResidualEffect
+
 FROM dbo.vw_SalesPriceVolumeAnalysis
 ORDER BY
     [Year],
     QuarterNumber,
-    Directionname;
+    DirectionName;
 GO
 */

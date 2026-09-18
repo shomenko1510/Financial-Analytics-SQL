@@ -1,0 +1,91 @@
+table DimPeriod
+	lineageTag: f6e7403a-0d1c-46ce-8cf7-3770e1043e8f
+
+	column PeriodKey
+		formatString: 0
+		lineageTag: 9bbed0c3-6f3e-40c2-b0fd-f902ecf11af2
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [PeriodKey]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		formatString: 0
+		lineageTag: ce4ff761-88dc-4ce2-8b84-b8c900ccb6ce
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Year]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		lineageTag: 5fb15f6c-5e21-49ff-9a2a-f1919cf821e4
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Quarter]
+		sortByColumn: QuarterNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuarterNumber
+		formatString: 0
+		lineageTag: 7153bc03-975b-48b0-bb77-27889b469658
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [QuarterNumber]
+
+		annotation SummarizationSetBy = Automatic
+
+	column YearQuarter
+		lineageTag: ba27c4bc-ece2-44ab-bbd6-7fe4fc9f396b
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [YearQuarter]
+		sortByColumn: YearQuarterSort
+
+		annotation SummarizationSetBy = Automatic
+
+	column YearQuarterSort
+		formatString: 0
+		lineageTag: 4b2052a3-cca1-41ce-acb8-1d120a53a4dc
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [YearQuarterSort]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimPeriod = calculated
+		mode: import
+		source =
+				
+				DISTINCT(
+				    SELECTCOLUMNS(
+				        vw_FinancialReport,
+				
+				        "PeriodKey",
+				            vw_FinancialReport[Year] * 10
+				            + vw_FinancialReport[QuarterNumber],
+				
+				        "Year",
+				            vw_FinancialReport[Year],
+				
+				        "Quarter",
+				            vw_FinancialReport[Quarter],
+				
+				        "QuarterNumber",
+				            vw_FinancialReport[QuarterNumber],
+				
+				        "YearQuarter",
+				            FORMAT(vw_FinancialReport[Year], "0")
+				            & " "
+				            & vw_FinancialReport[Quarter],
+				
+				        "YearQuarterSort",
+				            vw_FinancialReport[Year] * 10
+				            + vw_FinancialReport[QuarterNumber]
+				    )
+				)
+
+	annotation PBI_Id = 9a621f20777f4fd68e30ed22a055d06e
+

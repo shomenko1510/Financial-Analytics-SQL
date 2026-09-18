@@ -1,0 +1,180 @@
+table vw_GrossProfitAnalysis
+	lineageTag: e15444a3-abdd-4ba1-beff-6a8ee9f97fa5
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: bf22adbe-0557-45d2-a2dd-cc188af9f162
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: string
+		lineageTag: 85768962-03b0-40af-86d9-980f216fa5da
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuarterNumber
+		dataType: int64
+		formatString: 0
+		lineageTag: 097dc6b1-8740-4bcd-ac0f-5bb3d2a571b9
+		summarizeBy: sum
+		sourceColumn: QuarterNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column DirectionName
+		dataType: string
+		lineageTag: 9e81a11d-b510-49b2-8295-2bb07b34742c
+		summarizeBy: none
+		sourceColumn: DirectionName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActualRevenue
+		dataType: double
+		lineageTag: 0b0f1ec4-19b1-4d84-9d46-2e8531dfeb5c
+		summarizeBy: sum
+		sourceColumn: ActualRevenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column BudgetRevenue
+		dataType: double
+		lineageTag: 84ae1e98-ba25-4bed-88f5-0b32118ee770
+		summarizeBy: sum
+		sourceColumn: BudgetRevenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column RevenueVariance
+		dataType: double
+		lineageTag: 46ae3c1f-0fe4-45c2-97a8-ab89bf12caed
+		summarizeBy: sum
+		sourceColumn: RevenueVariance
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ActualCOGS
+		dataType: double
+		lineageTag: 9d2fd23e-b454-41d8-a80f-61829231b06b
+		summarizeBy: sum
+		sourceColumn: ActualCOGS
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column BudgetCOGS
+		dataType: double
+		lineageTag: 1d9657b1-8a35-4947-ad90-afb8766322f5
+		summarizeBy: sum
+		sourceColumn: BudgetCOGS
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column COGSVariance
+		dataType: double
+		lineageTag: 24cda514-c98e-454b-9993-7864a07638ce
+		summarizeBy: sum
+		sourceColumn: COGSVariance
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ActualGrossPrifit
+		dataType: double
+		lineageTag: 4363b606-158c-4e26-98c8-d8039d6fbf39
+		summarizeBy: sum
+		sourceColumn: ActualGrossPrifit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column BudgetGrossProfit
+		dataType: double
+		lineageTag: ac5306a9-8cc7-42e9-9e8a-da7a7d17a031
+		summarizeBy: sum
+		sourceColumn: BudgetGrossProfit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column GrossProfitVariance
+		dataType: double
+		lineageTag: 76687595-e8aa-459a-a488-ad6c2f8484b1
+		summarizeBy: sum
+		sourceColumn: GrossProfitVariance
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ActualGrossMarginPercent
+		dataType: double
+		lineageTag: be01bbbb-85ed-4f53-bb75-fa8d55c948da
+		summarizeBy: sum
+		sourceColumn: ActualGrossMarginPercent
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column BudgetGrossMarginPercent
+		dataType: double
+		lineageTag: 51e8031c-ce83-4d19-9109-a24965bb093f
+		summarizeBy: sum
+		sourceColumn: BudgetGrossMarginPercent
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column GrossMarginVariancePP
+		dataType: double
+		lineageTag: fa5c20e6-03e3-4813-8a48-1ed6b1664d53
+		summarizeBy: sum
+		sourceColumn: GrossMarginVariancePP
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column PeriodKey
+		dataType: int64
+		formatString: 0
+		lineageTag: ab781380-af43-4ccd-9a2a-34ed76d06700
+		summarizeBy: none
+		sourceColumn: PeriodKey
+
+		annotation SummarizationSetBy = Automatic
+
+	partition vw_GrossProfitAnalysis = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("Khomenko-SV\SQLEXPRESS", "FinanceAnalyticsPortfolioDB"),
+				    dbo_vw_GrossProfitAnalysis = Source{[Schema="dbo",Item="vw_GrossProfitAnalysis"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(dbo_vw_GrossProfitAnalysis,{{"Year", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
