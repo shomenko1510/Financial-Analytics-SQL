@@ -1,0 +1,48 @@
+table DimIndicator
+	lineageTag: 90e4d1ca-c124-4a1a-8bbd-a152ee0d76bc
+
+	column IndicatorCode
+		lineageTag: 2a5d8bc1-76cf-413c-93e1-0c2a75fff4f3
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [IndicatorCode]
+
+		annotation SummarizationSetBy = Automatic
+
+	column IndicatorName
+		lineageTag: 621b5953-d916-47c0-9218-63cc4b680943
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [IndicatorName]
+		sortByColumn: IndicatorSortOrder
+
+		annotation SummarizationSetBy = Automatic
+
+	column IndicatorSortOrder
+		formatString: 0
+		lineageTag: 6b88298e-b26e-4934-90dd-dbb3746a98cd
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [IndicatorSortOrder]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimIndicator = calculated
+		mode: import
+		source = ```
+				
+				DISTINCT(
+				    SELECTCOLUMNS(
+				        vw_FinancialReport,
+				        "IndicatorCode",
+				            vw_FinancialReport[IndicatorCode],
+				        "IndicatorName",
+				            vw_FinancialReport[IndicatorName],
+				        "IndicatorSortOrder",
+				            vw_FinancialReport[IndicatorSortOrder]          
+				    )
+				)
+				```
+
+	annotation PBI_Id = 30bcea60371c40c49d547ab8dca45b95
+

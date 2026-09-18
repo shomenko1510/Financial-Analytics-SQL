@@ -1,0 +1,62 @@
+table 'Financial Measures'
+	lineageTag: cb9e4207-9e3b-4adb-8983-3784f646e89e
+
+	measure 'Actual Amount' =
+			
+			SUM(
+			    vw_ActualVsBudget[ActualAmount]
+			)
+		lineageTag: 3d9c3790-4ce1-4935-87c3-8972acebe8fc
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Budget Amount' =
+			
+			SUM(
+			    vw_ActualVsBudget[BudgetAmount]
+			)
+		lineageTag: ff05ba6c-7951-4025-bbac-2de2ae249539
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Variance Amount' =
+			
+			[Actual Amount]
+			-
+			[Budget Amount]
+		lineageTag: 7068a36d-f193-4b77-9a81-de1c43a87394
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Variance %' =
+			DIVIDE(
+			    [Variance Amount],
+			    [Budget Amount],
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 6e2247f4-f8ee-49aa-bb80-c4c11a35e46d
+
+	column Placeholder
+		isHidden
+		formatString: 0
+		lineageTag: 64666fa1-c038-41c8-a696-d92ecd367a58
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Placeholder]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Financial Measures' = calculated
+		mode: import
+		source =
+				
+				DATATABLE(
+				    "Placeholder", INTEGER,
+				    {
+				        {1}
+				    }
+				)
+
+	annotation PBI_Id = 829914658454437bb3197f774bd738fa
+

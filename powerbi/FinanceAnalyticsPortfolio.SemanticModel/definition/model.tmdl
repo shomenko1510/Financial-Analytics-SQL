@@ -18,6 +18,9 @@ ref table vw_ActualVsBudget
 ref table vw_GrossProfitAnalysis
 ref table vw_SalesPriceVolumeAnalysis
 ref table DimPeriod
+ref table DimDirection
+ref table DimIndicator
+ref table 'Financial Measures'
 
 ref cultureInfo en-US
 

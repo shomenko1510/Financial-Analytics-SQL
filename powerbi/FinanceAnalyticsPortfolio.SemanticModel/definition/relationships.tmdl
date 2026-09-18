@@ -14,3 +14,19 @@ relationship f1048524-77b8-1fd8-547e-2045d217dbd1
 	fromColumn: vw_SalesPriceVolumeAnalysis.PeriodKey
 	toColumn: DimPeriod.PeriodKey
 
+relationship 34a9143e-68f4-c5b2-9bf2-063f6f275f54
+	fromColumn: vw_GrossProfitAnalysis.DirectionName
+	toColumn: DimDirection.DirectionName
+
+relationship 6b545333-347a-a74e-f545-1132503c6d0b
+	fromColumn: vw_SalesPriceVolumeAnalysis.DirectionName
+	toColumn: DimDirection.DirectionName
+
+relationship e3f4a239-75fb-b570-988c-7ed9c29e87a5
+	fromColumn: vw_ActualVsBudget.IndicatorCode
+	toColumn: DimIndicator.IndicatorCode
+
+relationship 9c235968-e93f-a0ef-3f91-ea0c2aab39b4
+	fromColumn: vw_FinancialReport.IndicatorCode
+	toColumn: DimIndicator.IndicatorCode
+

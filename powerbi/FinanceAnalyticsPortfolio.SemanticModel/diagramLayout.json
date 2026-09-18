@@ -4,7 +4,7 @@
     {
       "ordinal": 0,
       "scrollPosition": {
-        "x": 0,
+        "x": 226.28676911534853,
         "y": 0
       },
       "nodes": [
@@ -23,8 +23,8 @@
         },
         {
           "location": {
-            "x": 331.76678823732288,
-            "y": 338.88155914743459
+            "x": 282.74297925691263,
+            "y": 351.451766578309
           },
           "nodeIndex": "vw_FinancialReport",
           "nodeLineageTag": "8a75d8cd-31df-49d2-bc5b-3d747b2dd215",
@@ -36,8 +36,8 @@
         },
         {
           "location": {
-            "x": 647.19230681450892,
-            "y": 345.68070434904672
+            "x": 560.45787554147535,
+            "y": 348.19474583522162
           },
           "nodeIndex": "vw_GrossProfitAnalysis",
           "nodeLineageTag": "e15444a3-abdd-4ba1-beff-6a8ee9f97fa5",
@@ -49,8 +49,8 @@
         },
         {
           "location": {
-            "x": 967.64590836404466,
-            "y": 339.39560063360949
+            "x": 853.25702074308731,
+            "y": 349.45176657830905
           },
           "nodeIndex": "vw_SalesPriceVolumeAnalysis",
           "nodeLineageTag": "b7fcc8da-717e-43bd-8886-c833d7de7815",
@@ -58,11 +58,11 @@
             "height": 300,
             "width": 234
           },
-          "zIndex": 5
+          "zIndex": 4
         },
         {
           "location": {
-            "x": 333.81306862754991,
+            "x": 17.043841369514382,
             "y": 0
           },
           "nodeIndex": "DimPeriod",
@@ -71,7 +71,45 @@
             "height": 200,
             "width": 234
           },
-          "zIndex": 4
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 922.568806937818,
+            "y": 0
+          },
+          "nodeIndex": "DimDirection",
+          "nodeLineageTag": "9b422fab-0fe6-4e8b-8512-281725d67700",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 431.26025548512348,
+            "y": 0
+          },
+          "nodeIndex": "DimIndicator",
+          "nodeLineageTag": "90e4d1ca-c124-4a1a-8bbd-a152ee0d76bc",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 1205.3117861947305,
+            "y": 224.72588328915452
+          },
+          "nodeIndex": "Financial Measures",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "All tables",

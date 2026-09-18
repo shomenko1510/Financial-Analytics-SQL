@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "907b6de745d677e09107",
+  "position": {
+    "x": 441.22082585278275,
+    "y": 645.22615393525223,
+    "z": 2,
+    "height": 279.91428736896972,
+    "width": 320.240921989923,
+    "tabOrder": 2
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Budget Amount"
+                }
+              },
+              "queryRef": "Financial Measures.Budget Amount",
+              "nativeQueryRef": "Budget Amount"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Financial Measures"
+                  }
+                },
+                "Property": "Budget Amount"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "3dc2647f5c00227d820b",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Financial Measures"
+              }
+            },
+            "Property": "Budget Amount"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}
