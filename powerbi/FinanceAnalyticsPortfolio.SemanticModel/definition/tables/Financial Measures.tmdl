@@ -37,6 +37,259 @@ table 'Financial Measures'
 		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: 6e2247f4-f8ee-49aa-bb80-c4c11a35e46d
 
+	measure 'Revenue Actual' =
+			
+			CALCULATE(
+			    [Actual Amount],
+			    DimIndicator[IndicatorCode] = "REV_EX_VAT"
+			)
+		lineageTag: 886fbdfe-e8f8-440b-9880-4c74e4ec59cd
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue Budget' =
+			
+			CALCULATE(
+			    [Budget Amount],
+			    DimIndicator[IndicatorCode] = "REV_EX_VAT"
+			)
+		lineageTag: beba6fbf-bcf7-4d31-84e9-b98951f9eff3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Net Profit Actual' =
+			
+			CALCULATE(
+			    [Actual Amount],
+			    DimIndicator[IndicatorCode] = "NP"
+			)
+		lineageTag: 7fc9d0e7-95c8-4c1b-9d60-5daf136f8aef
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'OCF Actual' =
+			
+			CALCULATE(
+			    [Actual Amount],
+			    DimIndicator[IndicatorCode] = "OCF"
+			)
+		lineageTag: a6b37f22-3336-40f4-a560-e730cd65acf2
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Closing Cash Actual' =
+			
+			CALCULATE(
+			    [Actual Amount],
+			    DimIndicator[IndicatorCode] = "CASH_CLOSE"
+			)
+		lineageTag: 83a7413b-595f-4492-91ad-56fc5390259d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'EBITDA Actual' = ```
+			
+			VAR ProfitBeforeTax =
+			    CALCULATE(
+			        [Actual Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "PBT"
+			    )
+			
+			VAR Depriciation = 
+			    CALCULATE(
+			        [Actual Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "DEPR"
+			    )
+			
+			VAR FinancialExpenses = 
+			    CALCULATE(
+			        [Actual Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "FIN_EXP"
+			    )
+			
+			VAR OtherFinancialIncome =
+			    CALCULATE(
+			        [Actual Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "OTHER_FIN_INC"
+			    )
+			
+			RETURN
+			    ProfitBeforeTax
+			    + Depriciation
+			    + FinancialExpenses
+			    -OtherFinancialIncome
+			
+			```
+		lineageTag: 7be1e131-bf50-466e-bc8c-e976a067604b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'EBITDA Budget' = ```
+			
+			VAR ProfitBeforeTax =
+			    CALCULATE(
+			        [Budget Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "PBT"
+			    )
+			
+			VAR Depriciation = 
+			    CALCULATE(
+			        [Budget Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "DEPR"
+			    )
+			
+			VAR FinancialExpenses = 
+			    CALCULATE(
+			        [Budget Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "FIN_EXP"
+			    )
+			
+			VAR OtherFinancialIncome =
+			    CALCULATE(
+			        [Budget Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "OTHER_FIN_INC"
+			    )
+			
+			RETURN
+			    ProfitBeforeTax
+			    + Depriciation
+			    + FinancialExpenses
+			    -OtherFinancialIncome
+			```
+		lineageTag: 6534aef2-55b4-40a7-95e9-666b7b8cc75b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue Variance' = ```
+			
+			 [Revenue Actual] - [Revenue Budget]
+			```
+		lineageTag: 045fa28d-c281-42c0-996b-96787a38c0a2
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue Variance %' = ```
+			
+			 DIVIDE(
+			    [Revenue Variance],
+			    [Revenue Budget],
+			    0
+			 )
+			
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 8a8a4443-7431-4c71-9bbb-b8b3bd45524e
+
+	measure 'EBITDA Variance' =
+			
+			[EBITDA Actual] - [EBITDA Budget]
+		lineageTag: 0f74fff6-9f1b-4621-8df3-41b4f7056a7a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'EBITDA Variance %' =
+			
+			DIVIDE(
+			    [EBITDA Variance],
+			    [EBITDA Budget],
+			    0
+			)
+		lineageTag: 0479edcc-cf1f-4d67-a3fe-bd4fcddd215f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Net Profit Budget' =
+			
+			CALCULATE(
+			    [Budget Amount],
+			    DimIndicator[IndicatorCode] = "NP"
+			)
+		lineageTag: 3790bc24-8b44-4e9d-8d99-8639833226a8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Closing Cash Budget' =
+			
+			CALCULATE(
+			    [Budget Amount],
+			    DimIndicator[IndicatorCode] = "CASH_CLOSE"
+			)
+		lineageTag: 75f03e52-59a8-4014-94ba-9621e425757a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'OCF Budget' =
+			
+			CALCULATE(
+			    [Budget Amount],
+			    DimIndicator[IndicatorCode] = "OCF"
+			)
+		lineageTag: e090814b-9090-4856-9b44-d32ab2990172
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Net Prifit Variance' =
+			
+			[Net Profit Actual] - [Net Profit Budget]
+		lineageTag: 676534c4-ffdf-4980-9242-4c87c18e1008
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Net Profit Variance %' =
+			
+			DIVIDE(
+			    [Net Prifit Variance],
+			    [Net Profit Budget],
+			    0
+			)
+		lineageTag: 47421c23-7a9c-44e6-b565-0916c8a6c700
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Closing Cash Variance' =
+			
+			[Closing Cash Actual] - [Closing Cash Budget]
+		lineageTag: 3e7b9686-d881-4e29-9de2-b023c0dc2100
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Closing Cash Variance %' =
+			
+			DIVIDE(
+			    [Closing Cash Variance],
+			    [Closing Cash Budget],
+			    0
+			)
+		lineageTag: 512ddb66-46ea-4e1c-b7f4-f63500752f49
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'OCF Variance' =
+			
+			[OCF Actual] - [OCF Budget]
+		lineageTag: 0cc21659-fdf0-4265-90a9-38fef66dffae
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'OCF Variance %' =
+			
+			DIVIDE(
+			    [OCF Variance],
+			    [OCF Budget],
+			    0
+			)
+		lineageTag: 15880bd9-aa32-415e-9795-58630c55ff5b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column Placeholder
 		isHidden
 		formatString: 0

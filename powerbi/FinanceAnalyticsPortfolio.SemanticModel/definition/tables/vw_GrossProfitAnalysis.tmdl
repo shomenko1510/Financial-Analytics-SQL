@@ -168,7 +168,7 @@ table vw_GrossProfitAnalysis
 		mode: import
 		source =
 				let
-				    Source = Sql.Database("Khomenko-SV\SQLEXPRESS", "FinanceAnalyticsPortfolioDB"),
+				    Source = Sql.Database("SERGEY\MSSQLSERVER2022", "FinanceAnalyticsPortfolioDB"),
 				    dbo_vw_GrossProfitAnalysis = Source{[Schema="dbo",Item="vw_GrossProfitAnalysis"]}[Data],
 				    #"Changed Type" = Table.TransformColumnTypes(dbo_vw_GrossProfitAnalysis,{{"Year", Int64.Type}})
 				in

@@ -91,7 +91,7 @@ table vw_FinancialReport
 		mode: import
 		source =
 				let
-				    Source = Sql.Database("Khomenko-SV\SQLEXPRESS", "FinanceAnalyticsPortfolioDB"),
+				    Source = Sql.Database("SERGEY\MSSQLSERVER2022", "FinanceAnalyticsPortfolioDB"),
 				    dbo_vw_FinancialReport = Source{[Schema="dbo",Item="vw_FinancialReport"]}[Data],
 				    #"Changed Type" = Table.TransformColumnTypes(dbo_vw_FinancialReport,{{"Year", Int64.Type}, {"QuarterNumber", Int64.Type}})
 				in
@@ -99,5 +99,5 @@ table vw_FinancialReport
 
 	annotation PBI_NavigationStepName = Navigation
 
-	annotation PBI_ResultType = Table
+	annotation PBI_ResultType = Exception
 

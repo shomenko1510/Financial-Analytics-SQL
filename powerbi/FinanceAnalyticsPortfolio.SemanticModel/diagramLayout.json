@@ -105,8 +105,9 @@
             "y": 224.72588328915452
           },
           "nodeIndex": "Financial Measures",
+          "nodeLineageTag": "cb9e4207-9e3b-4adb-8983-3784f646e89e",
           "size": {
-            "height": 200,
+            "height": 250.28082972349773,
             "width": 234
           },
           "zIndex": 0

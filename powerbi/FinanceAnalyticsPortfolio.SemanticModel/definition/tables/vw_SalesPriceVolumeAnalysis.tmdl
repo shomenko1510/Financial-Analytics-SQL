@@ -168,7 +168,7 @@ table vw_SalesPriceVolumeAnalysis
 		mode: import
 		source =
 				let
-				    Source = Sql.Database("Khomenko-SV\SQLEXPRESS", "FinanceAnalyticsPortfolioDB"),
+				    Source = Sql.Database("SERGEY\MSSQLSERVER2022", "FinanceAnalyticsPortfolioDB"),
 				    dbo_vw_SalesPriceVolumeAnalysis = Source{[Schema="dbo",Item="vw_SalesPriceVolumeAnalysis"]}[Data],
 				    #"Changed Type" = Table.TransformColumnTypes(dbo_vw_SalesPriceVolumeAnalysis,{{"Year", Int64.Type}, {"QuarterNumber", Int64.Type}})
 				in
@@ -176,5 +176,5 @@ table vw_SalesPriceVolumeAnalysis
 
 	annotation PBI_NavigationStepName = Navigation
 
-	annotation PBI_ResultType = Table
+	annotation PBI_ResultType = Exception
 

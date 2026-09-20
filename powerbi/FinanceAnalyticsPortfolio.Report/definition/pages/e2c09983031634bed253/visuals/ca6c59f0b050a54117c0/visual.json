@@ -1,0 +1,194 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "ca6c59f0b050a54117c0",
+  "position": {
+    "x": 0,
+    "y": 402.82958199356909,
+    "z": 0,
+    "height": 422.89389067524115,
+    "width": 759.35691318327974
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DimIndicator"
+                    }
+                  },
+                  "Property": "IndicatorName"
+                }
+              },
+              "queryRef": "DimIndicator.IndicatorName",
+              "nativeQueryRef": "IndicatorName",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Actual Amount"
+                }
+              },
+              "queryRef": "Financial Measures.Actual Amount",
+              "nativeQueryRef": "Actual Amount"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Budget Amount"
+                }
+              },
+              "queryRef": "Financial Measures.Budget Amount",
+              "nativeQueryRef": "Budget Amount"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Variance Amount"
+                }
+              },
+              "queryRef": "Financial Measures.Variance Amount",
+              "nativeQueryRef": "Variance Amount"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Variance %"
+                }
+              },
+              "queryRef": "Financial Measures.Variance %",
+              "nativeQueryRef": "Variance %"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "subTotals": [
+        {
+          "properties": {
+            "columnSubtotals": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "rowSubtotals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "3f4b82c8dd0570a1a0c0",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DimIndicator"
+              }
+            },
+            "Property": "IndicatorName"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "1a66d2e89b086d7c349c",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Financial Measures"
+              }
+            },
+            "Property": "Actual Amount"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "1d5ae417e16e5da60c1e",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Financial Measures"
+              }
+            },
+            "Property": "Budget Amount"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "d8019746b8e032a1cba6",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Financial Measures"
+              }
+            },
+            "Property": "Variance Amount"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "d7c2e180b390aa1d06b0",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Financial Measures"
+              }
+            },
+            "Property": "Variance %"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

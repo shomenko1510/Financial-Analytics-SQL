@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
-  "name": "5dbbcacdab705711eda3",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "2cea42a884dab41d6b88",
   "position": {
-    "x": 9.4886199108125329,
-    "y": 0,
-    "z": 0,
-    "height": 279.91428736896972,
-    "width": 633.36537904673651,
-    "tabOrder": 0
+    "x": 1009.3890675241157,
+    "y": 581.86495176848871,
+    "z": 1,
+    "height": 243.85852090032154,
+    "width": 296.33440514469453,
+    "tabOrder": 1
   },
   "visual": {
     "visualType": "slicer",
@@ -81,7 +81,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'2024 Q2'"
+                                "Value": "'2023 Q3'"
                               }
                             }
                           ]
@@ -101,7 +101,7 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "9dbd0bb8c09781dbea04",
+        "name": "ef809161a7b8708236a2",
         "field": {
           "Column": {
             "Expression": {
