@@ -1,0 +1,39 @@
+table 'KPI Selector'
+	lineageTag: c49d1164-2448-45b4-a44a-0e65789fef0d
+
+	column KPI
+		lineageTag: 27d5b175-d1dd-4f98-88ef-e1a157c41c08
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [KPI]
+		sortByColumn: SortOrder
+
+		annotation SummarizationSetBy = Automatic
+
+	column SortOrder
+		formatString: 0
+		lineageTag: 74d99535-2ab8-4399-920a-4b8fb83de2d4
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [SortOrder]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'KPI Selector' = calculated
+		mode: import
+		source =
+				
+				DATATABLE(
+				    "KPI", STRING,
+				    "SortOrder", INTEGER,
+				    {
+				        {"Revenue", 1},
+				        {"EBITDA", 2},
+				        {"NET Profit",3},
+				        {"Operating Cash Flow",4},
+				        {"Closing Cash", 5}
+				    }
+				)
+
+	annotation PBI_Id = 39cfe5d7ff974d6598c781d9dfda00ed
+

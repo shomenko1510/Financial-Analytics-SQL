@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
-  "name": "2cea42a884dab41d6b88",
+  "name": "122d4ac2e024340057c0",
   "position": {
-    "x": 27.699495880978731,
-    "y": 720.18689290544694,
-    "z": 1000,
-    "height": 274.47682282060742,
-    "width": 395.34735030124187,
-    "tabOrder": 0
+    "x": 372.68412639862294,
+    "y": 138.49747940489365,
+    "z": 1,
+    "height": 280,
+    "width": 280,
+    "tabOrder": 1
   },
   "visual": {
     "visualType": "slicer",
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "DimPeriod"
+                      "Entity": "DimDirection"
                     }
                   },
-                  "Property": "YearQuarter"
+                  "Property": "DirectionName"
                 }
               },
-              "queryRef": "DimPeriod.YearQuarter",
-              "nativeQueryRef": "YearQuarter",
+              "queryRef": "DimDirection.DirectionName",
+              "nativeQueryRef": "DirectionName",
               "active": true
             }
           ]

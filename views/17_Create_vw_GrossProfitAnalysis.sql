@@ -24,7 +24,7 @@ WITH SalesData AS
                 ELSE 0
             END    
         ) AS BudgetRevenue
-    FROM dbo.factsales AS FS
+    FROM dbo.FactSales AS FS
 
     INNER JOIN dbo.DimScenario AS S
         ON FS.ScenarioId = S.ScenarioId
@@ -131,7 +131,7 @@ SELECT
     CAST(
         GPD.ActualGrossProfit
         AS DECIMAL(18,2)
-    ) AS ActualGrossPrifit,
+    ) AS ActualGrossProfit,
 
     CAST(
         GPD.BudgetGrossProfit
@@ -196,7 +196,7 @@ SELECT
     BudgetRevenue,
     ActualCOGS,
     BudgetCOGS,
-    ActualGrossPrifit,
+    ActualGrossProfit,
     BudgetGrossProfit,
     ActualGrossMarginPercent,
     BudgetGrossMarginPercent,

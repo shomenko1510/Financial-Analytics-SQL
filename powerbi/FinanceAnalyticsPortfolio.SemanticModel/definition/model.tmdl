@@ -9,7 +9,7 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBI_QueryOrder = ["vw_FinancialReport","vw_ActualVsBudget","vw_GrossProfitAnalysis","vw_SalesPriceVolumeAnalysis"]
+annotation PBI_QueryOrder = ["vw_FinancialReport","vw_ActualVsBudget","vw_GrossProfitAnalysis","vw_SalesPriceVolumeAnalysis","pServerName","pDatabaseName"]
 
 annotation PBI_ProTooling = ["DevMode"]
 
@@ -21,6 +21,8 @@ ref table DimPeriod
 ref table DimDirection
 ref table DimIndicator
 ref table 'Financial Measures'
+ref table 'KPI Selector'
+ref table 'Revenue Bridge'
 
 ref cultureInfo en-US
 

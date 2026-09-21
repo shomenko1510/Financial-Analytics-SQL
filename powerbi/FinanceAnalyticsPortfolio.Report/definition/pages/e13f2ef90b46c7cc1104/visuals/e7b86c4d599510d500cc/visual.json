@@ -1,38 +1,38 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
-  "name": "ca6c59f0b050a54117c0",
+  "name": "e7b86c4d599510d500cc",
   "position": {
-    "x": 1039.9901635312924,
-    "y": 606.87077339235213,
-    "z": 0,
-    "height": 387.79294233370223,
-    "width": 858.68437231034068,
-    "tabOrder": 8000
+    "x": 52.836159746826738,
+    "y": 562.1767397062365,
+    "z": 3,
+    "height": 475.52543772144065,
+    "width": 522.02125829864815,
+    "tabOrder": 3
   },
   "visual": {
-    "visualType": "pivotTable",
+    "visualType": "lineClusteredColumnComboChart",
     "query": {
       "queryState": {
-        "Rows": {
+        "Category": {
           "projections": [
             {
               "field": {
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "DimIndicator"
+                      "Entity": "DimDirection"
                     }
                   },
-                  "Property": "IndicatorName"
+                  "Property": "DirectionName"
                 }
               },
-              "queryRef": "DimIndicator.IndicatorName",
-              "nativeQueryRef": "IndicatorName",
+              "queryRef": "DimDirection.DirectionName",
+              "nativeQueryRef": "DirectionName",
               "active": true
             }
           ]
         },
-        "Values": {
+        "Y": {
           "projections": [
             {
               "field": {
@@ -42,11 +42,11 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "Actual Amount"
+                  "Property": "Gross Profit Actual"
                 }
               },
-              "queryRef": "Financial Measures.Actual Amount",
-              "nativeQueryRef": "Actual Amount"
+              "queryRef": "Financial Measures.Gross Profit Actual",
+              "nativeQueryRef": "Gross Profit Actual"
             },
             {
               "field": {
@@ -56,11 +56,29 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "Budget Amount"
+                  "Property": "Gross Profit Actual"
                 }
               },
-              "queryRef": "Financial Measures.Budget Amount",
-              "nativeQueryRef": "Budget Amount"
+              "queryRef": "Financial Measures.Gross Profit Actual",
+              "nativeQueryRef": "Gross Profit Actual"
+            }
+          ]
+        },
+        "Y2": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Gross Margin Actual %"
+                }
+              },
+              "queryRef": "Financial Measures.Gross Margin Actual %",
+              "nativeQueryRef": "Gross Margin Actual %"
             },
             {
               "field": {
@@ -70,45 +88,42 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "Variance Amount"
+                  "Property": "Gross Margin Budget %"
                 }
               },
-              "queryRef": "Financial Measures.Variance Amount",
-              "nativeQueryRef": "Variance Amount"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Financial Measures"
-                    }
-                  },
-                  "Property": "Variance %"
-                }
-              },
-              "queryRef": "Financial Measures.Variance %",
-              "nativeQueryRef": "Variance %"
+              "queryRef": "Financial Measures.Gross Margin Budget %",
+              "nativeQueryRef": "Gross Margin Budget %"
             }
           ]
         }
-      }
-    },
-    "objects": {
-      "subTotals": [
-        {
-          "properties": {
-            "columnSubtotals": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Financial Measures"
+                  }
+                },
+                "Property": "Gross Profit Actual"
               }
             },
-            "rowSubtotals": {
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "'Gross Profit and Margin  by Business Line'"
                 }
               }
             }

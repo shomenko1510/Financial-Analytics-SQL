@@ -113,7 +113,7 @@ table vw_ActualVsBudget
 		mode: import
 		source =
 				let
-				    Source = Sql.Database("SERGEY\MSSQLSERVER2022", "FinanceAnalyticsPortfolioDB"),
+				    Source = Sql.Database(pServerName, pDatabaseName),
 				    dbo_vw_ActualVsBudget = Source{[Schema="dbo",Item="vw_ActualVsBudget"]}[Data],
 				    #"Changed Type" = Table.TransformColumnTypes(dbo_vw_ActualVsBudget,{{"Year", Int64.Type}, {"QuarterNumber", Int64.Type}})
 				in

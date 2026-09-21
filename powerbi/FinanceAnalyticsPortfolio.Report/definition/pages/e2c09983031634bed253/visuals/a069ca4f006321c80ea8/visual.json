@@ -1,38 +1,38 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
-  "name": "ca6c59f0b050a54117c0",
+  "name": "a069ca4f006321c80ea8",
   "position": {
-    "x": 1039.9901635312924,
-    "y": 606.87077339235213,
-    "z": 0,
-    "height": 387.79294233370223,
-    "width": 858.68437231034068,
-    "tabOrder": 8000
+    "x": 22.663223902618959,
+    "y": 264.4042788638879,
+    "z": 7000,
+    "height": 438.15566211729993,
+    "width": 936.746587974917,
+    "tabOrder": 6000
   },
   "visual": {
-    "visualType": "pivotTable",
+    "visualType": "lineChart",
     "query": {
       "queryState": {
-        "Rows": {
+        "Category": {
           "projections": [
             {
               "field": {
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "DimIndicator"
+                      "Entity": "DimPeriod"
                     }
                   },
-                  "Property": "IndicatorName"
+                  "Property": "YearQuarter"
                 }
               },
-              "queryRef": "DimIndicator.IndicatorName",
-              "nativeQueryRef": "IndicatorName",
+              "queryRef": "DimPeriod.YearQuarter",
+              "nativeQueryRef": "YearQuarter",
               "active": true
             }
           ]
         },
-        "Values": {
+        "Y": {
           "projections": [
             {
               "field": {
@@ -42,11 +42,11 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "Actual Amount"
+                  "Property": "Revenue Actual"
                 }
               },
-              "queryRef": "Financial Measures.Actual Amount",
-              "nativeQueryRef": "Actual Amount"
+              "queryRef": "Financial Measures.Revenue Actual",
+              "nativeQueryRef": "Revenue Actual"
             },
             {
               "field": {
@@ -56,11 +56,11 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "Budget Amount"
+                  "Property": "EBITDA Actual"
                 }
               },
-              "queryRef": "Financial Measures.Budget Amount",
-              "nativeQueryRef": "Budget Amount"
+              "queryRef": "Financial Measures.EBITDA Actual",
+              "nativeQueryRef": "EBITDA Actual"
             },
             {
               "field": {
@@ -70,42 +70,34 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "Variance Amount"
+                  "Property": "Net Profit Actual"
                 }
               },
-              "queryRef": "Financial Measures.Variance Amount",
-              "nativeQueryRef": "Variance Amount"
-            },
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Financial Measures"
-                    }
-                  },
-                  "Property": "Variance %"
-                }
-              },
-              "queryRef": "Financial Measures.Variance %",
-              "nativeQueryRef": "Variance %"
+              "queryRef": "Financial Measures.Net Profit Actual",
+              "nativeQueryRef": "Net Profit Actual"
             }
           ]
         }
       }
     },
-    "objects": {
-      "subTotals": [
+    "visualContainerObjects": {
+      "title": [
         {
           "properties": {
-            "columnSubtotals": {
+            "text": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "'Quarterly Trend'"
                 }
               }
-            },
-            "rowSubtotals": {
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
               "expr": {
                 "Literal": {
                   "Value": "false"

@@ -95,16 +95,6 @@ table vw_GrossProfitAnalysis
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	column ActualGrossPrifit
-		dataType: double
-		lineageTag: 4363b606-158c-4e26-98c8-d8039d6fbf39
-		summarizeBy: sum
-		sourceColumn: ActualGrossPrifit
-
-		annotation SummarizationSetBy = Automatic
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
-
 	column BudgetGrossProfit
 		dataType: double
 		lineageTag: ac5306a9-8cc7-42e9-9e8a-da7a7d17a031
@@ -164,11 +154,21 @@ table vw_GrossProfitAnalysis
 
 		annotation SummarizationSetBy = Automatic
 
+	column ActualGrossProfit
+		dataType: double
+		lineageTag: 45acf2b4-5557-41af-b2b3-8f2f742426ad
+		summarizeBy: sum
+		sourceColumn: ActualGrossProfit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	partition vw_GrossProfitAnalysis = m
 		mode: import
 		source =
 				let
-				    Source = Sql.Database("SERGEY\MSSQLSERVER2022", "FinanceAnalyticsPortfolioDB"),
+				    Source = Sql.Database(pServerName, pDatabaseName),
 				    dbo_vw_GrossProfitAnalysis = Source{[Schema="dbo",Item="vw_GrossProfitAnalysis"]}[Data],
 				    #"Changed Type" = Table.TransformColumnTypes(dbo_vw_GrossProfitAnalysis,{{"Year", Int64.Type}})
 				in

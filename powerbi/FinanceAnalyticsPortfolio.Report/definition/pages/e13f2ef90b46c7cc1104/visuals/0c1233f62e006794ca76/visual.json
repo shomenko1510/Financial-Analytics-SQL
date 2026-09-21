@@ -1,0 +1,165 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "0c1233f62e006794ca76",
+  "position": {
+    "x": 800.99618176189335,
+    "y": 67.630284475938225,
+    "z": 2,
+    "height": 619.23979223280935,
+    "width": 959.5046610023735,
+    "tabOrder": 2
+  },
+  "visual": {
+    "visualType": "clusteredBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DimDirection"
+                    }
+                  },
+                  "Property": "DirectionName"
+                }
+              },
+              "queryRef": "DimDirection.DirectionName",
+              "nativeQueryRef": "DirectionName",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Revenue by Direction Actual"
+                }
+              },
+              "queryRef": "Financial Measures.Revenue by Direction Actual",
+              "nativeQueryRef": "Revenue Actual",
+              "displayName": "Revenue Actual"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Revenue by Direction Budget"
+                }
+              },
+              "queryRef": "Financial Measures.Revenue by Direction Budget",
+              "nativeQueryRef": "Revenue Budget",
+              "displayName": "Revenue Budget"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Financial Measures"
+                  }
+                },
+                "Property": "Revenue by Direction Actual"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Revenue Actual vs Budget by Business Line'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "52c5da0ea141819b62db",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DimDirection"
+              }
+            },
+            "Property": "DirectionName"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "0390de77d658269814a4",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Financial Measures"
+              }
+            },
+            "Property": "Revenue by Direction Actual"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "99a819906724dcbcd6de",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Financial Measures"
+              }
+            },
+            "Property": "Revenue by Direction Budget"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+expression pServerName = "Khomenko-SV\SQLEXPRESS" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 44d1f329-8d47-4ded-b575-b188c56f96cf
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
+expression pDatabaseName = "FinanceAnalyticsPortfolioDB" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: d4f65e30-5032-463d-b5f0-16e7fadd135b
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+

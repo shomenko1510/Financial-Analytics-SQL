@@ -286,6 +286,151 @@ table 'Financial Measures'
 		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: 15880bd9-aa32-415e-9795-58630c55ff5b
 
+	measure 'KPI Actual' =
+			
+			SWITCH(
+			    SELECTEDVALUE('KPI Selector'[KPI]),
+			    "Revenue", [Revenue Actual],
+			    "EBITDA", [EBITDA Actual],
+			    "Net Profit", [Net Profit Actual],
+			    "Operating Cash Flow", [OCF Actual],
+			    "Closing Cash", [Closing Cash Actual]
+			)
+		lineageTag: 62b3ab1e-f0b2-4ed1-93d1-54f863b5c9ff
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'KPI Budget' =
+			
+			SWITCH(
+			    SELECTEDVALUE('KPI Selector'[KPI]),
+			    "Revenue", [Revenue Budget],
+			    "EBITDA",[EBITDA Budget],
+			    "Net Profit", [Net Profit Budget],
+			    "Operating cash Flow", [OCF Budget],
+			    "Closing Cash", [Closing Cash Budget]
+			)
+		lineageTag: c42c7543-38a4-442e-840c-a99f9c7de1c0
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue by Direction Actual' =
+			
+			SUM(
+			    vw_GrossProfitAnalysis[ActualRevenue]
+			)
+		lineageTag: e13825ee-f8f8-469b-9c94-61042f5d0ea7
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue by Direction Budget' =
+			
+			SUM(
+			    vw_GrossProfitAnalysis[BudgetRevenue]
+			)
+		lineageTag: 65e34cd6-3210-4c0c-b30d-359918716e7d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Gross Profit Actual' =
+			
+			SUM(
+			    vw_GrossProfitAnalysis[ActualGrossProfit]
+			)
+		lineageTag: f280a0bf-7125-4f8f-883b-abbffb97cfeb
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Gross Profit Budget' =
+			
+			SUM(
+			    vw_GrossProfitAnalysis[BudgetGrossProfit]
+			)
+		lineageTag: 470c60e5-7f67-4e30-8c9c-1bf75aa8ed78
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Gross Margin Actual %' =
+			
+			DIVIDE(
+			    [Gross Profit Actual],
+			    [Revenue by Direction Actual],
+			    0
+			)
+		lineageTag: b05a0d11-77b0-4e33-965b-a79e868fb311
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Gross Margin Budget %' =
+			
+			DIVIDE(
+			    [Gross Profit Budget],
+			    [Revenue by Direction Budget],
+			    0
+			)
+		lineageTag: 22d4a346-63ea-4e5e-8f64-ca37f1c44f57
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Price Effect' =
+			
+			SUM(vw_SalesPriceVolumeAnalysis[PriceEffect]
+			)
+		lineageTag: 602effbc-a38f-4e00-8751-f5ed08854065
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Volume Effect' = ```
+			
+			SUM(
+			    vw_SalesPriceVolumeAnalysis[VolumeEffect]
+			)    
+			```
+		lineageTag: 5f8b4dc4-5c18-4a5b-88a9-c4d3250896f5
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Residual Effect' =
+			
+			SUM(
+			    vw_SalesPriceVolumeAnalysis[ResidualEffect]
+			)
+		lineageTag: e636bf51-ff50-46e3-b01c-5f7958b18ac2
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue variance SPV' =
+			
+			SUM(
+			    vw_SalesPriceVolumeAnalysis[RevenueVariance]
+			)
+		lineageTag: cac6452b-c8db-4f32-8642-dcf40517a68a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue Bridge Value' =
+			
+			SWITCH(
+			    SELECTEDVALUE('Revenue Bridge'[Driver]),
+			    "Budget Revenue",
+			        SUM(vw_SalesPriceVolumeAnalysis[BudgetRevenue]),
+			
+			    "Volume Effect",
+			        [Volume Effect],
+			
+			    "Price Effect",
+			        [Price Effect],
+			
+			    "Residual Effect",
+			        [Residual Effect],
+			
+			    "Actual Revenue",
+			        SUM(vw_SalesPriceVolumeAnalysis[ActualRevenue])
+			)
+		lineageTag: bb57028a-19c6-4bc0-a325-08a6c197c58f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column Placeholder
 		isHidden
 		formatString: 0

@@ -1,8 +1,15 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
   "name": "e2c09983031634bed253",
   "displayName": "Financial Summary",
   "displayOption": "FitToPage",
   "height": 1080,
-  "width": 1920
+  "width": 1920,
+  "visualInteractions": [
+    {
+      "source": "2cea42a884dab41d6b88",
+      "target": "a069ca4f006321c80ea8",
+      "type": "NoFilter"
+    }
+  ]
 }

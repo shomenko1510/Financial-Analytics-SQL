@@ -1,0 +1,40 @@
+table 'Revenue Bridge'
+	lineageTag: 5322e47e-edf7-4bb3-a442-ac27d06d3a60
+
+	column Driver
+		lineageTag: e3665c53-78b2-4103-80c6-c38c8286b5da
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Driver]
+		sortByColumn: SortOrder
+
+		annotation SummarizationSetBy = Automatic
+
+	column SortOrder
+		formatString: 0
+		lineageTag: 389c230d-e905-4989-b35b-8450d89d241b
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [SortOrder]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Revenue Bridge' = calculated
+		mode: import
+		source = ```
+				
+				DATATABLE(
+				    "Driver", STRING,
+				    "SortOrder", INTEGER,
+				    {
+				        {"Budget Revenue", 1},
+				        {"Volume EFFECT", 2},
+				        {"Price Effect", 3},
+				        {"Residual Effect", 4},
+				        {"Actual Revenue", 5}
+				    }
+				)    
+				```
+
+	annotation PBI_Id = 1b889e752cc34dde83636a4058830f02
+
