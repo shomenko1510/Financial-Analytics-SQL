@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "71f4417320ce70d05a59",
   "position": {
-    "x": 33.160621761658028,
-    "y": 94.507772020725383,
+    "x": 26.666666666666664,
+    "y": 87.4074074074074,
     "z": 2,
-    "height": 203.93782383419688,
-    "width": 308.3937823834197,
+    "height": 170.37037037037035,
+    "width": 340.7407407407407,
     "tabOrder": 2
   },
   "visual": {
@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "Financial Measures.Revenue Actual",
-              "nativeQueryRef": "Revenue Actual"
+              "nativeQueryRef": "Revenue",
+              "displayName": "Revenue"
             }
           ]
         }
@@ -80,6 +81,13 @@
               "expr": {
                 "Literal": {
                   "Value": "25D"
+                }
+              }
+            },
+            "horizontalAlignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
                 }
               }
             }
@@ -266,6 +274,22 @@
             }
           }
         }
+      ],
+      "referenceLabelLayout": [
+        {
+          "properties": {
+            "horizontalAlignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
       ]
     },
     "visualContainerObjects": {
@@ -276,6 +300,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Revenue'"
+                }
+              }
+            },
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }

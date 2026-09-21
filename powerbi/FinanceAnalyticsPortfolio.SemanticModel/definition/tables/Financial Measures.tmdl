@@ -202,9 +202,8 @@ table 'Financial Measures'
 			    [EBITDA Budget],
 			    0
 			)
+		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: 0479edcc-cf1f-4d67-a3fe-bd4fcddd215f
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	measure 'Net Profit Budget' =
 			
@@ -250,9 +249,8 @@ table 'Financial Measures'
 			    [Net Profit Budget],
 			    0
 			)
+		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: 47421c23-7a9c-44e6-b565-0916c8a6c700
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	measure 'Closing Cash Variance' =
 			
@@ -268,9 +266,8 @@ table 'Financial Measures'
 			    [Closing Cash Budget],
 			    0
 			)
+		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: 512ddb66-46ea-4e1c-b7f4-f63500752f49
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	measure 'OCF Variance' =
 			
@@ -286,9 +283,8 @@ table 'Financial Measures'
 			    [OCF Budget],
 			    0
 			)
+		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: 15880bd9-aa32-415e-9795-58630c55ff5b
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	column Placeholder
 		isHidden
