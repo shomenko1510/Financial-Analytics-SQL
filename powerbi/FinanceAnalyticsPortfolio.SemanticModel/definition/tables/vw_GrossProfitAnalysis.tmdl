@@ -156,7 +156,7 @@ table vw_GrossProfitAnalysis
 
 	column ActualGrossProfit
 		dataType: double
-		lineageTag: 45acf2b4-5557-41af-b2b3-8f2f742426ad
+		lineageTag: 7ebffdfa-cba1-4d21-beaa-60efcb29d056
 		summarizeBy: sum
 		sourceColumn: ActualGrossProfit
 

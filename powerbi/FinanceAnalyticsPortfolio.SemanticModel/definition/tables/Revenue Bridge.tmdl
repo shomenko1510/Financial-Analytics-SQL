@@ -27,11 +27,9 @@ table 'Revenue Bridge'
 				    "Driver", STRING,
 				    "SortOrder", INTEGER,
 				    {
-				        {"Budget Revenue", 1},
-				        {"Volume EFFECT", 2},
-				        {"Price Effect", 3},
-				        {"Residual Effect", 4},
-				        {"Actual Revenue", 5}
+				        {"Volume Effect", 1},
+				        {"Price Effect", 2},
+				        {"Residual Effect", 3}
 				    }
 				)    
 				```

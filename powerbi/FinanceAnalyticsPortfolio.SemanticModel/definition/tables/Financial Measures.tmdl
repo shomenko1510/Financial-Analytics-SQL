@@ -408,13 +408,11 @@ table 'Financial Measures'
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	measure 'Revenue Bridge Value' =
+	measure 'Revenue Bridge Value' = ```
 			
 			SWITCH(
 			    SELECTEDVALUE('Revenue Bridge'[Driver]),
-			    "Budget Revenue",
-			        SUM(vw_SalesPriceVolumeAnalysis[BudgetRevenue]),
-			
+			    
 			    "Volume Effect",
 			        [Volume Effect],
 			
@@ -422,12 +420,29 @@ table 'Financial Measures'
 			        [Price Effect],
 			
 			    "Residual Effect",
-			        [Residual Effect],
-			
-			    "Actual Revenue",
-			        SUM(vw_SalesPriceVolumeAnalysis[ActualRevenue])
+			        [Residual Effect]
+			   
 			)
+			```
 		lineageTag: bb57028a-19c6-4bc0-a325-08a6c197c58f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue SPV Actual' =
+			
+			SUM(
+			    vw_SalesPriceVolumeAnalysis[ActualRevenue]
+			)
+		lineageTag: 4d511568-a1aa-450f-90ea-a1b0a857f223
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue SPV Budget' =
+			
+			SUM(
+			    vw_SalesPriceVolumeAnalysis[BudgetRevenue]
+			)
+		lineageTag: 2e56dfbb-4c2b-40a5-956c-838312e09da8
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
