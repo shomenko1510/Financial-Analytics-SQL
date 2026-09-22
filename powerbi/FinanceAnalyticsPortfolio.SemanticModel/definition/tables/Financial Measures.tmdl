@@ -71,6 +71,7 @@ table 'Financial Measures'
 			
 			CALCULATE(
 			    [Actual Amount],
+			    REMOVEFILTERS(DimIndicator),
 			    DimIndicator[IndicatorCode] = "OCF"
 			)
 		lineageTag: a6b37f22-3336-40f4-a560-e730cd65acf2
@@ -81,6 +82,7 @@ table 'Financial Measures'
 			
 			CALCULATE(
 			    [Actual Amount],
+			    REMOVEFILTERS(DimIndicator),
 			    DimIndicator[IndicatorCode] = "CASH_CLOSE"
 			)
 		lineageTag: 83a7413b-595f-4492-91ad-56fc5390259d
@@ -219,6 +221,7 @@ table 'Financial Measures'
 			
 			CALCULATE(
 			    [Budget Amount],
+			    REMOVEFILTERS(DimIndicator),
 			    DimIndicator[IndicatorCode] = "CASH_CLOSE"
 			)
 		lineageTag: 75f03e52-59a8-4014-94ba-9621e425757a
@@ -229,6 +232,7 @@ table 'Financial Measures'
 			
 			CALCULATE(
 			    [Budget Amount],
+			    REMOVEFILTERS(DimIndicator),
 			    DimIndicator[IndicatorCode] = "OCF"
 			)
 		lineageTag: e090814b-9090-4856-9b44-d32ab2990172
@@ -443,6 +447,62 @@ table 'Financial Measures'
 			    vw_SalesPriceVolumeAnalysis[BudgetRevenue]
 			)
 		lineageTag: 2e56dfbb-4c2b-40a5-956c-838312e09da8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Operating cash Flow Actual' =
+			
+			CALCULATE(
+			    SUM(vw_FinancialReport[Amount]),
+			    REMOVEFILTERS(DimIndicator),
+			    DimIndicator[IndicatorCode] = "OCF",
+			    vw_FinancialReport[ScenarioName] = "Actual"
+			)
+		lineageTag: 6677e8b6-66d4-4eef-a40b-c48526e170eb
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'CAPEX Actual' =
+			
+			CALCULATE(
+			    [Actual Amount],
+			    REMOVEFILTERS(DimIndicator),
+			    DimIndicator[IndicatorCode] = "CAPEX"
+			)
+		lineageTag: 7d6e692c-86b0-4bc4-a698-9e51bc43df0b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'CAPEX Budget' =
+			
+			CALCULATE(
+			    [Budget Amount],
+			    REMOVEFILTERS(DimIndicator),
+			    DimIndicator[IndicatorCode] = "CAPEX"
+			)
+		lineageTag: 8c58fe33-7c0a-4c1c-91c8-c900bcd4d6dc
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Net Cash Flow Actual' =
+			
+			CALCULATE(
+			    [Actual Amount],
+			    REMOVEFILTERS(DimIndicator),
+			    DimIndicator[IndicatorCode] = "NCF"
+			)
+		lineageTag: 23367b29-6f18-4c2f-a9cf-3d9296cb5cc2
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Net Cash Flow Budget' =
+			
+			CALCULATE(
+			    [Budget Amount],
+			    REMOVEFILTERS(DimIndicator),
+			    DimIndicator[IndicatorCode] = "NCF"
+			)
+		lineageTag: 0fc877b6-e233-4dd4-a04c-dfb2cb60f154
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
