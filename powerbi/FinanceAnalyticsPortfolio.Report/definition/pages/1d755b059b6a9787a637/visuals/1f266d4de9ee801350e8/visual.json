@@ -1,0 +1,86 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "1f266d4de9ee801350e8",
+  "position": {
+    "x": 27.420701966910006,
+    "y": 344.71739615544004,
+    "z": 6003,
+    "height": 305.54496477414006,
+    "width": 423.06225891804007,
+    "tabOrder": 7003
+  },
+  "visual": {
+    "visualType": "waterfallChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Cash Flow Structure"
+                    }
+                  },
+                  "Property": "CashFlowItem"
+                }
+              },
+              "queryRef": "Cash Flow Structure.CashFlowItem",
+              "nativeQueryRef": "CashFlowItem",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Cash Flow Structure Value"
+                }
+              },
+              "queryRef": "Financial Measures.Cash Flow Structure Value",
+              "nativeQueryRef": "Cash Flow Structure ",
+              "displayName": "Cash Flow Structure "
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Cash Flow Structure'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

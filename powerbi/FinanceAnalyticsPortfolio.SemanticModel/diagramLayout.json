@@ -4,8 +4,8 @@
     {
       "ordinal": 0,
       "scrollPosition": {
-        "x": 632.28143377298363,
-        "y": 0
+        "x": 243.88505951857269,
+        "y": 224.72588328915452
       },
       "nodes": [
         {
@@ -16,10 +16,10 @@
           "nodeIndex": "vw_ActualVsBudget",
           "nodeLineageTag": "524a63d2-fc7e-475e-b91b-8b1b4b5af93c",
           "size": {
-            "height": 300,
+            "height": 188.12515386521761,
             "width": 234
           },
-          "zIndex": 1
+          "zIndex": 8
         },
         {
           "location": {
@@ -29,10 +29,10 @@
           "nodeIndex": "vw_FinancialReport",
           "nodeLineageTag": "8a75d8cd-31df-49d2-bc5b-3d747b2dd215",
           "size": {
-            "height": 296,
+            "height": 175.32600866360553,
             "width": 234
           },
-          "zIndex": 2
+          "zIndex": 9
         },
         {
           "location": {
@@ -42,10 +42,10 @@
           "nodeIndex": "vw_GrossProfitAnalysis",
           "nodeLineageTag": "e15444a3-abdd-4ba1-beff-6a8ee9f97fa5",
           "size": {
-            "height": 300,
+            "height": 170.52686346199346,
             "width": 234
           },
-          "zIndex": 3
+          "zIndex": 10
         },
         {
           "location": {
@@ -55,10 +55,10 @@
           "nodeIndex": "vw_SalesPriceVolumeAnalysis",
           "nodeLineageTag": "b7fcc8da-717e-43bd-8886-c833d7de7815",
           "size": {
-            "height": 300,
+            "height": 173.0409049481683,
             "width": 234
           },
-          "zIndex": 4
+          "zIndex": 11
         },
         {
           "location": {
@@ -71,7 +71,7 @@
             "height": 200,
             "width": 234
           },
-          "zIndex": 5
+          "zIndex": 14
         },
         {
           "location": {
@@ -84,7 +84,7 @@
             "height": 200,
             "width": 234
           },
-          "zIndex": 6
+          "zIndex": 12
         },
         {
           "location": {
@@ -97,7 +97,7 @@
             "height": 200,
             "width": 234
           },
-          "zIndex": 7
+          "zIndex": 13
         },
         {
           "location": {
@@ -110,7 +110,7 @@
             "height": 250.28082972349773,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 1
         },
         {
           "location": {
@@ -122,7 +122,7 @@
             "height": 200,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 2
         },
         {
           "location": {
@@ -134,7 +134,7 @@
             "height": 200,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 3
         },
         {
           "location": {
@@ -146,7 +146,45 @@
             "height": 200,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 2336.2837032223806,
+            "y": 224.72588328915452
+          },
+          "nodeIndex": "Cash Flow Structure",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 277.19703810738753,
+            "y": 617.19718485593432
+          },
+          "nodeIndex": "vw_CapExAnalysis",
+          "nodeLineageTag": "2803fae0-1e52-46d3-a407-3a886cb59218",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 615.94016411284679
+          },
+          "nodeIndex": "vw_DebtAnalysis",
+          "nodeLineageTag": "84436fe3-273b-4bb6-9b09-04cb35ad60d1",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 7
         }
       ],
       "name": "All tables",

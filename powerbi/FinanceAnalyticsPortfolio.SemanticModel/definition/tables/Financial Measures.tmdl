@@ -638,7 +638,7 @@ table 'Financial Measures'
 			        ),
 			
 			    "Accounts Payable",
-			        CALCULATE(
+			        - CALCULATE(
 			            [Actual Amount],
 			            REMOVEFILTERS(DimIndicator),
 			            DimIndicator[IndicatorCode] = "CHG_AP"
@@ -646,6 +646,72 @@ table 'Financial Measures'
 			 )
 			```
 		lineageTag: a2bb7200-0a9c-4f65-ab2a-91ca82ad3b44
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Cash Flow Structure Value' =
+			
+			SWITCH(
+			    SELECTEDVALUE('Cash Flow Structure'[CashFlowItem]),
+			
+			    "Operating Cash Flow",
+			        CALCULATE(
+			            [Actual Amount],
+			            REMOVEFILTERS(DimIndicator),
+			            DimIndicator[IndicatorCode] = "OCF"
+			        ),
+			
+			    "Investing Cash Flow",
+			        CALCULATE(
+			            [Actual Amount],
+			            REMOVEFILTERS(DimIndicator),
+			            DimIndicator[IndicatorCode] = "CF_INV"
+			        ),
+			
+			    "Financing cash Flow",
+			        CALCULATE(
+			            [Actual Amount],
+			            REMOVEFILTERS(DimIndicator),
+			            DimIndicator[IndicatorCode] = "CF_FIN"
+			        )
+			)
+		lineageTag: ee9f3f7e-128c-4174-8ebc-2b4ded84a9cf
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'CAPEX Analysis Actual' =
+			
+			SUM(
+			    vw_CapExAnalysis[ActualCapEx]
+			)
+		lineageTag: 9b78e055-52ac-4e08-ab5f-b401cb06e579
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'CAPEX Analysis Budget' =
+			
+			SUM(
+			    vw_CapExAnalysis[BudgetCapEx]
+			)
+		lineageTag: 1e185135-336a-4657-96ed-ee6e75831aee
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'CAPEX ANALYSIS Variance' =
+			
+			[CAPEX Analysis Actual] - [CAPEX Analysis Budget]
+		lineageTag: bc15676a-5a74-4fb2-bad3-cfc19964841d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'CAPEX Analysis Variance %' =
+			
+			DIVIDE(
+			    [CAPEX ANALYSIS Variance],
+			    [CAPEX Analysis Budget],
+			    0
+			)
+		lineageTag: 65d6fb4a-b094-4c60-afdb-e6acfadc177e
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 

@@ -1,0 +1,37 @@
+table 'Cash Flow Structure'
+	lineageTag: 4d5f1563-544f-48b3-b929-9b06a429caef
+
+	column CashFlowItem
+		lineageTag: 375827d9-2a19-4d40-9e63-98a0fd86a454
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [CashFlowItem]
+		sortByColumn: SortOrder
+
+		annotation SummarizationSetBy = Automatic
+
+	column SortOrder
+		formatString: 0
+		lineageTag: 7d1ebc39-1238-4bfb-a6bf-507394af46aa
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [SortOrder]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Cash Flow Structure' = calculated
+		mode: import
+		source =
+				
+				DATATABLE(
+				    "CashFlowItem", STRING,
+				    "SortOrder", INTEGER,
+				    {
+				        {"Operating Cash Flow", 1},
+				        {"Investing Cash Flow", 2},
+				        {"Financing Cash Flow", 3}
+				    }
+				)
+
+	annotation PBI_Id = 4cdc6ad03df247ddaa606fb426c6eceb
+

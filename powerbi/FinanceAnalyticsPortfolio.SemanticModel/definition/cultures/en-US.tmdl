@@ -13209,9 +13209,1278 @@ cultureInfo en-US
 			          }
 			        }
 			      ]
+			    },
+			    "financial_measure.working_capital_driver_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Financial Measures",
+			          "ConceptualProperty": "Working Capital Driver Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "working capital driver value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "driver value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "capital driver value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "working capital driver assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "capital driver assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "driver assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "working capital driver worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "working capital driver price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "working capital driver cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "working capital driver charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "working capital driver rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "capital driver worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "capital driver price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "working_capital_driver": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Working Capital Drivers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "working capital driver": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "capital driver": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "working capital motorist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "capital motorist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "working capital chauffeur": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "capital chauffeur": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "working capital teamster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "working capital carter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "working capital charioteer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "working capital handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "working capital trainer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "capital teamster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "working_capital_driver.driver": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Working Capital Drivers",
+			          "ConceptualProperty": "Driver"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "driver": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "motorist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "chauffeur": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "teamster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "carter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "charioteer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "trainer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "working_capital_driver.sort_order": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Working Capital Drivers",
+			          "ConceptualProperty": "SortOrder"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sort order": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SortOrder": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sort instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sort direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sort edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sort command": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sort directive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sort demand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sort mandate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sort imperative": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "financial_measure.cash_flow_structure_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Financial Measures",
+			          "ConceptualProperty": "Cash Flow Structure Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cash flow structure value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "structure value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "flow structure value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cash flow structure assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "flow structure assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "structure assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cash flow structure worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "cash flow structure price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "cash flow structure cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "cash flow structure charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "cash flow structure rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "flow structure worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "flow structure price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "Cash Flow Structure": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "cash_flow_structure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cash Flow Structure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cash flow structure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "structure": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "flow structure": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cash flow construction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cash flow assembly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cash flow edifice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cash flow erection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "flow construction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "flow assembly": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "flow edifice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "flow erection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cash flow building": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "construction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "cash_flow_structure.cash_flow_item": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cash Flow Structure",
+			          "ConceptualProperty": "CashFlowItem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cash flow item": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CashFlowItem": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "item": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "flow item": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cash flow product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "cash flow element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "cash flow entry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "flow product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "flow element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "flow entry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "cash flow article": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "cash flow object": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "cash flow piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "cash flow token": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "cash_flow_structure.sort_order": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cash Flow Structure",
+			          "ConceptualProperty": "SortOrder"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sort order": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SortOrder": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sort instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sort direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sort edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sort command": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sort directive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sort demand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sort mandate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sort imperative": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
+			    "working_capital_driver_has_driver": {
+			      "Binding": {
+			        "ConceptualEntity": "Working Capital Drivers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "working_capital_driver": {
+			          "Target": {
+			            "Entity": "working_capital_driver"
+			          }
+			        },
+			        "working_capital_driver.driver": {
+			          "Target": {
+			            "Entity": "working_capital_driver.driver"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "working_capital_driver"
+			            },
+			            "Object": {
+			              "Role": "working_capital_driver.driver"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "working_capital_drivers_have_drivers"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "working_capital_driver.driver"
+			            },
+			            "Verbs": [
+			              {
+			                "drive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "working_capital_driver"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "drivers_drive_working_capital_drivers"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "working_capital_driver.driver"
+			            },
+			            "Object": {
+			              "Role": "working_capital_driver"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "drivers_have_working_capital_drivers"
+			        }
+			      ]
+			    },
+			    "vw_actual_vs_budget_has_financial_measure_working_capital_driver_value": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_ActualVsBudget"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_actual_vs_budget": {
+			          "Target": {
+			            "Entity": "vw_actual_vs_budget"
+			          }
+			        },
+			        "financial_measure.working_capital_driver_value": {
+			          "Target": {
+			            "Entity": "financial_measure.working_capital_driver_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_actual_vs_budget"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.working_capital_driver_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_actual_vs_budgets_have_working_capital_driver_value"
+			        }
+			      ]
+			    },
+			    "working_capital_driver_has_financial_measure_working_capital_driver_value": {
+			      "Binding": {
+			        "ConceptualEntity": "Working Capital Drivers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "working_capital_driver": {
+			          "Target": {
+			            "Entity": "working_capital_driver"
+			          }
+			        },
+			        "financial_measure.working_capital_driver_value": {
+			          "Target": {
+			            "Entity": "financial_measure.working_capital_driver_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "working_capital_driver"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.working_capital_driver_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "working_capital_drivers_have_working_capital_driver_value"
+			        }
+			      ]
+			    },
+			    "vw_actual_vs_budget_has_financial_measure_working_capital_impact_variance_": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_ActualVsBudget"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_actual_vs_budget": {
+			          "Target": {
+			            "Entity": "vw_actual_vs_budget"
+			          }
+			        },
+			        "financial_measure.working_capital_impact_variance_": {
+			          "Target": {
+			            "Entity": "financial_measure.working_capital_impact_variance_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_actual_vs_budget"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.working_capital_impact_variance_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_actual_vs_budgets_have_working_capital_impact_variance_"
+			        }
+			      ]
+			    },
+			    "vw_actual_vs_budget_has_financial_measure_working_capital_impact_variance": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_ActualVsBudget"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_actual_vs_budget": {
+			          "Target": {
+			            "Entity": "vw_actual_vs_budget"
+			          }
+			        },
+			        "financial_measure.working_capital_impact_variance": {
+			          "Target": {
+			            "Entity": "financial_measure.working_capital_impact_variance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_actual_vs_budget"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.working_capital_impact_variance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_actual_vs_budgets_have_working_capital_impact_variance"
+			        }
+			      ]
+			    },
+			    "vw_actual_vs_budget_has_financial_measure_working_capital_impact_budget": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_ActualVsBudget"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_actual_vs_budget": {
+			          "Target": {
+			            "Entity": "vw_actual_vs_budget"
+			          }
+			        },
+			        "financial_measure.working_capital_impact_budget": {
+			          "Target": {
+			            "Entity": "financial_measure.working_capital_impact_budget"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_actual_vs_budget"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.working_capital_impact_budget"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_actual_vs_budgets_have_working_capital_impact_budget"
+			        }
+			      ]
+			    },
+			    "vw_actual_vs_budget_has_financial_measure_working_capital_impact_actual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_ActualVsBudget"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_actual_vs_budget": {
+			          "Target": {
+			            "Entity": "vw_actual_vs_budget"
+			          }
+			        },
+			        "financial_measure.working_capital_impact_actual": {
+			          "Target": {
+			            "Entity": "financial_measure.working_capital_impact_actual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_actual_vs_budget"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.working_capital_impact_actual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_actual_vs_budgets_have_working_capital_impact_actual"
+			        }
+			      ]
+			    },
 			    "vw_actual_vs_budget_has_financial_measure_net_cash_flow_variance_": {
 			      "Binding": {
 			        "ConceptualEntity": "vw_ActualVsBudget"
@@ -17197,20 +18466,20 @@ cultureInfo en-US
 			        }
 			      ]
 			    },
-			    "vw_actual_vs_budget_has_financial_measure_working_capital_impact_actual": {
+			    "working_capital_driver_has_sort_order": {
 			      "Binding": {
-			        "ConceptualEntity": "vw_ActualVsBudget"
+			        "ConceptualEntity": "Working Capital Drivers"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "vw_actual_vs_budget": {
+			        "working_capital_driver": {
 			          "Target": {
-			            "Entity": "vw_actual_vs_budget"
+			            "Entity": "working_capital_driver"
 			          }
 			        },
-			        "financial_measure.working_capital_impact_actual": {
+			        "working_capital_driver.sort_order": {
 			          "Target": {
-			            "Entity": "financial_measure.working_capital_impact_actual"
+			            "Entity": "working_capital_driver.sort_order"
 			          }
 			        }
 			      },
@@ -17218,32 +18487,32 @@ cultureInfo en-US
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "vw_actual_vs_budget"
+			              "Role": "working_capital_driver"
 			            },
 			            "Object": {
-			              "Role": "financial_measure.working_capital_impact_actual"
+			              "Role": "working_capital_driver.sort_order"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "vw_actual_vs_budgets_have_working_capital_impact_actual"
+			          "ID": "working_capital_drivers_have_sort_orders"
 			        }
 			      ]
 			    },
-			    "vw_actual_vs_budget_has_financial_measure_working_capital_impact_budget": {
+			    "cash_flow_structure_has_financial_measure_cash_flow_structure_value": {
 			      "Binding": {
-			        "ConceptualEntity": "vw_ActualVsBudget"
+			        "ConceptualEntity": "Cash Flow Structure"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "vw_actual_vs_budget": {
+			        "cash_flow_structure": {
 			          "Target": {
-			            "Entity": "vw_actual_vs_budget"
+			            "Entity": "cash_flow_structure"
 			          }
 			        },
-			        "financial_measure.working_capital_impact_budget": {
+			        "financial_measure.cash_flow_structure_value": {
 			          "Target": {
-			            "Entity": "financial_measure.working_capital_impact_budget"
+			            "Entity": "financial_measure.cash_flow_structure_value"
 			          }
 			        }
 			      },
@@ -17251,19 +18520,19 @@ cultureInfo en-US
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "vw_actual_vs_budget"
+			              "Role": "cash_flow_structure"
 			            },
 			            "Object": {
-			              "Role": "financial_measure.working_capital_impact_budget"
+			              "Role": "financial_measure.cash_flow_structure_value"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "vw_actual_vs_budgets_have_working_capital_impact_budget"
+			          "ID": "cash_flow_structures_have_cash_flow_structure_value"
 			        }
 			      ]
 			    },
-			    "vw_actual_vs_budget_has_financial_measure_working_capital_impact_variance": {
+			    "vw_actual_vs_budget_has_financial_measure_cash_flow_structure_value": {
 			      "Binding": {
 			        "ConceptualEntity": "vw_ActualVsBudget"
 			      },
@@ -17274,9 +18543,9 @@ cultureInfo en-US
 			            "Entity": "vw_actual_vs_budget"
 			          }
 			        },
-			        "financial_measure.working_capital_impact_variance": {
+			        "financial_measure.cash_flow_structure_value": {
 			          "Target": {
-			            "Entity": "financial_measure.working_capital_impact_variance"
+			            "Entity": "financial_measure.cash_flow_structure_value"
 			          }
 			        }
 			      },
@@ -17287,29 +18556,29 @@ cultureInfo en-US
 			              "Role": "vw_actual_vs_budget"
 			            },
 			            "Object": {
-			              "Role": "financial_measure.working_capital_impact_variance"
+			              "Role": "financial_measure.cash_flow_structure_value"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "vw_actual_vs_budgets_have_working_capital_impact_variance"
+			          "ID": "vw_actual_vs_budgets_have_cash_flow_structure_value"
 			        }
 			      ]
 			    },
-			    "vw_actual_vs_budget_has_financial_measure_working_capital_impact_variance_": {
+			    "cash_flow_structure_has_cash_flow_item": {
 			      "Binding": {
-			        "ConceptualEntity": "vw_ActualVsBudget"
+			        "ConceptualEntity": "Cash Flow Structure"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "vw_actual_vs_budget": {
+			        "cash_flow_structure": {
 			          "Target": {
-			            "Entity": "vw_actual_vs_budget"
+			            "Entity": "cash_flow_structure"
 			          }
 			        },
-			        "financial_measure.working_capital_impact_variance_": {
+			        "cash_flow_structure.cash_flow_item": {
 			          "Target": {
-			            "Entity": "financial_measure.working_capital_impact_variance_"
+			            "Entity": "cash_flow_structure.cash_flow_item"
 			          }
 			        }
 			      },
@@ -17317,15 +18586,48 @@ cultureInfo en-US
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "vw_actual_vs_budget"
+			              "Role": "cash_flow_structure"
 			            },
 			            "Object": {
-			              "Role": "financial_measure.working_capital_impact_variance_"
+			              "Role": "cash_flow_structure.cash_flow_item"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "vw_actual_vs_budgets_have_working_capital_impact_variance_"
+			          "ID": "cash_flow_structures_have_cash_flow_items"
+			        }
+			      ]
+			    },
+			    "cash_flow_structure_has_sort_order": {
+			      "Binding": {
+			        "ConceptualEntity": "Cash Flow Structure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cash_flow_structure": {
+			          "Target": {
+			            "Entity": "cash_flow_structure"
+			          }
+			        },
+			        "cash_flow_structure.sort_order": {
+			          "Target": {
+			            "Entity": "cash_flow_structure.sort_order"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cash_flow_structure"
+			            },
+			            "Object": {
+			              "Role": "cash_flow_structure.sort_order"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cash_flow_structures_have_sort_orders"
 			        }
 			      ]
 			    },

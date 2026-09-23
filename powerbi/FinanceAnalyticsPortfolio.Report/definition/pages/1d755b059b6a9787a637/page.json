@@ -1,8 +1,15 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
   "name": "1d755b059b6a9787a637",
   "displayName": "Cash Flow & Working Capital",
   "displayOption": "FitToPage",
   "height": 1080,
-  "width": 1920
+  "width": 1920,
+  "visualInteractions": [
+    {
+      "source": "c2acc4b766490071d799",
+      "target": "64cddbce14bc4a8d0a27",
+      "type": "NoFilter"
+    }
+  ]
 }

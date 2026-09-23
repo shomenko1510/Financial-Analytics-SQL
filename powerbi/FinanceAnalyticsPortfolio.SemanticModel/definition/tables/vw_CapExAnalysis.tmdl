@@ -1,0 +1,125 @@
+table vw_CapExAnalysis
+	lineageTag: 2803fae0-1e52-46d3-a407-3a886cb59218
+
+	column CompanyName
+		dataType: string
+		lineageTag: 561884bf-f517-4069-8913-b889797f5e0e
+		summarizeBy: none
+		sourceColumn: CompanyName
+
+		annotation SummarizationSetBy = Automatic
+
+	column PeriodKey
+		dataType: int64
+		formatString: 0
+		lineageTag: 1f9af2ce-abe5-442a-95f7-cd837c18b004
+		summarizeBy: none
+		sourceColumn: PeriodKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: a4f14b4d-a595-401e-b6e4-a92bc52f37a2
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: string
+		lineageTag: 09458716-d780-4555-a82f-4b63d7b0b5e4
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuarterNumber
+		dataType: int64
+		formatString: 0
+		lineageTag: 1e732817-571d-49aa-a18c-eb2a33d187f0
+		summarizeBy: sum
+		sourceColumn: QuarterNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column CapExId
+		dataType: int64
+		formatString: 0
+		lineageTag: 74020008-e5eb-41a9-aa6d-6222c1014765
+		summarizeBy: count
+		sourceColumn: CapExId
+
+		annotation SummarizationSetBy = Automatic
+
+	column CapExCategory
+		dataType: string
+		lineageTag: 88e9ce5b-a187-4d82-a510-a20630b6937e
+		summarizeBy: none
+		sourceColumn: CapExCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column CapExItem
+		dataType: string
+		lineageTag: 656d3e41-102a-42a2-8386-3a444060660e
+		summarizeBy: none
+		sourceColumn: CapExItem
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActualCapEx
+		dataType: double
+		lineageTag: 1fb8a87a-4981-40aa-9fd4-affb53b49822
+		summarizeBy: sum
+		sourceColumn: ActualCapEx
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column BudgetCapEx
+		dataType: double
+		lineageTag: 25c20098-6f16-4711-9366-cd783a05003a
+		summarizeBy: sum
+		sourceColumn: BudgetCapEx
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CapExVariance
+		dataType: double
+		lineageTag: fcded38f-098a-48a0-a048-c91a68ff770b
+		summarizeBy: sum
+		sourceColumn: CapExVariance
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CapExVariancePercent
+		dataType: double
+		lineageTag: cf3ec13c-8f69-4bf9-a5bc-d501efd6f8f8
+		summarizeBy: sum
+		sourceColumn: CapExVariancePercent
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition vw_CapExAnalysis = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("Khomenko-SV\SQLEXPRESS", "FinanceAnalyticsPortfolioDB"),
+				    dbo_vw_CapExAnalysis = Source{[Schema="dbo",Item="vw_CapExAnalysis"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(dbo_vw_CapExAnalysis,{{"Year", Int64.Type}, {"QuarterNumber", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

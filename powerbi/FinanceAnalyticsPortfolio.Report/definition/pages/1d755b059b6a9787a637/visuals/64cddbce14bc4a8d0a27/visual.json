@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "64cddbce14bc4a8d0a27",
+  "position": {
+    "x": 571.91749816698007,
+    "y": 309.46220791227006,
+    "z": 6004,
+    "height": 376.05534126048008,
+    "width": 773.65551978067515,
+    "tabOrder": 7004
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "DimPeriod"
+                    }
+                  },
+                  "Property": "YearQuarter"
+                }
+              },
+              "queryRef": "DimPeriod.YearQuarter",
+              "nativeQueryRef": "YearQuarter",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "OCF Actual"
+                }
+              },
+              "queryRef": "Financial Measures.OCF Actual",
+              "nativeQueryRef": "OCF Actual"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Net Cash Flow Actual"
+                }
+              },
+              "queryRef": "Financial Measures.Net Cash Flow Actual",
+              "nativeQueryRef": "Net Cash Flow Actual"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Closing Cash Actual"
+                }
+              },
+              "queryRef": "Financial Measures.Closing Cash Actual",
+              "nativeQueryRef": "Closing Cash Actual"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

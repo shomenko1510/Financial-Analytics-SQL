@@ -29,7 +29,7 @@ table 'Working Capital Drivers'
 				    {
 				        {"Accounts Receivable", 1},
 				        {"Inventory", 2},
-				        {"Account Payable", 3}
+				        {"Accounts Payable", 3}
 				    }
 				)
 

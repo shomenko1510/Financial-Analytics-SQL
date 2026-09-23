@@ -30,3 +30,11 @@ relationship 9c235968-e93f-a0ef-3f91-ea0c2aab39b4
 	fromColumn: vw_FinancialReport.IndicatorCode
 	toColumn: DimIndicator.IndicatorCode
 
+relationship 9d6c3ab8-61bf-3a6f-bf4c-bb7985bd5665
+	fromColumn: vw_DebtAnalysis.PeriodKey
+	toColumn: DimPeriod.PeriodKey
+
+relationship e6ce921b-aa15-9d28-e4a3-d2e26ecaf479
+	fromColumn: vw_CapExAnalysis.PeriodKey
+	toColumn: DimPeriod.PeriodKey
+
