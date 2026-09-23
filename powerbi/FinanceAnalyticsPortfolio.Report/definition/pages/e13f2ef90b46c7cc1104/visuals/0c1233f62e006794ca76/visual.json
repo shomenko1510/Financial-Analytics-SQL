@@ -4,10 +4,10 @@
   "position": {
     "x": 801.02893890675239,
     "y": 67.909967845659168,
-    "z": 2,
+    "z": 2000,
     "height": 493.89067524115751,
     "width": 960,
-    "tabOrder": 2
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -115,51 +115,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "filterConfig": {
-    "filters": [
-      {
-        "name": "52c5da0ea141819b62db",
-        "field": {
-          "Column": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "DimDirection"
-              }
-            },
-            "Property": "DirectionName"
-          }
-        },
-        "type": "Categorical"
-      },
-      {
-        "name": "0390de77d658269814a4",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Financial Measures"
-              }
-            },
-            "Property": "Revenue by Direction Actual"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
-        "name": "99a819906724dcbcd6de",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "Financial Measures"
-              }
-            },
-            "Property": "Revenue by Direction Budget"
-          }
-        },
-        "type": "Advanced"
-      }
-    ]
   }
 }

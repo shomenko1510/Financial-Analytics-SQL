@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
-  "name": "83b20db79b13177009c0",
+  "name": "d0a14b42d4d0b7065246",
   "position": {
-    "x": 387.79294233370223,
-    "y": 88.134759621295956,
-    "z": 3000,
-    "height": 170,
-    "width": 340,
-    "tabOrder": 1000
+    "x": 1540.32154340836,
+    "y": 87.974276527331185,
+    "z": 6001,
+    "height": 169.7749196141479,
+    "width": 339.54983922829581,
+    "tabOrder": 7001
   },
   "visual": {
     "visualType": "cardVisual",
@@ -23,12 +23,12 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "EBITDA Actual"
+                  "Property": "Working Capital Impact Actual"
                 }
               },
-              "queryRef": "Financial Measures.EBITDA Actual",
-              "nativeQueryRef": "EBITDA",
-              "displayName": "EBITDA"
+              "queryRef": "Financial Measures.Working Capital Impact Actual",
+              "nativeQueryRef": "Working Capital Impact",
+              "displayName": "Working Capital Impact"
             }
           ]
         }
@@ -43,7 +43,7 @@
                     "Entity": "Financial Measures"
                   }
                 },
-                "Property": "EBITDA Actual"
+                "Property": "Working Capital Impact Actual"
               }
             },
             "direction": "Descending"
@@ -53,6 +53,43 @@
       }
     },
     "objects": {
+      "label": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "position": {
+              "expr": {
+                "Literal": {
+                  "Value": "'aboveValue'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        },
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Revenue Actual"
+          }
+        }
+      ],
       "value": [
         {
           "properties": {
@@ -95,23 +132,9 @@
           "selector": {
             "metadata": "Financial Measures.Revenue Actual"
           }
-        },
-        {
-          "properties": {
-            "horizontalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Financial Measures.EBITDA Actual"
-          }
         }
       ],
-      "label": [
+      "referenceLabelDetail": [
         {
           "properties": {
             "show": {
@@ -134,11 +157,166 @@
                   "Value": "true"
                 }
               }
-            },
-            "position": {
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Closing Cash Actual",
+            "id": "field-3d65cd6f-18a5-9a02-9223-c8c64be8cb89"
+          }
+        },
+        {
+          "properties": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "'aboveValue'"
+                  "Value": "true"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.CAPEX Actual",
+            "id": "field-e48778a3-31ca-aa35-6956-d6866d8be5d2"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Revenue Variance %"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Financial Measures.Revenue Actual",
+            "id": "field-803ce044-4635-6b16-46b7-9cac3fecd4ec"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Closing Cash Variance %"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Financial Measures.Closing Cash Actual",
+            "id": "field-3d65cd6f-18a5-9a02-9223-c8c64be8cb89"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "CAPEX Variance %"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Financial Measures.CAPEX Actual",
+            "id": "field-e48778a3-31ca-aa35-6956-d6866d8be5d2"
+          }
+        },
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Working Capital Impact Actual",
+            "id": "field-28c7d813-1e90-93db-4dbb-ec9a293afc7b"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Working Capital Impact Variance %"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Financial Measures.Working Capital Impact Actual",
+            "id": "field-28c7d813-1e90-93db-4dbb-ec9a293afc7b"
+          }
+        }
+      ],
+      "referenceLabelLayout": [
+        {
+          "properties": {
+            "horizontalAlignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            },
+            "verticalAlignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'top'"
                 }
               }
             }
@@ -191,7 +369,20 @@
           }
         },
         {
-          "properties": {},
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Closing Cash Budget"
+                }
+              }
+            }
+          },
           "selector": {
             "data": [
               {
@@ -200,23 +391,8 @@
                 }
               }
             ],
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-77559ea9-1ab2-4251-0b14-c9ae10db055e",
-            "order": 0
-          }
-        },
-        {
-          "properties": {},
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-1960fb68-afff-27b7-7744-4bf4e074cdd1",
+            "metadata": "Financial Measures.Closing Cash Actual",
+            "id": "field-3d65cd6f-18a5-9a02-9223-c8c64be8cb89",
             "order": 0
           }
         },
@@ -230,7 +406,7 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "EBITDA Budget"
+                  "Property": "CAPEX Budget"
                 }
               }
             }
@@ -243,45 +419,14 @@
                 }
               }
             ],
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-bcd96e83-6c90-eb5f-01f7-99a0ceff79c3",
+            "metadata": "Financial Measures.CAPEX Actual",
+            "id": "field-e48778a3-31ca-aa35-6956-d6866d8be5d2",
             "order": 0
           }
         },
         {
-          "properties": {},
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-fc2708a5-6767-1162-a1c6-819f8f923eee",
-            "order": 1
-          }
-        }
-      ],
-      "referenceLabelDetail": [
-        {
           "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Financial Measures.Revenue Actual"
-          }
-        },
-        {
-          "properties": {
-            "detailValue": {
+            "value": {
               "expr": {
                 "Measure": {
                   "Expression": {
@@ -289,7 +434,7 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "Revenue Variance %"
+                  "Property": "Working Capital Impact Budget"
                 }
               }
             }
@@ -302,73 +447,9 @@
                 }
               }
             ],
-            "metadata": "Financial Measures.Revenue Actual",
-            "id": "field-803ce044-4635-6b16-46b7-9cac3fecd4ec"
-          }
-        },
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-bcd96e83-6c90-eb5f-01f7-99a0ceff79c3"
-          }
-        },
-        {
-          "properties": {
-            "detailValue": {
-              "expr": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Financial Measures"
-                    }
-                  },
-                  "Property": "EBITDA Variance %"
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-bcd96e83-6c90-eb5f-01f7-99a0ceff79c3"
-          }
-        }
-      ],
-      "referenceLabelLayout": [
-        {
-          "properties": {
-            "horizontalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
-                }
-              }
-            },
-            "verticalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'top'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
+            "metadata": "Financial Measures.Working Capital Impact Actual",
+            "id": "field-28c7d813-1e90-93db-4dbb-ec9a293afc7b",
+            "order": 0
           }
         }
       ],
@@ -397,6 +478,50 @@
         },
         {
           "properties": {
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Budget'"
+                }
+              }
+            },
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Closing Cash Actual",
+            "id": "field-3d65cd6f-18a5-9a02-9223-c8c64be8cb89"
+          }
+        },
+        {
+          "properties": {
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Budget'"
+                }
+              }
+            },
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.CAPEX Actual",
+            "id": "field-e48778a3-31ca-aa35-6956-d6866d8be5d2"
+          }
+        },
+        {
+          "properties": {
             "titleContentType": {
               "expr": {
                 "Literal": {
@@ -413,8 +538,8 @@
             }
           },
           "selector": {
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-bcd96e83-6c90-eb5f-01f7-99a0ceff79c3"
+            "metadata": "Financial Measures.Working Capital Impact Actual",
+            "id": "field-28c7d813-1e90-93db-4dbb-ec9a293afc7b"
           }
         }
       ],
@@ -442,7 +567,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'EBITDA'"
+                  "Value": "'Operating Cash Flow'"
                 }
               }
             },

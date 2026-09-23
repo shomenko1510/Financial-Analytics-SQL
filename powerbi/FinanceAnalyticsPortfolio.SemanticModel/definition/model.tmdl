@@ -23,6 +23,7 @@ ref table DimIndicator
 ref table 'Financial Measures'
 ref table 'KPI Selector'
 ref table 'Revenue Bridge'
+ref table 'Working Capital Drivers'
 
 ref cultureInfo en-US
 

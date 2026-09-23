@@ -506,6 +506,149 @@ table 'Financial Measures'
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure 'CAPEX Variance' =
+			
+			[CAPEX Actual] - [CAPEX Budget]
+		lineageTag: eb4a3951-f60e-4b5f-8d61-7444fc1b7c89
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'CAPEX Variance %' = ```
+			
+			 DIVIDE(
+			    [CAPEX Variance],
+			    [CAPEX Budget],
+			    0
+			 )   
+			
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: fd7f453c-1ae8-4c11-a82d-5eaddbc7808d
+
+	measure 'Net Cash Flow Variance' =
+			
+			[Net Cash Flow Actual] - [Net Cash Flow Budget]
+		lineageTag: 62595f87-5277-4ab1-89ed-5407afdaf04b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Net Cash Flow Variance %' = ```
+			
+			DIVIDE(
+			    [Net Cash Flow Variance],
+			    [Net Cash Flow Budget],
+			    0
+			)    
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 95e63a56-6574-4fa2-b698-a36dec9eb6c0
+
+	measure 'Working Capital Impact Actual' = ```
+			
+			VAR AR =
+			    CALCULATE(
+			        [Actual Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "CHG_AR"
+			    )
+			
+			VAR Inventory =
+			    CALCULATE(
+			        [Actual Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "CHG_INV"
+			    )
+			
+			VAR AP = 
+			    CALCULATE(
+			        [Actual Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "CHG_AP"
+			    )
+			
+			RETURN
+			     AR + Inventory - AP
+			```
+		lineageTag: 2849637c-7f2f-4874-9b9c-48db4493eb78
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Working Capital Impact Budget' =
+			
+			VAR AR =
+			    CALCULATE(
+			        [Budget Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "CHG_AR"
+			    )
+			
+			VAR Inventory =
+			    CALCULATE(
+			        [Budget Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "CHG_INV"
+			    )
+			
+			VAR AP =
+			    CALCULATE(
+			        [Budget Amount],
+			        REMOVEFILTERS(DimIndicator),
+			        DimIndicator[IndicatorCode] = "CHG_AP"
+			    )
+			
+			RETURN AR + Inventory - AP
+		lineageTag: 3abc9a1d-7ef9-46d9-9786-4c8ce15d7e41
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Working Capital Impact Variance' = ```
+			
+			[Working Capital Impact Actual] - [Working Capital Impact Budget] 
+			```
+		lineageTag: 14d456e2-93be-47bc-ba95-3bd5fe4a4f04
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Working Capital Impact Variance %' =
+			
+			DIVIDE(
+			    [Working Capital Impact Variance],
+			    [Working Capital Impact Budget],
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 8fbafbca-6f3c-4c2f-b5bc-690da4bb06c9
+
+	measure 'Working Capital Driver Value' = ```
+			
+			 SWITCH(
+			    SELECTEDVALUE('Working Capital Drivers'[Driver]),
+			
+			    "Accounts Receivable",
+			        CALCULATE(
+			            [Actual Amount],
+			            REMOVEFILTERS(DimIndicator),
+			            DimIndicator[IndicatorCode] = "CHG_AR"
+			        ),
+			    "Inventory",
+			        CALCULATE(
+			            [Actual Amount],
+			            REMOVEFILTERS(DimIndicator),
+			            DimIndicator[IndicatorCode] = "CHG_INV"
+			        ),
+			
+			    "Accounts Payable",
+			        CALCULATE(
+			            [Actual Amount],
+			            REMOVEFILTERS(DimIndicator),
+			            DimIndicator[IndicatorCode] = "CHG_AP"
+			        )
+			 )
+			```
+		lineageTag: a2bb7200-0a9c-4f65-ab2a-91ca82ad3b44
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column Placeholder
 		isHidden
 		formatString: 0

@@ -1,0 +1,37 @@
+table 'Working Capital Drivers'
+	lineageTag: 673dbf95-0281-4a8b-9a41-ef3bd88fd34c
+
+	column Driver
+		lineageTag: 69a46e91-fec9-49b9-b633-1ad400a354b1
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Driver]
+		sortByColumn: SortOrder
+
+		annotation SummarizationSetBy = Automatic
+
+	column SortOrder
+		formatString: 0
+		lineageTag: 123748f1-be21-421f-aea7-da4786ae1997
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [SortOrder]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Working Capital Drivers' = calculated
+		mode: import
+		source =
+				
+				DATATABLE(
+				    "Driver", STRING,
+				    "SortOrder", INTEGER,
+				    {
+				        {"Accounts Receivable", 1},
+				        {"Inventory", 2},
+				        {"Account Payable", 3}
+				    }
+				)
+
+	annotation PBI_Id = a8f44cbc6b804a5291a6ccb312e33f3e
+

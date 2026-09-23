@@ -4,10 +4,9 @@
   "position": {
     "x": 27.699495880978731,
     "y": 88.134759621295956,
-    "z": 2000,
+    "z": 1000,
     "height": 170.37037037037035,
-    "width": 340.7407407407407,
-    "tabOrder": 1000
+    "width": 340.7407407407407
   },
   "visual": {
     "visualType": "cardVisual",
@@ -23,12 +22,12 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "Revenue Actual"
+                  "Property": "OCF Actual"
                 }
               },
-              "queryRef": "Financial Measures.Revenue Actual",
-              "nativeQueryRef": "Revenue",
-              "displayName": "Revenue"
+              "queryRef": "Financial Measures.OCF Actual",
+              "nativeQueryRef": "OCF",
+              "displayName": "OCF"
             }
           ]
         }
@@ -43,7 +42,7 @@
                     "Entity": "Financial Measures"
                   }
                 },
-                "Property": "Revenue Actual"
+                "Property": "OCF Actual"
               }
             },
             "direction": "Descending"
@@ -54,27 +53,6 @@
     },
     "objects": {
       "value": [
-        {
-          "properties": {
-            "labelDisplayUnits": {
-              "expr": {
-                "Literal": {
-                  "Value": "1000D"
-                }
-              }
-            },
-            "labelPrecision": {
-              "expr": {
-                "Literal": {
-                  "Value": "1L"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Financial Measures.Revenue Actual"
-          }
-        },
         {
           "properties": {
             "fontSize": {
@@ -106,20 +84,6 @@
                   "Value": "true"
                 }
               }
-            }
-          },
-          "selector": {
-            "metadata": "Financial Measures.Revenue Actual"
-          }
-        },
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
             },
             "position": {
               "expr": {
@@ -131,94 +95,6 @@
           },
           "selector": {
             "id": "default"
-          }
-        }
-      ],
-      "referenceLabel": [
-        {
-          "properties": {
-            "value": {
-              "expr": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Financial Measures"
-                    }
-                  },
-                  "Property": "Revenue Budget"
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Financial Measures.Revenue Actual",
-            "id": "field-803ce044-4635-6b16-46b7-9cac3fecd4ec",
-            "order": 0
-          }
-        },
-        {
-          "properties": {},
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Financial Measures.Revenue Actual",
-            "id": "field-7054992d-5172-6a83-b16b-a53ce5977e10",
-            "order": 1
-          }
-        }
-      ],
-      "referenceLabelDetail": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Financial Measures.Revenue Actual"
-          }
-        },
-        {
-          "properties": {
-            "detailValue": {
-              "expr": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Financial Measures"
-                    }
-                  },
-                  "Property": "Revenue Variance %"
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Financial Measures.Revenue Actual",
-            "id": "field-803ce044-4635-6b16-46b7-9cac3fecd4ec"
           }
         }
       ],
@@ -235,30 +111,6 @@
           },
           "selector": {
             "id": "default"
-          }
-        }
-      ],
-      "referenceLabelTitle": [
-        {
-          "properties": {
-            "titleContentType": {
-              "expr": {
-                "Literal": {
-                  "Value": "'custom'"
-                }
-              }
-            },
-            "titleText": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Budget'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Financial Measures.Revenue Actual",
-            "id": "field-803ce044-4635-6b16-46b7-9cac3fecd4ec"
           }
         }
       ],
@@ -288,6 +140,104 @@
           },
           "selector": {
             "id": "default"
+          }
+        }
+      ],
+      "referenceLabel": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "OCF Budget"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Financial Measures.OCF Actual",
+            "id": "field-c4c463d5-9359-b66c-bec2-d752a091e3ba",
+            "order": 0
+          }
+        }
+      ],
+      "referenceLabelTitle": [
+        {
+          "properties": {
+            "titleContentType": {
+              "expr": {
+                "Literal": {
+                  "Value": "'custom'"
+                }
+              }
+            },
+            "titleText": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Budget'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.OCF Actual",
+            "id": "field-c4c463d5-9359-b66c-bec2-d752a091e3ba"
+          }
+        }
+      ],
+      "referenceLabelDetail": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.OCF Actual",
+            "id": "field-c4c463d5-9359-b66c-bec2-d752a091e3ba"
+          }
+        },
+        {
+          "properties": {
+            "detailValue": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "OCF Variance %"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Financial Measures.OCF Actual",
+            "id": "field-c4c463d5-9359-b66c-bec2-d752a091e3ba"
           }
         }
       ]

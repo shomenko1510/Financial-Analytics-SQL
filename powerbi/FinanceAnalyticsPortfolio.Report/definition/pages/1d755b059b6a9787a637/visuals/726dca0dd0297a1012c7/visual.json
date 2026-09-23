@@ -4,10 +4,10 @@
   "position": {
     "x": 387.79294233370223,
     "y": 88.134759621295956,
-    "z": 3000,
+    "z": 2000,
     "height": 170,
     "width": 340,
-    "tabOrder": 2000
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -23,12 +23,12 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "EBITDA Actual"
+                  "Property": "Closing Cash Actual"
                 }
               },
-              "queryRef": "Financial Measures.EBITDA Actual",
-              "nativeQueryRef": "EBITDA",
-              "displayName": "EBITDA"
+              "queryRef": "Financial Measures.Closing Cash Actual",
+              "nativeQueryRef": "Closing Cash",
+              "displayName": "Closing Cash"
             }
           ]
         }
@@ -43,7 +43,7 @@
                     "Entity": "Financial Measures"
                   }
                 },
-                "Property": "EBITDA Actual"
+                "Property": "Closing Cash Actual"
               }
             },
             "direction": "Descending"
@@ -94,20 +94,6 @@
           },
           "selector": {
             "metadata": "Financial Measures.Revenue Actual"
-          }
-        },
-        {
-          "properties": {
-            "horizontalAlignment": {
-              "expr": {
-                "Literal": {
-                  "Value": "'center'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Financial Measures.EBITDA Actual"
           }
         }
       ],
@@ -191,36 +177,6 @@
           }
         },
         {
-          "properties": {},
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-77559ea9-1ab2-4251-0b14-c9ae10db055e",
-            "order": 0
-          }
-        },
-        {
-          "properties": {},
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-1960fb68-afff-27b7-7744-4bf4e074cdd1",
-            "order": 0
-          }
-        },
-        {
           "properties": {
             "value": {
               "expr": {
@@ -230,7 +186,7 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "EBITDA Budget"
+                  "Property": "Closing Cash Budget"
                 }
               }
             }
@@ -243,24 +199,9 @@
                 }
               }
             ],
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-bcd96e83-6c90-eb5f-01f7-99a0ceff79c3",
+            "metadata": "Financial Measures.Closing Cash Actual",
+            "id": "field-3d65cd6f-18a5-9a02-9223-c8c64be8cb89",
             "order": 0
-          }
-        },
-        {
-          "properties": {},
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-fc2708a5-6767-1162-a1c6-819f8f923eee",
-            "order": 1
           }
         }
       ],
@@ -317,8 +258,8 @@
             }
           },
           "selector": {
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-bcd96e83-6c90-eb5f-01f7-99a0ceff79c3"
+            "metadata": "Financial Measures.Closing Cash Actual",
+            "id": "field-3d65cd6f-18a5-9a02-9223-c8c64be8cb89"
           }
         },
         {
@@ -331,7 +272,7 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "EBITDA Variance %"
+                  "Property": "Closing Cash Variance %"
                 }
               }
             }
@@ -344,8 +285,8 @@
                 }
               }
             ],
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-bcd96e83-6c90-eb5f-01f7-99a0ceff79c3"
+            "metadata": "Financial Measures.Closing Cash Actual",
+            "id": "field-3d65cd6f-18a5-9a02-9223-c8c64be8cb89"
           }
         }
       ],
@@ -413,8 +354,8 @@
             }
           },
           "selector": {
-            "metadata": "Financial Measures.EBITDA Actual",
-            "id": "field-bcd96e83-6c90-eb5f-01f7-99a0ceff79c3"
+            "metadata": "Financial Measures.Closing Cash Actual",
+            "id": "field-3d65cd6f-18a5-9a02-9223-c8c64be8cb89"
           }
         }
       ],
