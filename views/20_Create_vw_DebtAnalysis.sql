@@ -92,6 +92,7 @@ SELECT
 FROM Debtdata;
 GO
 
+/*
 SELECT
     PeriodKey,
     [Year],
@@ -107,3 +108,4 @@ ORDER BY
     [Year],
     QuarterNumber,
     DebtMetricId;
+*/    

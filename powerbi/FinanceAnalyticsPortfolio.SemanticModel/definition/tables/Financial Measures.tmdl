@@ -697,7 +697,7 @@ table 'Financial Measures'
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	measure 'CAPEX ANALYSIS Variance' =
+	measure 'CAPEX Analysis Variance' =
 			
 			[CAPEX Analysis Actual] - [CAPEX Analysis Budget]
 		lineageTag: bc15676a-5a74-4fb2-bad3-cfc19964841d
@@ -707,11 +707,51 @@ table 'Financial Measures'
 	measure 'CAPEX Analysis Variance %' =
 			
 			DIVIDE(
-			    [CAPEX ANALYSIS Variance],
+			    [CAPEX Analysis Variance],
 			    [CAPEX Analysis Budget],
 			    0
 			)
+		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: 65d6fb4a-b094-4c60-afdb-e6acfadc177e
+
+	measure 'Closing Debt Actual' =
+			
+			CALCULATE(
+			    SUM(vw_DebtAnalysis[ActualValue]),
+			    vw_DebtAnalysis[DebtMetricname] = "Closing Loan Balance"
+			)
+		lineageTag: 2ea70cdf-7c52-4bb7-9bde-bea375e6b3ea
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Debt Drawdown Actual' =
+			
+			CALCULATE(
+			    SUM(vw_DebtAnalysis[ActualValue]),
+			    vw_DebtAnalysis[DebtMetricName] = "Loan Drawdown"
+			)
+		lineageTag: 3e926505-9617-4dde-992d-fec405b46db1
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Debt Repayment Actual' = ```
+			
+			    CALCULATE(
+			        SUM(vw_DebtAnalysis[ActualValue]),
+			        vw_DebtAnalysis[DebtMetricName] = "Loan Repayment"
+			    )
+			```
+		lineageTag: 2f8920ec-d040-4cb8-b605-7731d6b55939
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Interest Rate Actual' =
+			
+			CALCULATE(
+			    MAX(vw_DebtAnalysis[ActualValue]),
+			    vw_DebtAnalysis[DebtMetricname] = "Interest Rate"
+			)
+		lineageTag: 99e6ef29-cfb1-4ef8-a633-243a85c7e752
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 

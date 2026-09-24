@@ -105,7 +105,7 @@ table vw_DebtAnalysis
 		mode: import
 		source =
 				let
-				    Source = Sql.Database("Khomenko-SV\SQLEXPRESS", "FinanceAnalyticsPortfolioDB"),
+				    Source = Sql.Database(pServerName, pDatabaseName),
 				    dbo_vw_DebtAnalysis = Source{[Schema="dbo",Item="vw_DebtAnalysis"]}[Data],
 				    #"Changed Type" = Table.TransformColumnTypes(dbo_vw_DebtAnalysis,{{"Year", Int64.Type}, {"QuarterNumber", Int64.Type}})
 				in
@@ -113,5 +113,5 @@ table vw_DebtAnalysis
 
 	annotation PBI_NavigationStepName = Navigation
 
-	annotation PBI_ResultType = Table
+	annotation PBI_ResultType = Exception
 

@@ -4760,16 +4760,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "actual value": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.485
-			          }
-			        },
-			        {
 			          "actual worth": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -4821,6 +4811,16 @@ cultureInfo en-US
 			        },
 			        {
 			          "actual expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "actual cost": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
@@ -4889,16 +4889,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "budget value": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.485
-			          }
-			        },
-			        {
 			          "budget worth": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -4950,6 +4940,16 @@ cultureInfo en-US
 			        },
 			        {
 			          "budget expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "budget cost": {
 			            "Type": "Noun",
 			            "State": "Suggested",
 			            "Source": {
@@ -14214,9 +14214,4758 @@ cultureInfo en-US
 			          }
 			        }
 			      ]
+			    },
+			    "financial_measure.CAPEX_analysis_actual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Financial Measures",
+			          "ConceptualProperty": "CAPEX Analysis Actual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CAPEX analysis actual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "actual": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "analysis actual": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "capex analysis real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "capex analysis existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "capex analysis tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "analysis real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "analysis existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "analysis tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "CAPEX": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "financial_measure.CAPEX_analysis_budget": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Financial Measures",
+			          "ConceptualProperty": "CAPEX Analysis Budget"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CAPEX analysis budget": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "budget": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "analysis budget": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "capex analysis account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "capex analysis cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "capex analysis finance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "analysis account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "analysis cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "analysis finance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "account": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "finance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "financial_measure.CAPEX_analysis_variance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Financial Measures",
+			          "ConceptualProperty": "CAPEX Analysis Variance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CAPEX analysis variance": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "analysis variance": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "capex analysis alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "capex analysis modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "capex analysis adjustment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "analysis alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "analysis modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "analysis adjustment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "capex analysis change": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "analysis change": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "capex analysis discrepancy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "capex analysis inconsistency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "financial_measure.CAPEX_analysis_variance_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Financial Measures",
+			          "ConceptualProperty": "CAPEX Analysis Variance %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CAPEX analysis variance %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "capex analysis variance percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "capex analysis variance pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "financial_measure.closing_debt_actual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Financial Measures",
+			          "ConceptualProperty": "Closing Debt Actual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "closing debt actual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "actual": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "debt actual": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "closing debt real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "closing debt existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "closing debt tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "debt real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "debt existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "debt tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Closing Debt": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "financial_measure.debt_drawdown_actual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Financial Measures",
+			          "ConceptualProperty": "Debt Drawdown Actual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "debt drawdown actual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "actual": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "drawdown actual": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "debt drawdown real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "debt drawdown existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "debt drawdown tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "drawdown real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "drawdown existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "drawdown tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "financial_measure.debt_repayment_actual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Financial Measures",
+			          "ConceptualProperty": "Debt Repayment Actual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "debt repayment actual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "actual": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "repayment actual": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "debt repayment real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "debt repayment existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "debt repayment tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "repayment real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "repayment existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "repayment tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "financial_measure.interest_rate_actual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Financial Measures",
+			          "ConceptualProperty": "Interest Rate Actual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "interest rate actual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "actual": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "rate actual": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "interest rate real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "interest rate existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "interest rate tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "rate real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "rate existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "rate tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Interest Rate": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DebtAnalysis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vw debt analysis": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vw_DebtAnalysis": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "analysis": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "debt analysis": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "vw debt examination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "vw debt investigation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "vw debt scrutiny": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "vw debt breakdown": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "vw debt enquiry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "vw debt inquiry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "vw debt exploration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "vw debt evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "vw debt consideration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "debt examination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis.company_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DebtAnalysis",
+			          "ConceptualProperty": "CompanyName"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "company name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CompanyName": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "company": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "co": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "corp": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "corporation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "corps": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "enterprise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "company nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "company title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "company label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "company tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis.period_key": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DebtAnalysis",
+			          "ConceptualProperty": "PeriodKey"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "period key": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PeriodKey": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "key": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "main": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "basic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fundamental": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "central": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "major": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "keynote": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "essential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "period solution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "period explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "period basis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DebtAnalysis",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "vw_debt_analysis.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DebtAnalysis",
+			          "ConceptualProperty": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis.quarter_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DebtAnalysis",
+			          "ConceptualProperty": "QuarterNumber"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "QuarterNumber": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "quarter no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "qtr number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.667
+			          }
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis.debt_metric_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DebtAnalysis",
+			          "ConceptualProperty": "DebtMetricId"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "debt metric id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DebtMetricId": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "metric": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "debt metric": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "metric id": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "debt metric identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "debt metric identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "debt metric identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "metric identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "metric identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "metric identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "debt metric credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "metric credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis.debt_metric_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DebtAnalysis",
+			          "ConceptualProperty": "DebtMetricName"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "debt metric name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DebtMetricName": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "metric": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "debt metric": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "metric name": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "debt metric nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "debt metric title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "debt metric label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "debt metric tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "metric nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "metric title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "metric label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "metric tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis.actual_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DebtAnalysis",
+			          "ConceptualProperty": "ActualValue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ActualValue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "real value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "existent value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "tangible value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "actual assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "actual worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "actual cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "actual charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "actual rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis.budget_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DebtAnalysis",
+			          "ConceptualProperty": "BudgetValue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "budget value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "BudgetValue": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "account value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "cost value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "finance value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "budget assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "budget worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "budget cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "budget charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "budget rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis.variance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DebtAnalysis",
+			          "ConceptualProperty": "Variance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variance": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "adjustment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "change": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "discrepancy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "inconsistency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "disagreement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "variation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "divergence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "disparity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis.variance_percent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DebtAnalysis",
+			          "ConceptualProperty": "VariancePercent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variance percent": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "VariancePercent": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "variance percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "variance ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "variance percentile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "variance part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "variance proportion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "variance fraction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vw cap ex analysis": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vw_CapExAnalysis": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "analysis": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ex analysis": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cap ex analysis": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cap": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "vw cap": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ex examination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ex investigation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ex scrutiny": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ex breakdown": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ex enquiry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ex inquiry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ex exploration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ex evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ex consideration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "vw lid ex analysis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis.company_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis",
+			          "ConceptualProperty": "CompanyName"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "company name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CompanyName": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "company": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "co": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "corp": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "corporation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "corps": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "enterprise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "company nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "company title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "company label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "company tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis.period_key": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis",
+			          "ConceptualProperty": "PeriodKey"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "period key": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PeriodKey": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "key": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "main": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "basic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fundamental": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "central": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "major": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "keynote": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "essential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "period solution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "period explanation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "period basis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "vw_cap_ex_analysis.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis",
+			          "ConceptualProperty": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis.quarter_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis",
+			          "ConceptualProperty": "QuarterNumber"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "QuarterNumber": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "quarter no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "qtr number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.667
+			          }
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis.cap_ex_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis",
+			          "ConceptualProperty": "CapExId"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cap ex id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CapExId": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ex": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cap ex": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ex id": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cap": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ex identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ex identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ex identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ex credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "cap ex identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "cap ex identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "cap ex identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "cap ex credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "lid ex id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cover ex id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis.cap_ex_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis",
+			          "ConceptualProperty": "CapExCategory"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cap ex category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CapExCategory": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ex category": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cap": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ex classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "ex class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "ex group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "ex type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "ex grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "ex kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis.cap_ex_item": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis",
+			          "ConceptualProperty": "CapExItem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cap ex item": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CapExItem": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ex item": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cap": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ex product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ex element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ex entry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "entry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "ex article": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "ex object": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "ex piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "ex token": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis.actual_cap_ex": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis",
+			          "ConceptualProperty": "ActualCapEx"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "actual cap ex": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ActualCapEx": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ex": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cap ex": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "real cap ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "existent cap ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "tangible cap ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "actual lid ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "actual cover ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "actual top ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "actual stopper ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "actual plug ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "lid ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "cover ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis.budget_cap_ex": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis",
+			          "ConceptualProperty": "BudgetCapEx"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "budget cap ex": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "BudgetCapEx": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ex": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cap ex": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "account cap ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "cost cap ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "finance cap ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "budget lid ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "budget cover ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "budget top ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "budget stopper ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "budget plug ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "lid ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "cover ex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis.cap_ex_variance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis",
+			          "ConceptualProperty": "CapExVariance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cap ex variance": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CapExVariance": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ex variance": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cap": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ex alteration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ex modification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ex adjustment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "lid ex variance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cover ex variance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "top ex variance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "stopper ex variance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "plug ex variance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "ex change": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "restraint ex variance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis.cap_ex_variance_percent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_CapExAnalysis",
+			          "ConceptualProperty": "CapExVariancePercent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cap ex variance percent": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CapExVariancePercent": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ex variance percent": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ex alteration percent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "ex modification percent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "ex adjustment percent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "lid ex variance percent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "cover ex variance percent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "top ex variance percent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "stopper ex variance percent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "plug ex variance percent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "ex change percent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "restraint ex variance percent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
+			    "vw_cap_ex_analysis_has_cap_ex_variance": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "vw_cap_ex_analysis.cap_ex_variance": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis.cap_ex_variance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.cap_ex_variance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_cap_ex_variance"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_budget_cap_ex": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "vw_cap_ex_analysis.budget_cap_ex": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis.budget_cap_ex"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.budget_cap_ex"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_budget_cap_ex"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_actual_cap_ex": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "vw_cap_ex_analysis.actual_cap_ex": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis.actual_cap_ex"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.actual_cap_ex"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_actual_cap_ex"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_cap_ex_item": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "vw_cap_ex_analysis.cap_ex_item": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis.cap_ex_item"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.cap_ex_item"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_cap_ex_item"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Verbs": [
+			              {
+			                "cap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "ex": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "vw_cap_ex_analysis.cap_ex_item"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "vw_cap_ex_analysis_cap_ex_cap_ex_item"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Prepositions": [
+			              {
+			                "ex": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.cap_ex_item"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_are_ex_cap_ex_item"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_cap_ex_category": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "vw_cap_ex_analysis.cap_ex_category": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis.cap_ex_category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.cap_ex_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_cap_ex_category"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Verbs": [
+			              {
+			                "cap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "ex": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "vw_cap_ex_analysis.cap_ex_category"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "vw_cap_ex_analysis_cap_ex_cap_ex_category"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Prepositions": [
+			              {
+			                "ex": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.cap_ex_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_are_ex_cap_ex_category"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_cap_ex_id": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "vw_cap_ex_analysis.cap_ex_id": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis.cap_ex_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.cap_ex_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_cap_ex_id"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_quarter_number": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "vw_cap_ex_analysis.quarter_number": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis.quarter_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.quarter_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_quarter_numbers"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "vw_cap_ex_analysis.quarter": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_quarters"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "vw_cap_ex_analysis.year": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_years"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_company_name": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "vw_cap_ex_analysis.company_name": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis.company_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.company_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_company_names"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_variance_percent": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "vw_debt_analysis.variance_percent": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis.variance_percent"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_debt_analysis.variance_percent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_variance_percent"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_variance": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "vw_debt_analysis.variance": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis.variance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_debt_analysis.variance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_variances"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_budget_value": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "vw_debt_analysis.budget_value": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis.budget_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_debt_analysis.budget_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_budget_values"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_actual_value": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "vw_debt_analysis.actual_value": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis.actual_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_debt_analysis.actual_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_actual_values"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_debt_metric_name": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "vw_debt_analysis.debt_metric_name": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis.debt_metric_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_debt_analysis.debt_metric_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_debt_metric_names"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_debt_metric_id": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "vw_debt_analysis.debt_metric_id": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis.debt_metric_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_debt_analysis.debt_metric_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_debt_metric_ids"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_quarter_number": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "vw_debt_analysis.quarter_number": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis.quarter_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_debt_analysis.quarter_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_quarter_numbers"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "vw_debt_analysis.quarter": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_debt_analysis.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_quarters"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "vw_debt_analysis.year": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_debt_analysis.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_years"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_company_name": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "vw_debt_analysis.company_name": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis.company_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_debt_analysis.company_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_company_names"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_financial_measure_interest_rate_actual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "financial_measure.interest_rate_actual": {
+			          "Target": {
+			            "Entity": "financial_measure.interest_rate_actual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.interest_rate_actual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_interest_rate_actual"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_financial_measure_debt_repayment_actual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "financial_measure.debt_repayment_actual": {
+			          "Target": {
+			            "Entity": "financial_measure.debt_repayment_actual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.debt_repayment_actual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_debt_repayment_actual"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_financial_measure_debt_drawdown_actual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "financial_measure.debt_drawdown_actual": {
+			          "Target": {
+			            "Entity": "financial_measure.debt_drawdown_actual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.debt_drawdown_actual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_debt_drawdown_actual"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_financial_measure_closing_debt_actual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "financial_measure.closing_debt_actual": {
+			          "Target": {
+			            "Entity": "financial_measure.closing_debt_actual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.closing_debt_actual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_closing_debt_actual"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_financial_measure_CAPEX_analysis_variance_": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "financial_measure.CAPEX_analysis_variance_": {
+			          "Target": {
+			            "Entity": "financial_measure.CAPEX_analysis_variance_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.CAPEX_analysis_variance_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_CAPEX_analysis_variance_"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_financial_measure_CAPEX_analysis_variance": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "financial_measure.CAPEX_analysis_variance": {
+			          "Target": {
+			            "Entity": "financial_measure.CAPEX_analysis_variance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.CAPEX_analysis_variance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_CAPEX_analysis_variance"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_financial_measure_CAPEX_analysis_budget": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "financial_measure.CAPEX_analysis_budget": {
+			          "Target": {
+			            "Entity": "financial_measure.CAPEX_analysis_budget"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.CAPEX_analysis_budget"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_CAPEX_analysis_budget"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_financial_measure_CAPEX_analysis_actual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "financial_measure.CAPEX_analysis_actual": {
+			          "Target": {
+			            "Entity": "financial_measure.CAPEX_analysis_actual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.CAPEX_analysis_actual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_CAPEX_analysis_actual"
+			        }
+			      ]
+			    },
+			    "cash_flow_structure_has_sort_order": {
+			      "Binding": {
+			        "ConceptualEntity": "Cash Flow Structure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cash_flow_structure": {
+			          "Target": {
+			            "Entity": "cash_flow_structure"
+			          }
+			        },
+			        "cash_flow_structure.sort_order": {
+			          "Target": {
+			            "Entity": "cash_flow_structure.sort_order"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cash_flow_structure"
+			            },
+			            "Object": {
+			              "Role": "cash_flow_structure.sort_order"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cash_flow_structures_have_sort_orders"
+			        }
+			      ]
+			    },
+			    "cash_flow_structure_has_cash_flow_item": {
+			      "Binding": {
+			        "ConceptualEntity": "Cash Flow Structure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cash_flow_structure": {
+			          "Target": {
+			            "Entity": "cash_flow_structure"
+			          }
+			        },
+			        "cash_flow_structure.cash_flow_item": {
+			          "Target": {
+			            "Entity": "cash_flow_structure.cash_flow_item"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cash_flow_structure"
+			            },
+			            "Object": {
+			              "Role": "cash_flow_structure.cash_flow_item"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cash_flow_structures_have_cash_flow_items"
+			        }
+			      ]
+			    },
+			    "vw_actual_vs_budget_has_financial_measure_cash_flow_structure_value": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_ActualVsBudget"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_actual_vs_budget": {
+			          "Target": {
+			            "Entity": "vw_actual_vs_budget"
+			          }
+			        },
+			        "financial_measure.cash_flow_structure_value": {
+			          "Target": {
+			            "Entity": "financial_measure.cash_flow_structure_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_actual_vs_budget"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.cash_flow_structure_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_actual_vs_budgets_have_cash_flow_structure_value"
+			        }
+			      ]
+			    },
+			    "cash_flow_structure_has_financial_measure_cash_flow_structure_value": {
+			      "Binding": {
+			        "ConceptualEntity": "Cash Flow Structure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cash_flow_structure": {
+			          "Target": {
+			            "Entity": "cash_flow_structure"
+			          }
+			        },
+			        "financial_measure.cash_flow_structure_value": {
+			          "Target": {
+			            "Entity": "financial_measure.cash_flow_structure_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cash_flow_structure"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.cash_flow_structure_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cash_flow_structures_have_cash_flow_structure_value"
+			        }
+			      ]
+			    },
+			    "working_capital_driver_has_sort_order": {
+			      "Binding": {
+			        "ConceptualEntity": "Working Capital Drivers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "working_capital_driver": {
+			          "Target": {
+			            "Entity": "working_capital_driver"
+			          }
+			        },
+			        "working_capital_driver.sort_order": {
+			          "Target": {
+			            "Entity": "working_capital_driver.sort_order"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "working_capital_driver"
+			            },
+			            "Object": {
+			              "Role": "working_capital_driver.sort_order"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "working_capital_drivers_have_sort_orders"
+			        }
+			      ]
+			    },
 			    "working_capital_driver_has_driver": {
 			      "Binding": {
 			        "ConceptualEntity": "Working Capital Drivers"
@@ -18466,20 +23215,20 @@ cultureInfo en-US
 			        }
 			      ]
 			    },
-			    "working_capital_driver_has_sort_order": {
+			    "vw_cap_ex_analysis_has_cap_ex_variance_percent": {
 			      "Binding": {
-			        "ConceptualEntity": "Working Capital Drivers"
+			        "ConceptualEntity": "vw_CapExAnalysis"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "working_capital_driver": {
+			        "vw_cap_ex_analysis": {
 			          "Target": {
-			            "Entity": "working_capital_driver"
+			            "Entity": "vw_cap_ex_analysis"
 			          }
 			        },
-			        "working_capital_driver.sort_order": {
+			        "vw_cap_ex_analysis.cap_ex_variance_percent": {
 			          "Target": {
-			            "Entity": "working_capital_driver.sort_order"
+			            "Entity": "vw_cap_ex_analysis.cap_ex_variance_percent"
 			          }
 			        }
 			      },
@@ -18487,147 +23236,15 @@ cultureInfo en-US
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "working_capital_driver"
+			              "Role": "vw_cap_ex_analysis"
 			            },
 			            "Object": {
-			              "Role": "working_capital_driver.sort_order"
+			              "Role": "vw_cap_ex_analysis.cap_ex_variance_percent"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "working_capital_drivers_have_sort_orders"
-			        }
-			      ]
-			    },
-			    "cash_flow_structure_has_financial_measure_cash_flow_structure_value": {
-			      "Binding": {
-			        "ConceptualEntity": "Cash Flow Structure"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "cash_flow_structure": {
-			          "Target": {
-			            "Entity": "cash_flow_structure"
-			          }
-			        },
-			        "financial_measure.cash_flow_structure_value": {
-			          "Target": {
-			            "Entity": "financial_measure.cash_flow_structure_value"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "cash_flow_structure"
-			            },
-			            "Object": {
-			              "Role": "financial_measure.cash_flow_structure_value"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "cash_flow_structures_have_cash_flow_structure_value"
-			        }
-			      ]
-			    },
-			    "vw_actual_vs_budget_has_financial_measure_cash_flow_structure_value": {
-			      "Binding": {
-			        "ConceptualEntity": "vw_ActualVsBudget"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "vw_actual_vs_budget": {
-			          "Target": {
-			            "Entity": "vw_actual_vs_budget"
-			          }
-			        },
-			        "financial_measure.cash_flow_structure_value": {
-			          "Target": {
-			            "Entity": "financial_measure.cash_flow_structure_value"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "vw_actual_vs_budget"
-			            },
-			            "Object": {
-			              "Role": "financial_measure.cash_flow_structure_value"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "vw_actual_vs_budgets_have_cash_flow_structure_value"
-			        }
-			      ]
-			    },
-			    "cash_flow_structure_has_cash_flow_item": {
-			      "Binding": {
-			        "ConceptualEntity": "Cash Flow Structure"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "cash_flow_structure": {
-			          "Target": {
-			            "Entity": "cash_flow_structure"
-			          }
-			        },
-			        "cash_flow_structure.cash_flow_item": {
-			          "Target": {
-			            "Entity": "cash_flow_structure.cash_flow_item"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "cash_flow_structure"
-			            },
-			            "Object": {
-			              "Role": "cash_flow_structure.cash_flow_item"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "cash_flow_structures_have_cash_flow_items"
-			        }
-			      ]
-			    },
-			    "cash_flow_structure_has_sort_order": {
-			      "Binding": {
-			        "ConceptualEntity": "Cash Flow Structure"
-			      },
-			      "State": "Generated",
-			      "Roles": {
-			        "cash_flow_structure": {
-			          "Target": {
-			            "Entity": "cash_flow_structure"
-			          }
-			        },
-			        "cash_flow_structure.sort_order": {
-			          "Target": {
-			            "Entity": "cash_flow_structure.sort_order"
-			          }
-			        }
-			      },
-			      "Phrasings": [
-			        {
-			          "Attribute": {
-			            "Subject": {
-			              "Role": "cash_flow_structure"
-			            },
-			            "Object": {
-			              "Role": "cash_flow_structure.sort_order"
-			            }
-			          },
-			          "State": "Generated",
-			          "Weight": 0.99,
-			          "ID": "cash_flow_structures_have_sort_orders"
+			          "ID": "vw_cap_ex_analysis_have_cap_ex_variance_percent"
 			        }
 			      ]
 			    },
@@ -18996,6 +23613,98 @@ cultureInfo en-US
 			          "State": "Generated",
 			          "Weight": 0.99,
 			          "ID": "dim_directions_have_vw_sales_price_volume_analyses"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_dim_period": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "dim_period": {
+			          "Target": {
+			            "Entity": "dim_period"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "dim_period"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_dim_periods"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_period"
+			            },
+			            "Object": {
+			              "Role": "vw_debt_analysis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_periods_have_vw_debt_analyses"
+			        }
+			      ]
+			    },
+			    "vw_cap_ex_analysis_has_dim_period": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "dim_period": {
+			          "Target": {
+			            "Entity": "dim_period"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "dim_period"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_dim_periods"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_period"
+			            },
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_periods_have_vw_cap_ex_analysis"
 			        }
 			      ]
 			    }
