@@ -1,9 +1,9 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "5050731195504a0caa1b",
   "position": {
-    "x": 1547.3110395613503,
-    "y": 94.013835315120019,
+    "x": 1500.9184202342697,
+    "y": 76.425831864828439,
     "z": 6000,
     "height": 169.7749196141479,
     "width": 339.54983922829581,
@@ -23,12 +23,12 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "Interest Rate Actual"
+                  "Property": "Interest Expence Actual"
                 }
               },
-              "queryRef": "Financial Measures.Interest Rate Actual",
-              "nativeQueryRef": "Interest Rate",
-              "displayName": "Interest Rate"
+              "queryRef": "Financial Measures.Interest Expence Actual",
+              "nativeQueryRef": "Interest Expence",
+              "displayName": "Interest Expence"
             }
           ]
         }
@@ -43,7 +43,7 @@
                     "Entity": "Financial Measures"
                   }
                 },
-                "Property": "Interest Rate Actual"
+                "Property": "Interest Expence Actual"
               }
             },
             "direction": "Descending"

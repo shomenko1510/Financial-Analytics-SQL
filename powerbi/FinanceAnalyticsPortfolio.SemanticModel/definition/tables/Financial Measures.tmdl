@@ -749,9 +749,19 @@ table 'Financial Measures'
 			
 			CALCULATE(
 			    MAX(vw_DebtAnalysis[ActualValue]),
-			    vw_DebtAnalysis[DebtMetricname] = "Interest Rate"
+			    vw_DebtAnalysis[DebtMetricName] = "Interest Rate"
 			)
 		lineageTag: 99e6ef29-cfb1-4ef8-a633-243a85c7e752
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Interest Expence Actual' =
+			
+			CALCULATE(
+			    SUM(vw_DebtAnalysis[ActualValue]),
+			    vw_DebtAnalysis[DebtMetricName] = "Interest Expense"
+			)
+		lineageTag: e71947dd-14e1-4da7-a4da-e28a52037db9
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 

@@ -1,9 +1,9 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "c4d64f60194133321b50",
   "position": {
-    "x": 1150.7881470552072,
-    "y": 93.171031599655734,
+    "x": 1118.7892609101275,
+    "y": 76.425831864828439,
     "z": 4000,
     "height": 170.37037037037035,
     "width": 340,
@@ -23,11 +23,12 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "Debt Drawdown Actual"
+                  "Property": "Debt Repayment Actual"
                 }
               },
-              "queryRef": "Financial Measures.Debt Drawdown Actual",
-              "nativeQueryRef": "Debt Drawdown Actual"
+              "queryRef": "Financial Measures.Debt Repayment Actual",
+              "nativeQueryRef": "Repayment",
+              "displayName": "Repayment"
             }
           ]
         }
@@ -42,7 +43,7 @@
                     "Entity": "Financial Measures"
                   }
                 },
-                "Property": "Debt Drawdown Actual"
+                "Property": "Debt Repayment Actual"
               }
             },
             "direction": "Descending"

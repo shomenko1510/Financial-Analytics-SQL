@@ -14862,6 +14862,16 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.714
 			          }
+			        },
+			        {
+			          "Drawdown": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -14980,6 +14990,16 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.714
 			          }
+			        },
+			        {
+			          "Repayment": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
 			        }
 			      ]
 			    },
@@ -15097,16 +15117,6 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "Interest Rate": {
-			            "State": "Suggested",
-			            "Source": {
-			              "Type": "External",
-			              "Agent": "PowerBI.VisualColumnRename"
-			            },
-			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -17772,9 +17782,98 @@ cultureInfo en-US
 			          }
 			        }
 			      ]
+			    },
+			    "financial_measure.interest_expence_actual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Financial Measures",
+			          "ConceptualProperty": "Interest Expence Actual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "interest expence actual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "interest expence real": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "interest expence existent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "interest expence tangible": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "Interest Expence": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
+			    "vw_cap_ex_analysis_has_cap_ex_variance_percent": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_CapExAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_cap_ex_analysis": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis"
+			          }
+			        },
+			        "vw_cap_ex_analysis.cap_ex_variance_percent": {
+			          "Target": {
+			            "Entity": "vw_cap_ex_analysis.cap_ex_variance_percent"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_cap_ex_analysis"
+			            },
+			            "Object": {
+			              "Role": "vw_cap_ex_analysis.cap_ex_variance_percent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_cap_ex_analysis_have_cap_ex_variance_percent"
+			        }
+			      ]
+			    },
 			    "vw_cap_ex_analysis_has_cap_ex_variance": {
 			      "Binding": {
 			        "ConceptualEntity": "vw_CapExAnalysis"
@@ -23215,20 +23314,20 @@ cultureInfo en-US
 			        }
 			      ]
 			    },
-			    "vw_cap_ex_analysis_has_cap_ex_variance_percent": {
+			    "vw_debt_analysis_has_financial_measure_interest_expence_actual": {
 			      "Binding": {
-			        "ConceptualEntity": "vw_CapExAnalysis"
+			        "ConceptualEntity": "vw_DebtAnalysis"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "vw_cap_ex_analysis": {
+			        "vw_debt_analysis": {
 			          "Target": {
-			            "Entity": "vw_cap_ex_analysis"
+			            "Entity": "vw_debt_analysis"
 			          }
 			        },
-			        "vw_cap_ex_analysis.cap_ex_variance_percent": {
+			        "financial_measure.interest_expence_actual": {
 			          "Target": {
-			            "Entity": "vw_cap_ex_analysis.cap_ex_variance_percent"
+			            "Entity": "financial_measure.interest_expence_actual"
 			          }
 			        }
 			      },
@@ -23236,15 +23335,15 @@ cultureInfo en-US
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "vw_cap_ex_analysis"
+			              "Role": "vw_debt_analysis"
 			            },
 			            "Object": {
-			              "Role": "vw_cap_ex_analysis.cap_ex_variance_percent"
+			              "Role": "financial_measure.interest_expence_actual"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "vw_cap_ex_analysis_have_cap_ex_variance_percent"
+			          "ID": "vw_debt_analyses_have_interest_expence_actual"
 			        }
 			      ]
 			    },

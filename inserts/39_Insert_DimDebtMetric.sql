@@ -7,7 +7,7 @@ INSERT INTO dbo.DimDebtMetric
 )
 VALUES
     ('Opening Loan Balance'),
-    ('Loan Drawndown'),
+    ('Loan Drawdown'),
     ('Loan Repayment'),
     ('Closing Loan Balance'),
     ('Interest Rate'),

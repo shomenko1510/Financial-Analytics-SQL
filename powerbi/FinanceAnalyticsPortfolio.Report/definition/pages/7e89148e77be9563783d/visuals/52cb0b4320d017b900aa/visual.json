@@ -1,9 +1,9 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
   "name": "52cb0b4320d017b900aa",
   "position": {
-    "x": 788.17656461330387,
-    "y": 90.652895610475838,
+    "x": 747.27480045610025,
+    "y": 76.425831864828439,
     "z": 3000,
     "height": 170,
     "width": 340,
@@ -23,12 +23,12 @@
                       "Entity": "Financial Measures"
                     }
                   },
-                  "Property": "CAPEX Actual"
+                  "Property": "Debt Drawdown Actual"
                 }
               },
-              "queryRef": "Financial Measures.CAPEX Actual",
-              "nativeQueryRef": "CAPEX",
-              "displayName": "CAPEX"
+              "queryRef": "Financial Measures.Debt Drawdown Actual",
+              "nativeQueryRef": "Drawdown",
+              "displayName": "Drawdown"
             }
           ]
         }
@@ -43,7 +43,7 @@
                     "Entity": "Financial Measures"
                   }
                 },
-                "Property": "CAPEX Actual"
+                "Property": "Debt Drawdown Actual"
               }
             },
             "direction": "Descending"
@@ -226,34 +226,6 @@
             "id": "field-3d65cd6f-18a5-9a02-9223-c8c64be8cb89",
             "order": 0
           }
-        },
-        {
-          "properties": {
-            "value": {
-              "expr": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Financial Measures"
-                    }
-                  },
-                  "Property": "CAPEX Budget"
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Financial Measures.CAPEX Actual",
-            "id": "field-e48778a3-31ca-aa35-6956-d6866d8be5d2",
-            "order": 0
-          }
         }
       ],
       "referenceLabelDetail": [
@@ -339,48 +311,6 @@
             "metadata": "Financial Measures.Closing Cash Actual",
             "id": "field-3d65cd6f-18a5-9a02-9223-c8c64be8cb89"
           }
-        },
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Financial Measures.CAPEX Actual",
-            "id": "field-e48778a3-31ca-aa35-6956-d6866d8be5d2"
-          }
-        },
-        {
-          "properties": {
-            "detailValue": {
-              "expr": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Financial Measures"
-                    }
-                  },
-                  "Property": "CAPEX Variance %"
-                }
-              }
-            }
-          },
-          "selector": {
-            "data": [
-              {
-                "dataViewWildcard": {
-                  "matchingOption": 0
-                }
-              }
-            ],
-            "metadata": "Financial Measures.CAPEX Actual",
-            "id": "field-e48778a3-31ca-aa35-6956-d6866d8be5d2"
-          }
         }
       ],
       "referenceLabelTitle": [
@@ -426,28 +356,6 @@
           "selector": {
             "metadata": "Financial Measures.Closing Cash Actual",
             "id": "field-3d65cd6f-18a5-9a02-9223-c8c64be8cb89"
-          }
-        },
-        {
-          "properties": {
-            "titleContentType": {
-              "expr": {
-                "Literal": {
-                  "Value": "'custom'"
-                }
-              }
-            },
-            "titleText": {
-              "expr": {
-                "Literal": {
-                  "Value": "'Budget'"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "Financial Measures.CAPEX Actual",
-            "id": "field-e48778a3-31ca-aa35-6956-d6866d8be5d2"
           }
         }
       ],
