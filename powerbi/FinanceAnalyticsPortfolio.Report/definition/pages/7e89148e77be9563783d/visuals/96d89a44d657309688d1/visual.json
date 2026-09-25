@@ -1,0 +1,85 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "name": "96d89a44d657309688d1",
+  "position": {
+    "x": 1501,
+    "y": 299,
+    "z": 6005,
+    "height": 323,
+    "width": 340,
+    "tabOrder": 9005
+  },
+  "visual": {
+    "visualType": "waterfallChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Debt Movement"
+                    }
+                  },
+                  "Property": "DebtMovementItem"
+                }
+              },
+              "queryRef": "Debt Movement.DebtMovementItem",
+              "nativeQueryRef": "DebtMovementItem",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Financial Measures"
+                    }
+                  },
+                  "Property": "Debt Movement Value"
+                }
+              },
+              "queryRef": "Financial Measures.Debt Movement Value",
+              "nativeQueryRef": "Debt Movement Value"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Debt Movement'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

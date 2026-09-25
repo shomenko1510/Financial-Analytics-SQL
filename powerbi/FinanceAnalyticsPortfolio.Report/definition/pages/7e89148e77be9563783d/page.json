@@ -1,8 +1,25 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
   "name": "7e89148e77be9563783d",
   "displayName": "CAPEX & Debt Analysis",
   "displayOption": "FitToPage",
   "height": 1080,
-  "width": 1920
+  "width": 1920,
+  "visualInteractions": [
+    {
+      "source": "162b27df78cec90ed021",
+      "target": "20d5694c18a03261a62c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "162b27df78cec90ed021",
+      "target": "ea0cac7faab55de65c2a",
+      "type": "NoFilter"
+    },
+    {
+      "source": "162b27df78cec90ed021",
+      "target": "9968d12ce3a68e9b7477",
+      "type": "NoFilter"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
     {
       "ordinal": 0,
       "scrollPosition": {
-        "x": 1066.1285173411688,
+        "x": 1199.19778890542,
         "y": 0
       },
       "nodes": [
@@ -185,6 +185,18 @@
             "width": 234
           },
           "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 2620.2837032223806,
+            "y": 358.59859242796716
+          },
+          "nodeIndex": "Debt Movement",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "All tables",

@@ -1,0 +1,36 @@
+table 'Debt Movement'
+	lineageTag: e7c012da-9c24-4714-8463-8c6f95c5acbd
+
+	column DebtMovementItem
+		lineageTag: a0185429-d160-42ae-b211-7283b8a0de4e
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [DebtMovementItem]
+		sortByColumn: SortOrder
+
+		annotation SummarizationSetBy = Automatic
+
+	column SortOrder
+		formatString: 0
+		lineageTag: 0f21e303-3444-4a24-8893-24d8500c0ce5
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [SortOrder]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Debt Movement' = calculated
+		mode: import
+		source =
+				
+				DATATABLE(
+				    "DebtMovementItem", STRING,
+				    "SortOrder", INTEGER,
+				    {
+				        {"Loan Drawdown", 1},
+				        {"Loan Repayment", 2}
+				    }
+				)
+
+	annotation PBI_Id = 43dc0c2a7cab4c11b961c4228315ac4e
+

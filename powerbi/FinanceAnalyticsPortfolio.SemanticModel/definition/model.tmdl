@@ -27,6 +27,7 @@ ref table 'Working Capital Drivers'
 ref table 'Cash Flow Structure'
 ref table vw_DebtAnalysis
 ref table vw_CapExAnalysis
+ref table 'Debt Movement'
 
 ref cultureInfo en-US
 

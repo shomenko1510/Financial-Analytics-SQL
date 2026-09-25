@@ -765,6 +765,22 @@ table 'Financial Measures'
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure 'Debt Movement Value' = ```
+			
+			SWITCH(
+			    SELECTEDVALUE('Debt Movement' [DebtMovementItem]),
+			
+			    "Loan Drawdown",
+			        [Debt Drawdown Actual],
+			
+			    "Loan Repayment",
+			        - [Debt Repayment Actual]    
+			)
+			```
+		lineageTag: 44786040-54e7-4fcd-9367-80b984ce652b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column Placeholder
 		isHidden
 		formatString: 0
