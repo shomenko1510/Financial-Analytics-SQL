@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "9c69fe647196539b0875",
   "position": {
-    "x": 984.59117176933489,
-    "y": 256.84987089634825,
+    "x": 21.666666666666668,
+    "y": 346.66666666666669,
     "z": 9000,
-    "height": 322.32140661502524,
-    "width": 934.22845198573714,
-    "tabOrder": 8000
+    "height": 266.66666666666669,
+    "width": 938.33333333333337,
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "clusteredBarChart",
@@ -74,6 +74,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'Actual vs Budget by KPI'"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
                 }
               }
             }

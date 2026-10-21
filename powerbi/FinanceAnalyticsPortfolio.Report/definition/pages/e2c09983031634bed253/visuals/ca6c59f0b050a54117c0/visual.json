@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "ca6c59f0b050a54117c0",
   "position": {
-    "x": 1039.9901635312924,
-    "y": 606.87077339235213,
+    "x": 1013.3333333333334,
+    "y": 346.66666666666669,
     "z": 0,
-    "height": 387.79294233370223,
-    "width": 858.68437231034068,
-    "tabOrder": 7000
+    "height": 671.66666666666674,
+    "width": 786.66666666666674,
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "pivotTable",
@@ -109,6 +109,28 @@
               "expr": {
                 "Literal": {
                   "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Financial Performance - Actual vs Budget'"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
                 }
               }
             }
