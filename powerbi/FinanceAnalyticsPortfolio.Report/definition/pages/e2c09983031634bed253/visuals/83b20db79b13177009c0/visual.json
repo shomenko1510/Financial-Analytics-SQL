@@ -1,13 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "83b20db79b13177009c0",
   "position": {
     "x": 383.33333333333337,
     "y": 143.33333333333334,
     "z": 3000,
     "height": 170,
-    "width": 340,
-    "tabOrder": 0
+    "width": 340
   },
   "visual": {
     "visualType": "cardVisual",
@@ -139,6 +138,17 @@
               "expr": {
                 "Literal": {
                   "Value": "'aboveValue'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#30343B'"
+                    }
+                  }
                 }
               }
             }
