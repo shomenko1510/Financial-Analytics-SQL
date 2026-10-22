@@ -17838,9 +17838,621 @@ cultureInfo en-US
 			          }
 			        }
 			      ]
+			    },
+			    "financial_measure.debt_movement_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Financial Measures",
+			          "ConceptualProperty": "Debt Movement Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "debt movement value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "movement value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "debt movement assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "movement assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "debt movement worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "debt movement price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "debt movement cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "debt movement charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "debt movement rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "movement worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "movement price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "debt_movement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Debt Movement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "debt movement": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "movement": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "debt effort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "effort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "debt drive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "debt crusade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "debt undertaking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "debt program": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "debt measure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "drive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "crusade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "undertaking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "debt_movement.debt_movement_item": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Debt Movement",
+			          "ConceptualProperty": "DebtMovementItem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "debt movement item": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DebtMovementItem": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "item": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "movement item": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "debt movement product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "debt movement element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "debt movement entry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "movement product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movement element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movement entry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "debt movement article": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "debt movement object": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "debt movement piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "debt movement token": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "debt_movement.sort_order": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Debt Movement",
+			          "ConceptualProperty": "SortOrder"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sort order": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SortOrder": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sort instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sort direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "sort edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "sort command": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sort directive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sort demand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sort mandate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "sort imperative": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
 			    }
 			  },
 			  "Relationships": {
+			    "debt_movement_has_debt_movement_item": {
+			      "Binding": {
+			        "ConceptualEntity": "Debt Movement"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "debt_movement": {
+			          "Target": {
+			            "Entity": "debt_movement"
+			          }
+			        },
+			        "debt_movement.debt_movement_item": {
+			          "Target": {
+			            "Entity": "debt_movement.debt_movement_item"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "debt_movement"
+			            },
+			            "Object": {
+			              "Role": "debt_movement.debt_movement_item"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "debt_movements_have_debt_movement_items"
+			        }
+			      ]
+			    },
+			    "financial_measure_has_debt_movement_value": {
+			      "Binding": {
+			        "ConceptualEntity": "Financial Measures"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "financial_measure": {
+			          "Target": {
+			            "Entity": "financial_measure"
+			          }
+			        },
+			        "financial_measure.debt_movement_value": {
+			          "Target": {
+			            "Entity": "financial_measure.debt_movement_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "financial_measure"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.debt_movement_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "financial_measures_have_debt_movement_value"
+			        }
+			      ]
+			    },
+			    "vw_debt_analysis_has_financial_measure_interest_expence_actual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DebtAnalysis"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_debt_analysis": {
+			          "Target": {
+			            "Entity": "vw_debt_analysis"
+			          }
+			        },
+			        "financial_measure.interest_expence_actual": {
+			          "Target": {
+			            "Entity": "financial_measure.interest_expence_actual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_debt_analysis"
+			            },
+			            "Object": {
+			              "Role": "financial_measure.interest_expence_actual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_debt_analyses_have_interest_expence_actual"
+			        }
+			      ]
+			    },
 			    "vw_cap_ex_analysis_has_cap_ex_variance_percent": {
 			      "Binding": {
 			        "ConceptualEntity": "vw_CapExAnalysis"
@@ -23314,20 +23926,20 @@ cultureInfo en-US
 			        }
 			      ]
 			    },
-			    "vw_debt_analysis_has_financial_measure_interest_expence_actual": {
+			    "debt_movement_has_sort_order": {
 			      "Binding": {
-			        "ConceptualEntity": "vw_DebtAnalysis"
+			        "ConceptualEntity": "Debt Movement"
 			      },
 			      "State": "Generated",
 			      "Roles": {
-			        "vw_debt_analysis": {
+			        "debt_movement": {
 			          "Target": {
-			            "Entity": "vw_debt_analysis"
+			            "Entity": "debt_movement"
 			          }
 			        },
-			        "financial_measure.interest_expence_actual": {
+			        "debt_movement.sort_order": {
 			          "Target": {
-			            "Entity": "financial_measure.interest_expence_actual"
+			            "Entity": "debt_movement.sort_order"
 			          }
 			        }
 			      },
@@ -23335,15 +23947,15 @@ cultureInfo en-US
 			        {
 			          "Attribute": {
 			            "Subject": {
-			              "Role": "vw_debt_analysis"
+			              "Role": "debt_movement"
 			            },
 			            "Object": {
-			              "Role": "financial_measure.interest_expence_actual"
+			              "Role": "debt_movement.sort_order"
 			            }
 			          },
 			          "State": "Generated",
 			          "Weight": 0.99,
-			          "ID": "vw_debt_analyses_have_interest_expence_actual"
+			          "ID": "debt_movements_have_sort_orders"
 			        }
 			      ]
 			    },
