@@ -361,9 +361,8 @@ table 'Financial Measures'
 			    [Revenue by Direction Actual],
 			    0
 			)
+		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: b05a0d11-77b0-4e33-965b-a79e868fb311
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	measure 'Gross Margin Budget %' =
 			
@@ -372,9 +371,8 @@ table 'Financial Measures'
 			    [Revenue by Direction Budget],
 			    0
 			)
+		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: 22d4a346-63ea-4e5e-8f64-ca37f1c44f57
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	measure 'Price Effect' =
 			

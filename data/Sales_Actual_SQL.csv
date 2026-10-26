@@ -1,0 +1,109 @@
+﻿CompanyName,Year,Quarter,ScenarioName,DirectionName,Volume,Price,RevenueAmount,VolumeUnit
+Company A,2023,Q1,Actual,Business Line A,503.4,72.46,36476.364,ths.m2
+Company A,2023,Q2,Actual,Business Line A,729.45,73.1,53322.795,ths.m2
+Company A,2023,Q3,Actual,Business Line A,673.5432,73.59,49566.04409,ths.m2
+Company A,2023,Q4,Actual,Business Line A,311.3392,73.8,22976.83296,ths.m2
+Company A,2024,Q1,Actual,Business Line A,860.188,74.5,64084.006,ths.m2
+Company A,2024,Q2,Actual,Business Line A,949.592,75.1,71314.3592,ths.m2
+Company A,2024,Q3,Actual,Business Line A,681.2374,76.8,52319.03232,ths.m2
+Company A,2024,Q4,Actual,Business Line A,296.10084,76.7,22710.93443,ths.m2
+Company A,2025,Q1,Actual,Business Line A,796.3838,77.3,61560.46774,ths.m2
+Company A,2025,Q2,Actual,Business Line A,946.65072,83.4,78950.67005,ths.m2
+Company A,2025,Q3,Actual,Business Line A,763.4432,83.6,63823.85152,ths.m2
+Company A,2025,Q4,Actual,Business Line A,763.4432,84.5,64510.9504,ths.m2
+Company A,2023,Q1,Actual,Business Line B,195.12268,211.45,41258.69069,ths.m2
+Company A,2023,Q2,Actual,Business Line B,243.72448,216.4,52741.97747,ths.m2
+Company A,2023,Q3,Actual,Business Line B,145.018,224.0111159,32485.644,ths.m2
+Company A,2023,Q4,Actual,Business Line B,60.946,230.1220753,14025.02,ths.m2
+Company A,2024,Q1,Actual,Business Line B,122.016,236.4,28844.5824,ths.m2
+Company A,2024,Q2,Actual,Business Line B,199.764,237.1,47364.0444,ths.m2
+Company A,2024,Q3,Actual,Business Line B,107.136,238.4,25541.2224,ths.m2
+Company A,2024,Q4,Actual,Business Line B,88.84724,227.0277778,20170.79146,ths.m2
+Company A,2025,Q1,Actual,Business Line B,175.64476,238.12,41824.53025,ths.m2
+Company A,2025,Q2,Actual,Business Line B,200.21164,242.4,48531.30154,ths.m2
+Company A,2025,Q3,Actual,Business Line B,105.8774,235.4537628,24929.23223,ths.m2
+Company A,2025,Q4,Actual,Business Line B,105.8774,235.8927212,24975.708,ths.m2
+Company A,2023,Q1,Actual,Business Line C,9363.67648,15.54789941,145585.5,ths.m2
+Company A,2023,Q2,Actual,Business Line C,11737.2696,15.80401629,185496,ths.m2
+Company A,2023,Q3,Actual,Business Line C,9610.2232,14.29589065,137386.7,ths.m2
+Company A,2023,Q4,Actual,Business Line C,13343.795,11.36783801,151690.1,ths.m2
+Company A,2024,Q1,Actual,Business Line C,9992.91944,16.02490653,160135.6,ths.m2
+Company A,2024,Q2,Actual,Business Line C,8709.41776,19.08032254,166178.5,ths.m2
+Company A,2024,Q3,Actual,Business Line C,9558.6578,16.9003939,161545.082,ths.m2
+Company A,2024,Q4,Actual,Business Line C,6465.1802,20.95648844,135487.4741,ths.m2
+Company A,2025,Q1,Actual,Business Line C,9626.11132,15.88851541,152944.618,ths.m2
+Company A,2025,Q2,Actual,Business Line C,11881.1778,19.7017591,234080.1029,ths.m2
+Company A,2025,Q3,Actual,Business Line C,7827.80876,20.00059489,156560.8319,ths.m2
+Company A,2025,Q4,Actual,Business Line C,7827.80876,15.96625618,124980.8,ths.m2
+Company A,2023,Q1,Actual,Business Line D,0,0,0,ths.m2
+Company A,2023,Q2,Actual,Business Line D,0,0,0,ths.m2
+Company A,2023,Q3,Actual,Business Line D,0,0,0,ths.m2
+Company A,2023,Q4,Actual,Business Line D,0,0,0,ths.m2
+Company A,2024,Q1,Actual,Business Line D,0,0,0,ths.m2
+Company A,2024,Q2,Actual,Business Line D,231.88,0,0,ths.m2
+Company A,2024,Q3,Actual,Business Line D,107.88,10.98850575,1185.44,ths.m2
+Company A,2024,Q4,Actual,Business Line D,149.56632,10.98850575,1643.510367,ths.m2
+Company A,2025,Q1,Actual,Business Line D,1039.48828,14.03888359,14593.25496,ths.m2
+Company A,2025,Q2,Actual,Business Line D,508.648,14.03888359,7140.850062,ths.m2
+Company A,2025,Q3,Actual,Business Line D,136.59344,17.96855193,2454.386319,ths.m2
+Company A,2025,Q4,Actual,Business Line D,136.59344,22.14314245,3024.608,ths.m2
+Company A,2023,Q1,Actual,Business Line E,151.85412,65.65084964,9969.352,t
+Company A,2023,Q2,Actual,Business Line E,172.01528,63.27907614,10884.968,t
+Company A,2023,Q3,Actual,Business Line E,258.8252,58.67532219,15186.652,t
+Company A,2023,Q4,Actual,Business Line E,268.8816,50.42842649,13559.276,t
+Company A,2024,Q1,Actual,Business Line E,262.756,58.14157622,15277.048,t
+Company A,2024,Q2,Actual,Business Line E,144.832,63.70633562,9226.716,t
+Company A,2024,Q3,Actual,Business Line E,229.772,64.95135996,14924.00388,t
+Company A,2024,Q4,Actual,Business Line E,142.724,64.95135996,9270.117898,t
+Company A,2025,Q1,Actual,Business Line E,174.190488,66.13789382,11520.592,t
+Company A,2025,Q2,Actual,Business Line E,154.32916,66.13789382,10207.0056,t
+Company A,2025,Q3,Actual,Business Line E,71.43392,67.57727444,4827.309616,t
+Company A,2025,Q4,Actual,Business Line E,71.43392,61.54353562,4396.296,t
+Company A,2023,Q1,Actual,Business Line F,184.84432,38.14970349,7051.756,t
+Company A,2023,Q2,Actual,Business Line F,256.4506,37.77047119,9686.26,t
+Company A,2023,Q3,Actual,Business Line F,229.152,38.73160173,8875.424,t
+Company A,2023,Q4,Actual,Business Line F,276.7556,28.85030691,7984.484,t
+Company A,2024,Q1,Actual,Business Line F,196.6144,38.65981332,7601.076,t
+Company A,2024,Q2,Actual,Business Line F,244.776,42.15349544,10318.164,t
+Company A,2024,Q3,Actual,Business Line F,140.368,38.99028269,5472.988,t
+Company A,2024,Q4,Actual,Business Line F,160.332,38.99028269,6251.390004,t
+Company A,2025,Q1,Actual,Business Line F,209.1136,38.26197818,8001.1,t
+Company A,2025,Q2,Actual,Business Line F,79.732,38.26197818,3050.704044,t
+Company A,2025,Q3,Actual,Business Line F,136.648,36.36391913,4969.056821,t
+Company A,2025,Q4,Actual,Business Line F,136.648,42.31760436,5782.616,t
+Company A,2023,Q1,Actual,Business Line G,1.1904,25,29.76,ths.m2
+Company A,2023,Q2,Actual,Business Line G,150.164,27.27580512,4095.844,ths.m2
+Company A,2023,Q3,Actual,Business Line G,89.70532,61.79174212,5543.048,ths.m2
+Company A,2023,Q4,Actual,Business Line G,82.1128,35.72636666,2933.592,ths.m2
+Company A,2024,Q1,Actual,Business Line G,325.872,25.30974125,8247.736,ths.m2
+Company A,2024,Q2,Actual,Business Line G,399.342,24.27262847,9693.08,ths.m2
+Company A,2024,Q3,Actual,Business Line G,484.716,24.0565362,11660.588,ths.m2
+Company A,2024,Q4,Actual,Business Line G,261.9128,24.0565362,6300.714754,ths.m2
+Company A,2025,Q1,Actual,Business Line G,648.0736,24.17514924,15667.276,ths.m2
+Company A,2025,Q2,Actual,Business Line G,848.3088,24.17514924,20507.99184,ths.m2
+Company A,2025,Q3,Actual,Business Line G,727.88,23.17575864,16869.1712,ths.m2
+Company A,2025,Q4,Actual,Business Line G,727.88,25.61703578,18646.128,ths.m2
+Company A,2023,Q1,Actual,Business Line H,0,0,0,t
+Company A,2023,Q2,Actual,Business Line H,21.78184,35.39792782,771.032,t
+Company A,2023,Q3,Actual,Business Line H,0,0,0,t
+Company A,2023,Q4,Actual,Business Line H,0,0,0,t
+Company A,2024,Q1,Actual,Business Line H,0,0,0,t
+Company A,2024,Q2,Actual,Business Line H,0,0,0,t
+Company A,2024,Q3,Actual,Business Line H,0,0,0,t
+Company A,2024,Q4,Actual,Business Line H,0,0,0,t
+Company A,2025,Q1,Actual,Business Line H,282.69148,53.05754528,14998.916,t
+Company A,2025,Q2,Actual,Business Line H,574.88508,51.84883212,29807.12,t
+Company A,2025,Q3,Actual,Business Line H,174.42584,47.1144413,8217.976,t
+Company A,2025,Q4,Actual,Business Line H,174.42584,47.1144413,8217.976,t
+Company A,2023,Q1,Actual,Other,1,4191.076,4191.076,n/a
+Company A,2023,Q2,Actual,Other,1,4837.24,4837.24,n/a
+Company A,2023,Q3,Actual,Other,1,2657.072,2657.072,n/a
+Company A,2023,Q4,Actual,Other,1,3103.1,3103.1,n/a
+Company A,2024,Q1,Actual,Other,1,4662.4,4662.4,n/a
+Company A,2024,Q2,Actual,Other,1,5135.336,5135.336,n/a
+Company A,2024,Q3,Actual,Other,1,3453.648,3453.648,n/a
+Company A,2024,Q4,Actual,Other,1,1095.292,1095.292,n/a
+Company A,2025,Q1,Actual,Other,1,4736.428,4736.428,n/a
+Company A,2025,Q2,Actual,Other,1,6058.888,6058.888,n/a
+Company A,2025,Q3,Actual,Other,1,2990.756,2990.756,n/a
+Company A,2025,Q4,Actual,Other,1,2990.756,2990.756,n/a

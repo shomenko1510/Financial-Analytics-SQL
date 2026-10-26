@@ -7632,12 +7632,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "revenue real": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -7665,36 +7659,6 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.727
-			          }
-			        },
-			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
 			          }
 			        },
 			        {
@@ -7866,12 +7830,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "profit actual": {
 			            "State": "Generated",
 			            "Weight": 0.97
@@ -7938,36 +7896,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
 			          "Net Profit": {
 			            "State": "Suggested",
 			            "Source": {
@@ -7991,12 +7919,6 @@ cultureInfo en-US
 			        {
 			          "OCF actual": {
 			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
 			          }
 			        },
 			        {
@@ -8027,36 +7949,6 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.727
-			          }
-			        },
-			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
 			          }
 			        },
 			        {
@@ -8093,12 +7985,6 @@ cultureInfo en-US
 			        {
 			          "closing cash actual": {
 			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
 			          }
 			        },
 			        {
@@ -8168,36 +8054,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
 			          "Closing Cash": {
 			            "State": "Suggested",
 			            "Source": {
@@ -8221,12 +8077,6 @@ cultureInfo en-US
 			        {
 			          "EBITDA actual": {
 			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
 			          }
 			        },
 			        {
@@ -8257,36 +8107,6 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.727
-			          }
-			        },
-			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
 			          }
 			        },
 			        {
@@ -9522,12 +9342,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "kpi real": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -9558,33 +9372,13 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "real": {
-			            "Type": "Noun",
+			          "Actual": {
 			            "State": "Suggested",
 			            "Source": {
-			              "Agent": "Thesaurus"
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
 			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
+			            "Weight": 0.9
 			          }
 			        }
 			      ]
@@ -9756,7 +9550,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "Revenue Actual": {
+			          "Actual": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -9852,7 +9646,7 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "Revenue Budget": {
+			          "Budget": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -10219,12 +10013,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "profit actual": {
 			            "State": "Generated",
 			            "Weight": 0.97
@@ -10291,36 +10079,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
 			          "aggregate profit actual": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -10328,6 +10086,36 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.657
+			          }
+			        },
+			        {
+			          "overall profit actual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.657
+			          }
+			        },
+			        {
+			          "whole profit actual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.657
+			          }
+			        },
+			        {
+			          "sum profit actual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
 			          }
 			        }
 			      ]
@@ -11269,12 +11057,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "SPV actual": {
 			            "State": "Generated",
 			            "Weight": 0.97
@@ -11341,36 +11123,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
 			          "income spv actual": {
 			            "Type": "Noun",
 			            "State": "Suggested",
@@ -11378,6 +11130,36 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "profit spv actual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "turnover spv actual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "yield spv actual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
 			          }
 			        },
 			        {
@@ -11881,12 +11663,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "flow actual": {
 			            "State": "Generated",
 			            "Weight": 0.97
@@ -11987,16 +11763,6 @@ cultureInfo en-US
 			            },
 			            "Weight": 0.727
 			          }
-			        },
-			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
 			        }
 			      ]
 			    },
@@ -12012,12 +11778,6 @@ cultureInfo en-US
 			        {
 			          "CAPEX actual": {
 			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
 			          }
 			        },
 			        {
@@ -12048,36 +11808,6 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.727
-			          }
-			        },
-			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
 			          }
 			        },
 			        {
@@ -12189,12 +11919,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "flow actual": {
 			            "State": "Generated",
 			            "Weight": 0.97
@@ -12294,16 +12018,6 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.727
-			          }
-			        },
-			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
 			          }
 			        },
 			        {
@@ -12783,12 +12497,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "impact actual": {
 			            "State": "Generated",
 			            "Weight": 0.97
@@ -12888,16 +12596,6 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.727
-			          }
-			        },
-			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
 			          }
 			        },
 			        {
@@ -14230,12 +13928,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "analysis actual": {
 			            "State": "Generated",
 			            "Weight": 0.97
@@ -14302,37 +13994,17 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
 			          "CAPEX": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Actual": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -14634,12 +14306,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
-			          }
-			        },
-			        {
 			          "debt actual": {
 			            "State": "Generated",
 			            "Weight": 0.97
@@ -14706,36 +14372,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
 			          "Closing Debt": {
 			            "State": "Suggested",
 			            "Source": {
@@ -14759,12 +14395,6 @@ cultureInfo en-US
 			        {
 			          "debt drawdown actual": {
 			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
 			          }
 			        },
 			        {
@@ -14834,36 +14464,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
 			          "Drawdown": {
 			            "State": "Suggested",
 			            "Source": {
@@ -14887,12 +14487,6 @@ cultureInfo en-US
 			        {
 			          "debt repayment actual": {
 			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
 			          }
 			        },
 			        {
@@ -14962,36 +14556,6 @@ cultureInfo en-US
 			          }
 			        },
 			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
 			          "Repayment": {
 			            "State": "Suggested",
 			            "Source": {
@@ -15015,12 +14579,6 @@ cultureInfo en-US
 			        {
 			          "interest rate actual": {
 			            "State": "Generated"
-			          }
-			        },
-			        {
-			          "actual": {
-			            "State": "Generated",
-			            "Weight": 0.97
 			          }
 			        },
 			        {
@@ -15087,36 +14645,6 @@ cultureInfo en-US
 			              "Agent": "Thesaurus"
 			            },
 			            "Weight": 0.727
-			          }
-			        },
-			        {
-			          "real": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "existent": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
-			          }
-			        },
-			        {
-			          "tangible": {
-			            "Type": "Noun",
-			            "State": "Suggested",
-			            "Source": {
-			              "Agent": "Thesaurus"
-			            },
-			            "Weight": 0.714
 			          }
 			        }
 			      ]
