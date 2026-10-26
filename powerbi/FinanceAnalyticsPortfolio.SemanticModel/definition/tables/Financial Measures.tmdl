@@ -779,6 +779,23 @@ table 'Financial Measures'
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
+	measure 'Gross Profit Variance' =
+			
+			[Gross Profit Actual] - [Gross Profit Budget]
+		lineageTag: c045fc00-369f-4087-b3b3-2dc727eedceb
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Gross Profit Variance %' =
+			
+			DIVIDE(
+			    [Gross Profit Variance],
+			    [Gross Profit Budget],
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 3928ad67-277b-4643-9e52-0d3645fa0e30
+
 	column Placeholder
 		isHidden
 		formatString: 0
