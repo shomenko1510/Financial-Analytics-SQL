@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "84fadcbdcd9ad2f822f1",
   "position": {
     "x": 810.85889077108936,
@@ -7,7 +7,7 @@
     "z": 7000,
     "height": 150,
     "width": 300,
-    "tabOrder": 5000
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -420,6 +420,13 @@
                   }
                 }
               }
+            },
+            "titleFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
             }
           },
           "selector": {
@@ -507,6 +514,20 @@
             ],
             "metadata": "Financial Measures.Net Profit Actual",
             "id": "field-212cc6ac-aa21-24a5-97f8-3608449507cb"
+          }
+        },
+        {
+          "properties": {
+            "valueFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Net Profit Actual"
           }
         }
       ],

@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "92dda9759e889e511979",
   "position": {
-    "x": 1150.7881470552072,
-    "y": 93.171031599655734,
+    "x": 1167.1938826949508,
+    "y": 181.39129638671875,
     "z": 4000,
     "height": 170.37037037037035,
     "width": 340,
-    "tabOrder": 9000
+    "tabOrder": 8000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -715,6 +715,31 @@
             "metadata": "Financial Measures.Net Cash Flow Actual",
             "id": "field-7135a920-6665-5355-ef07-5229deaece4d"
           }
+        },
+        {
+          "properties": {
+            "titleFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "titleFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#333333'"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Net Cash Flow Actual"
+          }
         }
       ],
       "spacing": [
@@ -813,6 +838,20 @@
             ],
             "metadata": "Financial Measures.Net Cash Flow Actual",
             "id": "field-7135a920-6665-5355-ef07-5229deaece4d"
+          }
+        },
+        {
+          "properties": {
+            "valueFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Net Cash Flow Actual"
           }
         }
       ],

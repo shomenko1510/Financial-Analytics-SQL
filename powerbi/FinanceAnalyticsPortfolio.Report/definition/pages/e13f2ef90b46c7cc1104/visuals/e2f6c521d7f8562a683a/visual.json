@@ -7,7 +7,7 @@
     "z": 7000,
     "height": 150,
     "width": 300,
-    "tabOrder": 6000
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -395,7 +395,7 @@
             "titleFontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "10D"
+                  "Value": "12D"
                 }
               }
             },
@@ -492,6 +492,27 @@
             "metadata": "Financial Measures.Gross Profit Actual",
             "id": "field-c87a5773-5e65-7a9c-c2e3-e34fd3096403"
           }
+        },
+        {
+          "properties": {
+            "titleFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "titleFontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Gross Profit Actual"
+          }
         }
       ],
       "referenceLabelValue": [
@@ -500,7 +521,14 @@
             "valueFontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "10D"
+                  "Value": "12D"
+                }
+              }
+            },
+            "valueFontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
                 }
               }
             }
@@ -589,6 +617,20 @@
             ],
             "metadata": "Financial Measures.Gross Profit Actual",
             "id": "field-c87a5773-5e65-7a9c-c2e3-e34fd3096403"
+          }
+        },
+        {
+          "properties": {
+            "valueFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Gross Profit Actual"
           }
         }
       ]

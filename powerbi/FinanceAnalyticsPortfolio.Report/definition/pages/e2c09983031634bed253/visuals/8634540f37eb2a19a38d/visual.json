@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "8634540f37eb2a19a38d",
   "position": {
     "x": 1564.1306859964282,
@@ -7,7 +7,7 @@
     "z": 9000,
     "height": 150,
     "width": 300,
-    "tabOrder": 7000
+    "tabOrder": 6000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -418,6 +418,27 @@
             "metadata": "Financial Measures.Closing Cash Actual",
             "id": "field-c4187762-1cef-a653-595f-47b4390f77c6"
           }
+        },
+        {
+          "properties": {
+            "titleFontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "titleFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Closing Cash Actual"
+          }
         }
       ],
       "referenceLabelValue": [
@@ -500,6 +521,20 @@
             ],
             "metadata": "Financial Measures.Closing Cash Actual",
             "id": "field-c4187762-1cef-a653-595f-47b4390f77c6"
+          }
+        },
+        {
+          "properties": {
+            "valueFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Closing Cash Actual"
           }
         }
       ],

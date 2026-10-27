@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "d0a14b42d4d0b7065246",
   "position": {
-    "x": 1547.3110395613503,
-    "y": 94.013835315120019,
+    "x": 1545.0086975097656,
+    "y": 181.39129638671875,
     "z": 6000,
     "height": 169.7749196141479,
     "width": 339.54983922829581,
-    "tabOrder": 2000
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -614,6 +614,13 @@
                   }
                 }
               }
+            },
+            "titleFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
             }
           },
           "selector": {
@@ -859,6 +866,35 @@
                 }
               }
             ],
+            "metadata": "Financial Measures.Working Capital Impact Actual",
+            "id": "field-de2aa5c1-65cd-f8b2-d0ba-027ea527a601"
+          }
+        },
+        {
+          "properties": {
+            "valueFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Working Capital Impact Actual"
+          }
+        },
+        {
+          "properties": {
+            "valueFontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
+                }
+              }
+            }
+          },
+          "selector": {
             "metadata": "Financial Measures.Working Capital Impact Actual",
             "id": "field-de2aa5c1-65cd-f8b2-d0ba-027ea527a601"
           }

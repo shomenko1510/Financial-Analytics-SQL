@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "549c68bfb8a8a23b7eab",
   "position": {
     "x": 874,
@@ -7,7 +7,7 @@
     "z": 6000,
     "height": 150,
     "width": 300,
-    "tabOrder": 5000
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -381,7 +381,7 @@
             "titleFontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "10D"
+                  "Value": "12D"
                 }
               }
             }
@@ -660,6 +660,20 @@
             ],
             "metadata": "Financial Measures.Revenue Actual",
             "id": "field-02549160-1ac4-81e5-668d-db9d9dcc71d2"
+          }
+        },
+        {
+          "properties": {
+            "valueFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.Revenue Actual"
           }
         }
       ],

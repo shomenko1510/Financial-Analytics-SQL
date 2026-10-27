@@ -1,12 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "ca6c59f0b050a54117c0",
   "position": {
-    "x": 1062.8571428571429,
-    "y": 345.71428571428572,
+    "x": 1062,
+    "y": 346,
     "z": 0,
-    "height": 685.71428571428578,
-    "width": 785.71428571428578
+    "height": 686,
+    "width": 802,
+    "tabOrder": 9000
   },
   "visual": {
     "visualType": "pivotTable",
@@ -271,14 +272,14 @@
             "shadowBlur": {
               "expr": {
                 "Literal": {
-                  "Value": "4D"
+                  "Value": "6D"
                 }
               }
             },
             "shadowDistance": {
               "expr": {
                 "Literal": {
-                  "Value": "2D"
+                  "Value": "3D"
                 }
               }
             },
@@ -286,6 +287,30 @@
               "expr": {
                 "Literal": {
                   "Value": "85D"
+                }
+              }
+            },
+            "shadowSpread": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#D9DEE7'"
+                    }
+                  }
                 }
               }
             }

@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "a069ca4f006321c80ea8",
   "position": {
-    "x": 58.483342147012166,
-    "y": 673.64145954521416,
+    "x": 58,
+    "y": 690,
     "z": 3000,
-    "height": 359.56425171866738,
-    "width": 935.73347435219466,
-    "tabOrder": 8000
+    "height": 344,
+    "width": 936,
+    "tabOrder": 7000
   },
   "visual": {
     "visualType": "lineChart",
@@ -257,7 +257,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "10D"
+                  "Value": "11D"
                 }
               }
             },
@@ -269,6 +269,13 @@
                       "Value": "'#666666'"
                     }
                   }
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
                 }
               }
             }
@@ -352,7 +359,7 @@
             "shadowBlur": {
               "expr": {
                 "Literal": {
-                  "Value": "4D"
+                  "Value": "6D"
                 }
               }
             },
@@ -366,7 +373,31 @@
             "shadowDistance": {
               "expr": {
                 "Literal": {
-                  "Value": "2D"
+                  "Value": "3D"
+                }
+              }
+            },
+            "shadowSpread": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#D9DEE7'"
+                    }
+                  }
                 }
               }
             }

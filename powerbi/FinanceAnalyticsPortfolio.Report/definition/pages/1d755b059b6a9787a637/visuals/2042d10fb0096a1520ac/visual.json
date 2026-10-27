@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
   "name": "2042d10fb0096a1520ac",
   "position": {
-    "x": 27.699495880978731,
-    "y": 88.134759621295956,
+    "x": 33.008697509765625,
+    "y": 177.39129638671875,
     "z": 1000,
     "height": 170.37037037037035,
     "width": 340.7407407407407,
-    "tabOrder": 6000
+    "tabOrder": 5000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -393,6 +393,13 @@
                   "Value": "'''Segoe UI Semibold'', wf_segoe-ui_semibold, helvetica, arial, sans-serif'"
                 }
               }
+            },
+            "titleFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
             }
           },
           "selector": {
@@ -579,6 +586,20 @@
             ],
             "metadata": "Financial Measures.OCF Actual",
             "id": "field-e2c0a9e5-f6dd-7875-5bab-f5db4718d1a4"
+          }
+        },
+        {
+          "properties": {
+            "valueFontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Financial Measures.OCF Actual"
           }
         }
       ],
