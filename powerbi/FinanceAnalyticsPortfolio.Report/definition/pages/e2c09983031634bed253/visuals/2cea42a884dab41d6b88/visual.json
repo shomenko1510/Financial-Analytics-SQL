@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "2cea42a884dab41d6b88",
   "position": {
     "x": 538.33333333333337,
@@ -93,7 +93,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'2023 Q1'"
+                                "Value": "'2024 Q1'"
                               }
                             }
                           ]

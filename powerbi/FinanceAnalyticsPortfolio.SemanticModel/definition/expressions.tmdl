@@ -1,4 +1,4 @@
-expression pServerName = "Khomenko-SV\SQLEXPRESS" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+expression pServerName = "SERGEY\MSSQLSERVER2022" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
 	lineageTag: 44d1f329-8d47-4ded-b575-b188c56f96cf
 
 	annotation PBI_NavigationStepName = Navigation

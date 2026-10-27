@@ -533,8 +533,8 @@ table 'Financial Measures'
 	measure 'Net Cash Flow Variance %' = ```
 			
 			DIVIDE(
-			    [Net Cash Flow Variance],
-			    [Net Cash Flow Budget],
+			    [Net Cash Flow Actual] - [Net Cash Flow Budget],
+			    ABS([Net Cash Flow Budget]),
 			    0
 			)    
 			```
