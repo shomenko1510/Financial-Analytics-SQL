@@ -1,13 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.2.0/schema.json",
   "name": "5050731195504a0caa1b",
   "position": {
-    "x": 1544,
-    "y": 184,
+    "x": 1522,
+    "y": 160,
     "z": 5000,
     "height": 154,
-    "width": 340,
-    "tabOrder": 0
+    "width": 340
   },
   "visual": {
     "visualType": "cardVisual",
@@ -476,22 +475,6 @@
               "expr": {
                 "Literal": {
                   "Value": "3D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "id": "default"
-          }
-        }
-      ],
-      "cardCalloutArea": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
                 }
               }
             }
