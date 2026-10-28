@@ -42,7 +42,7 @@ FactRevenue AS
         S.ScenarioName,
         COUNT(*) AS FactRows,
         SUM(FS.RevenueAmount) AS FactRevenue
-    FROM dbo.factSales AS FS
+    FROM dbo.FactSales AS FS
 
     INNER JOIN dbo.DimCompany AS C
         ON FS.CompanyId = C.CompanyId
@@ -50,7 +50,7 @@ FactRevenue AS
     INNER JOIN dbo.DimPeriod AS P
         ON FS.PeriodId = P.PeriodId
 
-    INNER JOIN do.DimScenario AS S
+    INNER JOIN dbo.DimScenario AS S
         ON FS.ScenarioId = S.ScenarioId
 
     WHERE P.[Year] BETWEEN 2023 AND 2025
@@ -59,7 +59,7 @@ FactRevenue AS
         C.CompanyName,
         P.[Year],
         P.[Quarter],
-        S.Sctnarioname    
+        S.Scenarioname    
 )
 
 SELECT
@@ -97,7 +97,7 @@ FULL OUTER JOIN FactRevenue AS F
     ON ST.CompanyName = F.CompanyName
     AND ST.[Year] = F.[Year]
     AND ST.[Quarter] = F.[Quarter]
-    AND ST.SctnarioName = F.ScenarioName
+    AND ST.ScenarioName = F.ScenarioName
 
 ORDER BY
     [Year],
