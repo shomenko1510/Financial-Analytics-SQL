@@ -38,6 +38,7 @@ SELECT
     SUM(RevenueAmount) AS TotalRevenue
 FROM dbo.StgSales
 WHERE ScenarioName = 'Actual'
+    AND [Year] BETWEEN 2023 AND 2025
 GROUP BY
     [Year],
     [Quarter],
