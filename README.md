@@ -417,6 +417,8 @@ The dashboards use SQL Server analytical views and DAX measures to support quart
 
 Enables management to evaluate overall financial performance, identify significant budget deviations, and monitor profitability and liquidity trends.
 
+![Financial Summary Dashboard](images/FinancialSummary.png)
+
 ### 6.2 Revenue & Gross Profit
 
 **Purpose:** Analyze revenue and profitability by business direction and identify the main factors driving deviations from budget.
@@ -441,6 +443,8 @@ Enables management to evaluate overall financial performance, identify significa
 **Business Value:**
 
 Helps management understand the sources of revenue changes, assess profitability across business lines, and identify areas requiring commercial or operational attention.
+
+![Revenue & Gross Profit Dashboard](images/Revenue_GrossProfit.png)
 
 ### 6.3 Cash Flow & Working Capital
 
@@ -468,6 +472,8 @@ Helps management understand the sources of revenue changes, assess profitability
 **Business Value:**
 
 Supports liquidity management by connecting financial performance with working capital movements and cash flow generation.
+
+![Cash Flow & Working Capital Dashboard](images/CashFlow_WorkingCapital.png)
 
 ### 6.4 CAPEX & Debt Analysis
 
@@ -497,6 +503,8 @@ Supports liquidity management by connecting financial performance with working c
 **Business Value:**
 
 Provides management with visibility into capital investment activity, financing requirements, debt movements, and borrowing costs.
+
+![CAPEX & Debt Analysis Dashboard](images/CAPEX_DebtAnalysis.png)
 
 ### 6.5 Dashboard Design & Interactivity
 
